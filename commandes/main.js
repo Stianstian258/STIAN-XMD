@@ -1,10 +1,14 @@
-const config = require('../config')
-const { cmd, commands } = require('../command');
-const os = require("os")
-const {runtime} = require('../lib/functions')
-const axios = require('axios')
+const util = require('util');
+const fs = require('fs-extra');
+const { zokou } = require(__dirname + "/../framework/zokou");
+const { format } = require(__dirname + "/../framework/mesfonctions");
+const os = require("os");
+const moment = require("moment-timezone");
+const s = require(__dirname + "/../set");
+const more = String.fromCharCode(8206);
+const readmore = more.repeat(4001);
 
-cmd({
+zokou({
     pattern: "menu2",
     alias: "allmenu",
     desc: "menu the bot",
