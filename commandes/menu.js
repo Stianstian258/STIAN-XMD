@@ -1,10 +1,14 @@
-const config = require('../config');
-const { cmd, commands } = require('../command');
+const util = require('util');
+const fs = require('fs-extra');
+const { zokou } = require(__dirname + "/../framework/zokou");
+const { format } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
-const { runtime } = require('../lib/functions');
-const axios = require('axios');
+const moment = require("moment-timezone");
+const s = require(__dirname + "/../set");
+const more = String.fromCharCode(8206);
+const readmore = more.repeat(4001);
 
-cmd({
+zokou({
     pattern: "menu",
     desc: "menu the bot",
     category: "menu",
@@ -78,7 +82,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 // dlmenu
 
-cmd({
+zokou({
     pattern: "dlmenu",
     desc: "menu the bot",
     category: "menu",
@@ -149,7 +153,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 // group menu
 
-cmd({
+zokou({
     pattern: "groupmenu",
     desc: "menu the bot",
     category: "menu",
@@ -227,7 +231,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 // fun menu
 
-cmd({
+zokou({
     pattern: "funmenu",
     desc: "menu the bot",
     category: "menu",
@@ -298,7 +302,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 // other menu
 
-cmd({
+zokou({
     pattern: "othermenu",
     desc: "menu the bot",
     category: "menu",
@@ -357,7 +361,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 // main menu
 
-cmd({
+zokou({
     pattern: "mainmenu",
     desc: "menu the bot",
     category: "menu",
@@ -409,7 +413,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 // owner menu
 
-cmd({
+zokou({
     pattern: "ownermenu",
     desc: "menu the bot",
     category: "menu",
@@ -474,7 +478,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 // convert menu
 
-cmd({
+zokou({
     pattern: "convertmenu",
     desc: "menu the bot",
     category: "menu",
@@ -524,7 +528,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 // anmie menu 
 
-cmd({
+zokou({
     pattern: "animemenu",
     desc: "menu the bot",
     category: "menu",
@@ -593,7 +597,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 // ai menu 
 
-cmd({
+zokou({
     pattern: "aimenu",
     desc: "menu the bot",
     category: "menu",
