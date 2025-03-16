@@ -3,7 +3,7 @@ const config = require('../config');
 
 cmd({
     pattern: "owner",
-    react: "🦋", 
+    react: "🪰", 
     desc: "Get owner number",
     category: "main",
     filename: __filename
@@ -44,8 +44,8 @@ async (conn, mek, m, { from }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: 'CASEYRHODES XMD DEVELOPERS🥰💖🥰',
+                    newsletterJid: '120363345407274799@newsletter',
+                    newsletterName: 'hαppínєss хmd',
                     serverMessageId: 143
                 }            
             }
