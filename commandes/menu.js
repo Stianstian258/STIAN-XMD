@@ -46,15 +46,15 @@ const allMenu = async (m, sock) => {
           isForwarded: true,
           forwardingScore: 999,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363306168354073@newsletter', // Preserved newsletter JID
+            newsletterJid: '120363345407274799@newsletter', // Preserved newsletter JID
             newsletterName: "",
             serverMessageId: -1,
           },
           externalAdReply: {
             title: "",
             body: pushName,
-            thumbnailUrl: 'https://files.catbox.moe/aneq3s.jpg', // Thumbnail URL
-            sourceUrl: 'https://files.catbox.moe/tdhhl5.mp3', // Source URL
+            thumbnailUrl: 'https://files.catbox.moe/mbiue1.jpg', // Thumbnail URL
+            sourceUrl: 'https://files.catbox.moe/dimtpb.m4a', // Source URL
             mediaType: 1,
             renderLargerThumbnail: true,
           },
