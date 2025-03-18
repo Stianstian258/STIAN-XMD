@@ -46,10 +46,7 @@ zokou({
         document: { url: appDetails.BK9.dllink },
         fileName: `${appDetails.BK9.name}.apk`,
         mimetype: "application/vnd.android.package-archive",
-        caption: "╭━❮ *hαppínєss* ❯━╮
-┃ pσwєr вч hαppínєss
-┃[████████░░] : 100%
-╰━━━━━━━━━━━━━━━⊷"
+        caption: "pσwєr вч hαppínєss[████████░░] : 100%"
       },
       { quoted: ms }
     );
