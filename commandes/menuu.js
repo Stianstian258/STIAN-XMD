@@ -35,22 +35,19 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭━━━《 *𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐌𝐃* 》━━━┈⊷
-┃❍╭──────────────
-┃❍│▸  *ᴅᴀᴛᴇ*: ${date}
-┃❍│▸  *ᴛɪᴍᴇ ɴᴏᴡ*: ${temps}
-┃❍│▸  *ᴘʀᴇғɪx* : [  ${s.PREFIXE}  ]
-┃❍┃▸  *ᴍᴏᴅᴇ* :  ${mode} mode
-┃❍┃▸  *ᴘʟᴜɢɪɴs* : ${cm.length}
-┃❍┃▸  *ʀᴀᴍ* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃❍│▸  *ʀᴜɴɴɪɴɢ ᴏɴ* : ${os.platform()}
-┃❍│▸  *ᴏᴡɴᴇʀ* :  ${s.OWNER_NAME}
-┃❍│▸  *ᴅᴇᴠᴇʟᴏᴘᴇʀ* : ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ
-┃❍│▸  *ᴛɪᴍᴇᴢᴏɴᴇ* : ${s.TZ}
-┃❍╰───────────────
-╰━━━━━━━━━━━━━━━┈⊷
+╭─────────────━┈⊷
+│ᴏᴡɴᴇʀ : ʜᴀᴘᴘɪɴᴇss xᴍᴅ
+│ᴅᴀᴛᴇ: ${date}
+│ᴛɪᴍᴇ : ${temps}
+│ᴘʀᴇғɪx : [  ${s.PREFIXE}  ]
+│ᴍᴏᴅᴇ :  ${mode} mode
+│ᴘʟᴜɢɪɴs : ${cm.length}
+│ʀᴜɴɴɪɴɢ ᴏɴ : ${os.platform()}
+│ᴏᴡɴᴇʀ :  ɴᴊᴀʙᴜʟᴏ ᴊʙ
+│ʀᴀᴍ : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+╰─────────────━┈⊷
 
-> 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇\n${readmore}`;
+hαppínєss хmd\n${readmore}`;
     
     
 let menuMsg = `
@@ -58,16 +55,16 @@ let menuMsg = `
  *𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒*`;
 
     for (const cat in coms) {
-        menuMsg += `╭──────✣ *${cat}* ✣─────︎⊷⊷`;
+        menuMsg += `╭───❮ *${cat}* ❯─┈⊷`;
         for (const cmd of coms[cat]) {
             menuMsg += `
-│❍│ ${cmd}`;
+│ ${cmd}`;
         }
         menuMsg += `
-╰────────────···▸▸ \n`
+╰─────────────━┈⊷ \n`
     }
 
-    menuMsg += `> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ
+    menuMsg += `> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴊᴀʙᴜʟᴏ ᴊʙ
 `;
 
    var lien = mybotpic();
@@ -80,11 +77,11 @@ let menuMsg = `
           forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: '120363302677217436@newsletter',
-              newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐌𝐃',
+              newsletterJid: '120363345407274799@newsletter',
+              newsletterName: 'ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴏғғɪᴄᴇ',
               serverMessageId: 143},
         externalAdReply: {
-          title: "𝐓𝐇𝐄 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐌𝐃 𝐌𝐔𝐋𝐓𝐈 𝐃𝐄𝐕𝐈𝐂𝐄",
+          title: "hαppínєss хm"",
           body: "Follow my channel for more updates",
           thumbnailUrl: "https://i.ibb.co/3YVC86md/lordcasey.jpg",
           sourceUrl: conf.GURL,
@@ -110,11 +107,11 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
           forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: '120363302677217436@newsletter',
-              newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐌𝐃',
+              newsletterJid: '120363345407274799@newsletter',
+              newsletterName: 'ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴏғғɪᴄᴇ',
               serverMessageId: 143},
         externalAdReply: {
-          title: "𝐓𝐇𝐄 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐌𝐃 𝐌𝐔𝐋𝐓𝐈 𝐃𝐄𝐕𝐈𝐂𝐄",
+          title: "hαppínєss хmd",
           body: "Follow my channel for more updates",
           thumbnailUrl: "https://files.catbox.moe/yedfbr.jpg",
           sourceUrl: conf.GURL,
@@ -138,11 +135,11 @@ else {
           forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: '120363302677217436@newsletter',
-              newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐌𝐃',
+              newsletterJid: '120363345407274799@newsletter',
+              newsletterName: 'ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴏғғɪᴄᴇ',
               serverMessageId: 143},
         externalAdReply: {
-          title: "𝐓𝐇𝐄 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐌𝐃 𝐌𝐔𝐋𝐓𝐈 𝐃𝐄𝐕𝐈𝐂𝐄",
+          title: "hαppínєss хmd",
           body: "Follow my channel for more updates",
           thumbnailUrl: "https://files.catbox.moe/yedfbr.jpg",
           sourceUrl: conf.GURL,
