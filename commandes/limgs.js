@@ -32,7 +32,7 @@ zokou({
     for (let i = 0; i < Math.min(results.length, 5); i++) {
       zk.sendMessage(dest, {
         image: { url: results[i].url },
-        caption: "🪰ímgs вєαutíful ❤️\n\n dσwnlσαd succєssful\n pσwєr вч hαppínєss хmd" 
+        caption: "pσwєr вч hαppínєss хmd" 
         contextInfo: {
           externalAdReply: {
             title: "Image Search Result",
