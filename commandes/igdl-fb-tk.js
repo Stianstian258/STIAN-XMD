@@ -49,10 +49,7 @@ async (dest, zk, commandeOptions) => {
         Lien: ${result.url}
       `;
        zk.sendMessage(dest,{image : { url : result.thumbnail}, caption : caption},{quoted : ms}) ;
-       zk.sendMessage(dest, { video: { url: result.hd  }, caption: 'facebook video downloader\n╭━❮ *hαppínєss* ❯━╮\n
-┃ pσwєr вч hαppínєss
-┃[████████░░] : 100%
-╰━━━━━━━━━━━━━━━⊷' }, { quoted: ms });
+       zk.sendMessage(dest, { video: { url: result.hd  }, caption: 'pσwєr вч hαppínєss[████████░░] : 100%' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)
@@ -116,10 +113,7 @@ async (dest, zk, commandeOptions) => {
         Lien: ${result.url}
       `;
        zk.sendMessage(dest,{image : { url : result.thumbnail}, caption : caption},{quoted : ms}) ;
-       zk.sendMessage(dest, { video: { url: result.sd  }, caption: 'facebook video downloader\n╭━❮ *hαppínєss* ❯━╮\n
-┃ pσwєr вч hαppínєss
-┃[████████░░] : 100%
-╰━━━━━━━━━━━━━━━⊷' }, { quoted: ms });
+       zk.sendMessage(dest, { video: { url: result.sd  }, caption: 'pσwєr вч hαppínєss[████████░░] : 100%' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)
