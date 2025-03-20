@@ -38,7 +38,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "🪰" }, async (dest, z
  *Group* : *${nomGroupe}* 
  *Message* : *no message*\n
 ` ;
-  let emoji = ['🪀🥏']
+  let emoji = ['WhatsA🪀']
   let random = Math.floor(Math.random() * (emoji.length - 1))
 
 
