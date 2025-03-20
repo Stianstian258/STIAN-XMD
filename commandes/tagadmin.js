@@ -27,15 +27,12 @@ zokou({ nomCom: "tagadmin", categorie: 'Group', reaction: "🪰" }, async (dest,
   let adminsGroupe = infosGroupe.participants.filter(membre => membre.admin); // Filtering only admins
 
   let tag = `  
-╭─────────────━┈⊷ 
-│🪰🪰hαppínєss хmd🪰🪰
-│┈⊷
-│Group : ${nomGroupe} 
-│Hey : ${nomAuteurMessage}* 
-│Message : *${mess}* 
-╰─────────────━┈⊷`;
+*Group :* ${nomGroupe} 
+*Hey :* ${nomAuteurMessage}* 
+*Message :* *${mess}* 
+`;
 
-  let emoji = ['🪰 WhatsApp✓⤵️', '🪰WhatsApp✓⤵️ '];
+  let emoji = ['🪰 WhatsA✓🪀', '🪰WhatsA✓🥏'];
   let random = Math.floor(Math.random() * emoji.length);
 
   for (const membre of adminsGroupe) {
