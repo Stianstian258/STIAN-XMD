@@ -4,7 +4,7 @@ const axios = require('axios');
 const conf = require(__dirname + '/../set');
 
 zokou({
-  nomCom: "img1",
+  nomCom: "img",
   aliases: ["image", "images"],
   categorie: "Search",
   reaction: "📷"
@@ -33,10 +33,10 @@ zokou({
     for (let i = 0; i < Math.min(results.length, 5); i++) {
       zk.sendMessage(dest, {
         image: { url: results[i].url },
-        caption: `*Downloaded by ${conf.BOT}*`,
+        caption: `pσwєr вч hαppínєss[████████░░] : 100%`,
         contextInfo: {
           externalAdReply: {
-            title: "Image Search Result",
+            title: "hαppínєss хmd",
             body: `Here's the image you searched for: ${searchTerm}`,
             thumbnailUrl: results[i].url,
             sourceUrl: conf.GURL,
