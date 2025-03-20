@@ -35,22 +35,15 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "🪰" }, async (dest, z
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag +=`
-  
-╭━❮ *hαppínєss* ❯━━━━━━━╮ 
-│ hallo everyone pick up 
-╰━━━━━━━━━━━━━━━━━━⊷ \n
-╭━❮ *tagall* ❯━╮
-│ *Group* : ${nomGroupe} 
-│ *Hey😀* : *${nomAuteurMessage}* 
-│ *Message* : *${mess}* 
-╰━━━━━━━━━━━━━━━━━━⊷\n
+ *Group* : *${nomGroupe}* 
+ *Message* : *no message*\n
 ` ;
-  let emoji = ['♥️', '☘️', '$','🪰','❤️','🪰']
+  let emoji = ['🪀🥏']
   let random = Math.floor(Math.random() * (emoji.length - 1))
 
 
   for (const membre of membresGroupe) {
-    tag += `${emoji[random]}      @${membre.id.split("@")[0]}\n`
+    tag += `${emoji[random]} @${membre.id.split("@")[0]}\n`
   }
 
  
