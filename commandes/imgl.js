@@ -3,7 +3,7 @@ var gis = require('g-i-s');
 
 
 zokou({
-  nomCom: "img",
+  nomCom: "galaxy",
   categorie: "Search",
   reaction: "🖼️"
 },
