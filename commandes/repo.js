@@ -55,23 +55,23 @@ commands.forEach((command) => {
         const infoMessage = `
 🌐𝐆𝚰𝚻𝚮𝐔𝚩 𝚪𝚵𝚸𝚯𝐒𝚰𝚻𝚯𝚪𝐘 𝚰𝚴𝐅𝚯🌐
 
-💻 *𝗡𝗮𝗺𝗲:* hαppínєss хmd
-📜 *𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻:* ${description}
-⭐ *𝗦𝘁𝗮𝗿𝘀:* ${formatNumber(stars)}
-🍴 *𝗙𝗼𝗿𝗸𝘀:* ${formatNumber(forks)}
-👀 *𝗪𝗮𝘁𝗰𝗵𝗲𝗿𝘀:* ${formatNumber(watchers)}
-❗ *𝗢𝗽𝗲𝗻 𝗜𝘀𝘀𝘂𝗲𝘀:* ${formatNumber(issues)}
-👤 *𝗢𝘄𝗻𝗲𝗿:* Njabulo Jb
-📄 *𝗟𝗶𝗰𝗲𝗻𝘀𝗲:* ${license}
+💻 𝗡𝗮𝗺𝗲: hαppínєss хmd
+📜 𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻: ${description}
+⭐ 𝗦𝘁𝗮𝗿𝘀: ${formatNumber(stars)}
+🍴 𝗙𝗼𝗿𝗸𝘀: ${formatNumber(forks)}
+👀 𝗪𝗮𝘁𝗰𝗵𝗲𝗿𝘀: ${formatNumber(watchers)}
+❗ 𝗢𝗽𝗲𝗻 𝗜𝘀𝘀𝘂𝗲𝘀: ${formatNumber(issues)}
+👤 𝗢𝘄𝗻𝗲𝗿: Njabulo Jb
+📄 𝗟𝗶𝗰𝗲𝗻𝘀𝗲: ${license}
 
-📅 *𝗙𝗲𝘁𝗰𝗵𝗲𝗱 𝗼𝗻:* ${currentTime}
+📅 𝗙𝗲𝘁𝗰𝗵𝗲𝗱 𝗼𝗻: ${currentTime}
 `;
 
         try {
             // Send the follow-up image first with a caption
             await zk.sendMessage(dest, {
                 image: { url: "https://files.catbox.moe/adh5ki.jpg" }, // Updated image
-                caption: `🌐𝚪𝚵𝚸𝚯𝐒𝚰𝚻𝚯𝚪𝐘 𝚮𝚰𝐆𝚮𝐋𝚰𝐆𝚮𝚻𝐒 🌐⤵️\n\n🛠️ 🛠️ 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗱 𝗯𝘆 𝗡𝗷𝗮𝗯𝘂𝗹𝗼 𝗝𝗯*\n\n📁 𝚪𝚵𝚸𝚯 𝐋𝚰𝚴𝐊:\nhttps://github.com/NjabuloJ/Njabulo-Jb\n🪰𝗗𝗼𝗻'𝘁 𝗳𝗼𝗿𝗴𝗲𝘁 𝗴𝗶𝘃𝗲 𝘀𝘁𝗮𝗿 𝗮𝗻𝗱 𝗳𝗼𝗿𝗸𝘀🪰`,
+                caption: `🌐𝚪𝚵𝚸𝚯𝐒𝚰𝚻𝚯𝚪𝐘 𝚮𝚰𝐆𝚮𝐋𝚰𝐆𝚮𝚻𝐒 🌐⤵️\n\n🛠️ 🛠️ 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗱 𝗯𝘆 𝗡𝗷𝗮𝗯𝘂𝗹𝗼 𝗝𝗯\n\n📁 𝚪𝚵𝚸𝚯 𝐋𝚰𝚴𝐊:\nhttps://github.com/NjabuloJ/Njabulo-Jb`,
             });
 
             // Follow up with the GitHub repository details
