@@ -1,4 +1,4 @@
-const util = require('util');
+deconst util = require('util');
 const fs = require('fs-extra');
 const { zokou } = require(__dirname + "/../framework/zokou");
 const { format } = require(__dirname + "/../framework/mesfonctions");
@@ -75,7 +75,7 @@ let menuMsg = `
                     title: "hαppínєss хmd",
                     body: "𝚊𝚕𝚠𝚊𝚢𝚜•••𝚘𝚗𝚕𝚒𝚗𝚎!",
                     thumbnailUrl: "https://files.catbox.moe/c606gj.jpg",
-                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+                    sourceUrl: "120363345407274799@newsletter",
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
