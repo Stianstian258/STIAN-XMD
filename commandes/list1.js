@@ -398,5 +398,28 @@ let menuMsg = `
     } catch (error) {
         console.error("Menu error: ", error);
         repondre("🥵🥵 Menu error: " + error);
+          }
+
+    // List of audio URLs
+    const audioUrls = [
+        "https://files.catbox.moe/wsyxi0.mp3",
+        "https://files.catbox.moe/w2k8g2.mp3",
+        "https://files.catbox.moe/cpjbnl.mp3",
+        "https://files.catbox.moe/y6fph9.mp3",
+        "https://files.catbox.moe/moctzu.mp3" // New song added
+    ];
+
+    // Select a random audio file
+    const randomAudioUrl = audioUrls[Math.floor(Math.random() * audioUrls.length)];
+
+    try {
+        await zk.sendMessage(dest, {
+            audio: { url: randomAudioUrl },
+            mimetype: 'audio/mpeg',
+            ptt: true, // Send as a voice note
+        }, { quoted: ms });
+    } catch (e) {
+        console.log("🥵🥵 Error sending audio: " + e);
+        repondre("🥵🥵 Error sending audio: " + e);
     }
 });
