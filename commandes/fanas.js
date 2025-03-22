@@ -10,7 +10,7 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206);
 const readmore = more.repeat(4001);
 
-zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "lists", categorie: "menu" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre, prefixe, nomAuteurMessage, mybotpic } = commandeOptions;
     let { cm } = require(__dirname + "/../framework/zokou");
 
@@ -31,28 +31,24 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
   ☻ •Ꮹσσd єvєníng : ${nomAuteurMessage}
 
 ╭━•••••⪼ 
-┋ ☻ •σwnєr : hαppínєss
-┋ ☻ •prєfíх : [ ${s.PREFIXE} ]
-┋ ☻ •mσdє : ${mode}
-┋ ☻ •dαtє  : ${date}
-┋ ☻ •plαtfσrm : ${os.platform()}
-┋ ☻ •σwnєr : ɴᴊᴀʙᴜʟᴏ ᴊʙ 
-┋ ☻ •vísíσn : 1.0
-┋ ☻ •plugíns : ${cm.length}
-╰━•••••⪼ \n`;
+┋ ☻ σwnєr : hαppínєss
+┋ ☻ prєfíх : [ ${s.PREFIXE} ]
+┋ ☻ mσdє : ${mode}
+┋ ☻ dαtє  : ${date}
+┋ ☻ plαtfσrm : ${os.platform()}
+┋ ☻ σwnєr : ɴᴊᴀʙᴜʟᴏ ᴊʙ 
+┋ ☻ plugíns : ${cm.length}
+╰━•••••⪼\n`;
 
     let menuMsg = ` ${readmore}`;
-
-    {
-        menuMsg += `
-`íα`
+⪼`íα`
 ╭─•••••⪼ 
 ┋ ☻ • njαвulσ 
 ┋ ☻ • dαllє 
 ┋ ☻ • αí 
 ┋ ☻ • gpt
 ╰─•••••⪼
-`gєnєrαl`
+⪼`gєnєrαl`
 ╭─•••••⪼  
 ┋ ☻ • σwnєr 
 ┋ ☻ • dєv 
@@ -84,7 +80,7 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
 ┋ ☻ • mínα 
 ┋ ☻ • dвєαutífч
 ╰─•••••⪼
-`dσwnlσαd`
+⪼`dσwnlσαd`
 ╭─•••••⪼ 
 ┋ ☻ • vídєσ1 
 ┋ ☻ • αpk 
@@ -94,14 +90,14 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
 ┋ ☻ • lítє 
 ┋ ☻ • plαч1
 ╰─•••••⪼
-`fun`
+⪼`fun`
 ╭─•••••⪼ 
 ┋ ☻ • rαnímє 
 ┋ ☻ • fαncч 
 ┋ ☻ • rαnk 
 ┋ ☻ • tσprαnk
 ╰─•••••⪼
-`sєαrch`
+⪼`sєαrch`
 ╭─•••••⪼
 ┋ ☻ • hєlp  
 ┋ ☻ • gσσglє 
@@ -115,7 +111,7 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
 ┋ ☻ • vídєσ3 
 ┋ ☻ • íphσnє12prσ
 ╰─•••••⪼
-`cσnvєrsíσn`
+⪼`cσnvєrsíσn`
 ╭─•••••⪼  
 ┋ ☻ • єmσmíх 
 ┋ ☻ • stíckєr 
@@ -127,7 +123,7 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
 ┋ ☻ • url 
 ┋ ☻ • tєstαmєnt
 ╰─•••••⪼
-`usєr`
+⪼`usєr`
 ╭─•••••⪼  
 ┋ ☻ • fαct 
 ┋ ☻ • quσtєs 
@@ -135,7 +131,7 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
 ┋ ☻ • íttα 
 ┋ ☻ • sαч
 ╰─•••••⪼
-`ímαgє-єdít`
+⪼`ímαgє-єdít`
 ╭─•••••⪼  
 ┋ ☻ • shít 
 ┋ ☻ • wαstєd 
@@ -156,13 +152,13 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
 ┋ ☻ • grєчscαlє 
 ┋ ☻ • jσkє
 ╰─•••••⪼
-`gαmєs`
+⪼`gαmєs`
 ╭─•••••⪼  
 ┋ ☻ • ríddlє 
 ┋ ☻ • chífumí 
 ┋ ☻ • quízz
 ╰─•••••⪼
-`grσup`
+⪼`grσup`
 ╭─•••••⪼  
 ┋ ☻ • αdd 
 ┋ ☻ • dísαp-σff 
@@ -202,7 +198,7 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
 ┋ ☻ • wαrn 
 ┋ ☻ • wαrn
 ╰─•••••⪼
-`mσds`
+⪼`mσds`
 ╭─•••••⪼
 ┋ ☻ • lєft 
 ┋ ☻ • tєlєstíckєr 
@@ -228,7 +224,7 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
 ┋ ☻ • clσwns 
 ┋ ☻ • tєrmínαt
 ╰─•••••⪼
-`hєntαí`
+⪼`hєntαí`
 ╭─•••••⪼  
 ┋ ☻ • hwαífu 
 ┋ ☻ • trαp 
@@ -249,13 +245,13 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
 ┋ ☻ • nєkσ1 
 ┋ ☻ • вlσwjσв1
 ╰─•••••⪼
-`hєrσku`
+⪼`hєrσku`
 ╭─•••••⪼  
 ┋ ☻ • sєtvαr 
 ┋ ☻ • αllvαr 
 ┋ ☻ • gєtvαr
 ╰─•••••⪼
-`lσgσ`
+⪼`lσgσ`
 ╭─•••••⪼  
 ┋ ☻ • hαckєr 
 ┋ ☻ • drαgσnвαll 
@@ -283,7 +279,7 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
 ┋ ☻ • αrєnα 
 ┋ ☻ • íncαndєscєnt
 ╰─•••••⪼
-`sєαrch`
+⪼`sєαrch`
 ╭─•••••⪼
 ┋ ☻ • lчrícs 
 ┋ ☻ • scrєєnswídth 
@@ -304,7 +300,7 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
 ┋ ☻ • ímgs 
 ┋ ☻ • mєssí
 ╰─•••••⪼
-`rєαctíσn`
+⪼`rєαctíσn`
 ╭─•••••⪼  
 ┋ ☻ • вullч 
 ┋ ☻ • cuddlє 
@@ -334,14 +330,14 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
 ┋ ☻ • dαncє 
 ┋ ☻ • críngє
 ╰─•••••⪼
-`gíthuв`
+⪼`gíthuв`
 ╭─•••••⪼ 
 ┋ ☻ • gít 
 ┋ ☻ • rєpσ 
 ┋ ☻ • scrípt 
 ┋ ☻ • sc
 ╰─•••••⪼
-`hєrσku-clíєnt`
+⪼`hєrσku-clíєnt`
 ╭─•••••⪼  
 ┋ ☻ • αntícαll 
 ┋ ☻ • rєαdstαtus 
@@ -362,7 +358,7 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
 ┋ ☻ • chαtвσt 
 ┋ ☻ • sєttíngs
 ╰─•••••⪼
-`wєєв`
+⪼`wєєв`
 ╭─•••••⪼  
 ┋ ☻ • wαífu 
 ┋ ☻ • nєkσ 
