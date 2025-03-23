@@ -34,13 +34,13 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
-        Hallo :  ${s.OWNER_NAME} 
+  ☻ •Ꮹσσd єvєníng : ${nomAuteurMessage}
 1. вσt ís sєlf σn hєrσku wσrkíng ¹⁰⁰% 
 2. hєllσw pαl hєrє ís hσw tσ dєplσч чσur σwn вσt
 3. tαp σn thє línk tσ gєt sєssíσn 
 4. https://njαвulσ-5778.σnrєndєr.cσm
  
- stєps tσ gєt sєssíσn
+ *stєps tσ gєt sєssíσn*
 5. σpєn línk αвσvє
 6. єntєr чσur whαtsαpp numвєr wíth чσur cσuntrч cσdє єg : 254,255. αnd tαp suвmít
 7. thє вσt wíll sєnd чσu α cσdє. cσpч thαt cσdє. thєn whαtsαpp wíll sєnt nσtífícαtíσn
@@ -60,7 +60,7 @@ lєt mєnumsg = `
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "hαppínєss хmd",
+                    title: "Njabulo Jb deploy",
                     body: "𝚊𝚕𝚠𝚊𝚢𝚜•••𝚘𝚗𝚕𝚒𝚗𝚎!",
                     thumbnailUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
                     sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
@@ -72,5 +72,25 @@ lєt mєnumsg = `
     } catch (error) {
         console.error("Menu error: ", error);
         repondre("🥵🥵 Menu error: " + error);
+                 }
+
+    // List of audio URLs
+    const audioUrls = [
+        "https://files.catbox.moe/wsyxi0.mp3",
+        "https://files.catbox.moe/moctzu.mp3" // New song added
+    ];
+
+    // Select a random audio file
+    const randomAudioUrl = audioUrls[Math.floor(Math.random() * audioUrls.length)];
+
+    try {
+        await zk.sendMessage(dest, {
+            audio: { url: randomAudioUrl },
+            mimetype: 'audio/mpeg',
+            ptt: true, // Send as a voice note
+        }, { quoted: ms });
+    } catch (e) {
+        console.log("🥵🥵 Error sending audio: " + e);
+        repondre("🥵🥵 Error sending audio: " + e);
     }
 });
