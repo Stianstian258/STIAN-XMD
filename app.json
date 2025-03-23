@@ -1,5 +1,5 @@
 {
-  "name": "hαppínєss-хmd",
+  "name": "Njabulo Jb",
   "description": "This BOT was developed by Njabulo.",
   "keywords": [
     "bot",
@@ -79,7 +79,7 @@
     },
     "BOT_NAME": {
       "description": "put A name for your bot",
-      "value": "hαppínєss-хmd",
+      "value": "Njabulo Jb",
       "required": false
     },
     "BOT_MENU_LINKS": {
@@ -110,7 +110,7 @@
     "OWNER_NAME": {
       "desc": "Your Name",
       "required": false,
-      "value": "hαppínєss-хmd"
+      "value": "Njabulo Jb"
     },
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
