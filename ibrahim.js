@@ -848,17 +848,12 @@ zk.ev.on('group-participants.update', async (group) => {
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
 
-                let cmsg =`      ❮hαppínєss-cσnnєctєd❯
-╭───❮ *cσnnєctєd* ❯
-│ *usє вσt límít*
-│♥️
-╰━━━━━━━━━━━━━━━⊷
-╭━❮ *hαppínєss* ❯━╮
-┃ *ᴘʀᴇғɪx: *[ ${prefixe} ]*
-┃ *ᴍᴏᴅᴇ: *${md}*
-┃https://shorturl.at/q8ZuS
-┃[████████░░] : 100%
-╰━━━━━━━━━━━━━━━⊷`;
+                let cmsg =`      ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴄᴏɴɴᴇᴄᴛᴇᴅ
+╭─•••••⪼
+┋ ☻ • ᴘʀᴇғɪx: *[ ${prefixe} ]*
+┋ ☻ • ᴍᴏᴅᴇ: *${md}*
+┋ ☻ •https://shorturl.at/q8ZuS
+╰─•••••⪼`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
