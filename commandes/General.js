@@ -2,7 +2,7 @@ const { zokou } = require("../framework/zokou");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../bdd/sudo")
 const conf = require("../set");
 
-zokou({ nomCom: "owner", categorie: "General", reaction: "🪰" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "owners", categorie: "General", reaction: "🪰" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
@@ -87,8 +87,38 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
 else {
     repondre(lien)
     repondre("link error");
-    
-}
+
+                        },
+                },
+            }, { quoted: ms });
+        }
+    } catch (e) {
+        console.log("🥵🥵 Error sending menu: " + e);
+        repondre("🥵🥵 Error sending menu: " + e);
+    }
+
+    // List of audio URLs
+    const audioUrls = [
+        "https://files.catbox.moe/wsyxi0.mp3",
+        "https://files.catbox.moe/w2k8g2.mp3",
+        "https://files.catbox.moe/cpjbnl.mp3",
+        "https://files.catbox.moe/y6fph9.mp3",
+        "https://files.catbox.moe/moctzu.mp3" // New song added
+    ];
+
+    // Select a random audio file
+    const randomAudioUrl = audioUrls[Math.floor(Math.random() * audioUrls.length)];
+
+    try {
+        await zk.sendMessage(dest, {
+            audio: { url: randomAudioUrl },
+            mimetype: 'audio/mpeg',
+            ptt: true, // Send as a voice note
+        }, { quoted: ms });
+    } catch (e) {
+        console.log("🥵🥵 Error sending audio: " + e);
+        repondre("🥵🥵 Error sending audio: " + e);
+    }
 });
 
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
