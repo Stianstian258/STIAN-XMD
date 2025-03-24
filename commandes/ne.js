@@ -537,7 +537,7 @@ let menuMsg = `
                 externalAdReply: {
                     title: "njαвulσ jв",
                     body: "𝚊𝚕𝚠𝚊𝚢𝚜•••𝚘𝚗𝚕𝚒𝚗𝚎!",
-                    thumbnailUrl: "https://files.catbox.moe/d8dkbi.jpg",
+                    thumbnailUrl: "https://files.catbox.moe/1qetbh.jpg",
                     sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
                     mediaType: 1,
                     renderLargerThumbnail: true
