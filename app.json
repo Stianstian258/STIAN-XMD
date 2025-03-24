@@ -1,8 +1,8 @@
 {
-  "name":"Njabulo",
+  "name":"ᑎᒍᗩᗷᑌᒪO ᒍᗷ",
   "description":"Best whatsapp bot",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://i.imgur.com/02GMMaE.jpeg",
+  "logo":"https://files.catbox.moe/8zb9uf.jpg",
   "repository":"https://github.com/NjabuloJ/Njabulo-Jb",
   "succes_url":"/",
   "stack":"container",
@@ -42,7 +42,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/ckby4d.jpg,https://files.catbox.moe/9a4ved.jpg,https://files.catbox.moe/13oojj.jpg",
+      "value":"https://files.catbox.moe/8zb9uf.jpg",
       "required":false
        
      },
@@ -55,7 +55,7 @@
 	,
     "HEROKU_API_KEY": {
     "description": "insert your heroku api-key (this is optionnal)",
-     "required" :false
+     "required":"HRKU-1e6bb54b-0fa4-478e-978d-5f1ace317903*
     },
   "HEROKU_APP_NAME": {
     "description": "insert your heroku APP NAME (this is optionnal)",
@@ -74,7 +74,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Njabulo"
+    "value": "ɴᴊᴀʙᴜʟᴏ ᴊʙ"
   },
     "NUMERO_OWNER":
   {
