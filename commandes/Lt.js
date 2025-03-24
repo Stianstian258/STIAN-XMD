@@ -59,9 +59,7 @@ zokou({
         text: menu,
         contextInfo: {
           forwardingScore: 999,
-            isForwarded: true,
-            forwardedNewsletterMessageInfo: {
-              newsletterJid: '120363345407274799@newsletter'',
+              newsletterJid: '120363345407274799@newsletter',
               newsletterName: 'ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴏғғɪᴄᴇ',
               serverMessageId: 143},
               externalAdReply: {
