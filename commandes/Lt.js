@@ -58,7 +58,13 @@ zokou({
     return await zk.sendMessage(dest, {
         text: menu,
         contextInfo: {
-            externalAdReply: {
+          forwardingScore: 999,
+            isForwarded: true,
+            forwardedNewsletterMessageInfo: {
+              newsletterJid: '120363345407274799@newsletter'',
+              newsletterName: 'ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴏғғɪᴄᴇ',
+              serverMessageId: 143},
+              externalAdReply: {
                 title: "Njabulo JB",
                 body: "𝐫𝐞𝐠𝐚𝐫𝐝𝐬 ɴᴊᴀʙᴜʟᴏ-ᴊʙ",
                 thumbnailUrl: "https://files.catbox.moe/70u16l.jpg",
