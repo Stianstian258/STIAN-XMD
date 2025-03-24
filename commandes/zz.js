@@ -1,4 +1,4 @@
-const { ezra } = require("../fredi/ezra");
+const { ezra } = require("../framework/zokou");
 const axios = require('axios');
 const ytSearch = require('yt-search');
 const conf = require(__dirname + '/../set');
@@ -27,7 +27,7 @@ async function uploadToCatbox(filePath) {
 }
 // Define the command with aliases for play
 ezra({
-  nomCom: "play",
+  nomCom: "playy",
   aliases: ["song", "playdoc", "audio", "mp3"],
   categorie: "download",
   reaction: "🎧"
@@ -176,7 +176,7 @@ ezra({
 
 // Define the command with aliases for video
 ezra({
-  nomCom: "video",
+  nomCom: "videoo",
   aliases: ["videodoc", "film", "mp4"],
   categorie: "download",
   reaction: "🎞️"
