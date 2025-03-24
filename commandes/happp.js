@@ -3,13 +3,12 @@ const fs = require('fs-extra');
 const { zokou } = require(__dirname + "/../framework/zokou");
 const { format } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
-const conf = require(__dirname + "/../set");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
-const readmore = more.repeat(4001)
+const Taphere = more.repeat(4001)
 
-zokou({ nomCom: "happp", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "bugmenu", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -28,51 +27,39 @@ zokou({ nomCom: "happp", categorie: "General" }, async (dest, zk, commandeOption
         coms[com.categorie].push(com.nomCom);
     });
 
-    moment.tz.setDefault ("Africa/nairobi");
+    moment.tz.setDefault("Africa/Dar Es Salam");
 
 // Créer une date et une heure en GMT
 const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
-  let infoMsg =  `
-╭━━━《 *Njabulo Jb* 》━━━┈⊷
-┃❍╭──────────────
-┃❍│▸  *ᴅᴀᴛᴇ*: ${date}
-┃❍│▸  *ᴛɪᴍᴇ ɴᴏᴡ*: ${temps}
-┃❍│▸  *ᴘʀᴇғɪx* : [  ${s.PREFIXE}  ]
-┃❍┃▸  *ᴍᴏᴅᴇ* :  ${mode} mode
-┃❍┃▸  *ᴘʟᴜɢɪɴs* : ${cm.length}
-┃❍┃▸  *ʀᴀᴍ* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃❍│▸  *ʀᴜɴɴɪɴɢ ᴏɴ* : ${os.platform()}
-┃❍│▸  *ᴏᴡɴᴇʀ* :  ${s.OWNER_NAME}
-┃❍│▸  *ᴅᴇᴠᴇʟᴏᴘᴇʀ* : ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ
-┃❍│▸  *ᴛɪᴍᴇᴢᴏɴᴇ* : ${s.TZ}
-┃❍╰───────────────
-╰━━━━━━━━━━━━━━━┈⊷
+let infoMsg =  `
+┏❏ ⌜ *𝐀𝐋𝐏𝐇𝐀𝐌𝐃 𝐁𝐔𝐆* ⌟  ❐
+❐ bug
+❐ crash
+❐ loccrash
+❐ amountbug <amount>
+❐ crashbug 254XXXX
+❐ pmbug 254XXXX
+❐ delaybug 254XXXX
+❐ trollybug 254XXXX
+❐ docubug 254XXXX
+❐ unlimitedbug 254XXXX
+❐ bombug 254XXXX
+❐ lagbug 254XXXX
+❐ gcbug <grouplink>
+❐ delaygcbug <grouplink>
+❐ trollygcbug <grouplink>
+❐ laggcbug <grouplink>
+❐ bomgcbug <grouplink>
+❐ unlimitedgcbug <grouplink>
+❐ docugcbug <grouplink>
 
-> Njabulo JB 𝐓𝐄𝐂𝐇\n${readmore}`;
-    
-    
-let menuMsg = `
+> ⏲️ *TIME* : ${temps}
+> 📅 *DATE* : ${date} `;
 
- *𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒*`;
-
-    for (const cat in coms) {
-        menuMsg += `╭──────✣ *${cat}* ✣─────︎⊷⊷`;
-        for (const cmd of coms[cat]) {
-            menuMsg += `
-│❍│ ${cmd}`;
-        }
-        menuMsg += `
-╰────────────···▸▸ \n`
-    }
-
-    menuMsg += `> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ
+    menuMsg += `> njabulo
 `;
-
-   var lien = mybotpic();
-
-   if (lien.match(/\.(mp4|gif)$/i)) {
     try {
         zk.sendMessage(dest, {
       text: infoMsg + menuMsg,
