@@ -1,9 +1,8 @@
-const { adams } = require("../Ibrahim/adams");
-const yts = require('yt-search');
-//const adams = 'giftedtechk';
-//const adams = 'prabath-api_5f6557';
-
-adams({
+const { zokou } = require("../framework/zokou");
+const axios = require("axios");
+const ytSearch = require("yt-search");
+const conf = require(__dirname
+zokou({
   nomCom: "video",
   categorie: "Search",
   reaction: "🎥"
@@ -27,7 +26,7 @@ adams({
       const videoUrl = videos[0].url;
 
       // Call the API endpoint with the video URL to fetch the video download URL
-      const apiResponse = await fetch(`https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`);
+      const apiResponse = await fetch(`https://apis.davidcyriltech.my.id/download/ytmp4?url==${encodeURIComponent(videoUrl)}`);
       const apiResult = await apiResponse.json();
 
       if (apiResult.status === 200 && apiResult.success) {
@@ -36,7 +35,7 @@ adams({
         // Prepare the message with video details
         const infoMess = {
           image: { url: videos[0].thumbnail },
-          caption: `*NJABULO JB VIDEO PLAYER*`
+          caption: *NJABULO JB VIDEO PLAYER*
 
         };
 
