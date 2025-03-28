@@ -276,14 +276,20 @@ let menuMsg = `
         await zk.sendMessage(dest, {
             text: infoMsg + menuMsg,
             contextInfo: {
-                mentionedJid: [senderName],
-                externalAdReply: {
-                    title: "njαвulσ jв",
-                    body: "𝚊𝚕𝚠𝚊𝚢𝚜•••𝚘𝚗𝚕𝚒𝚗𝚎!",
-                    thumbnailUrl: "https://files.catbox.moe/1qetbh.jpg",
-                    sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
-                    mediaType: 1,
-                    renderLargerThumbnail: true
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363345407@newsletter',
+            newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            serverMessageId: -1,
+          },
+          forwardingScore: 999, // Score to indicate it has been forwarded
+          externalAdReply: {
+            title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            body: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            thumbnailUrl: 'https://files.catbox.moe/1qetbh.jpg', // Add thumbnail URL if required
+            sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
+            mediaType: 1,
+            renderLargerThumbnail: true
                 }
             }
         });
