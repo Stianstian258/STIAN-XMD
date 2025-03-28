@@ -35,17 +35,19 @@ const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
 
-╭━===========================
-┃  ☘️NJABULO JB OFFICE ☘️ 
-┃ ⭐ Total Stars: 60
-┃ 🍴 Total Forks: 5,392
-┃ 👤 Owner: ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ
-┃ ⌚ Fetched on:* " + _0x203945 +
-╰━===========================
+╭━=========================⊷
+┣◆ ☘️NJABULO JB OFFICE ☘️ 
+┣◆ ⭐ Total Stars: 60
+┣◆ 🍴 Total Forks: 5,392
+┣◆ 👤 Owner: ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ
+┣◆ here njabulo JB Office bot
+╰━=========================⊷
 
-🔹 Reply with a name to choose an action:
+◆ Reply with a name to choose an action:
 1️⃣ type .channel
-2️⃣ type .repo
+2️⃣ type .repos
+3️⃣ type .session
+4️⃣ type .group 
 `;
     
 let menuMsg = `
