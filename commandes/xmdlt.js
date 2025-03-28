@@ -54,14 +54,15 @@ zokou({
         menu += `Reaction: ${toFancyLowercaseFont(reaction)}\n\n`;
     });
 
-    // Use correct variable for sender name
+       try {
+        const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
         await zk.sendMessage(dest, {
             text: infoMsg + menuMsg,
             contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363317462952356@newsletter',
-            newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            newsletterJid: '120363345407@newsletter',
+            newsletterName: "set it",
             serverMessageId: -1,
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
@@ -82,11 +83,8 @@ zokou({
 
     // List of audio URLs
     const audioUrls = [
-        "https://files.catbox.moe/wsyxi0.mp3",
-        "https://files.catbox.moe/w2k8g2.mp3",
-        "https://files.catbox.moe/cpjbnl.mp3",
-        "https://files.catbox.moe/y6fph9.mp3",
-        "https://files.catbox.moe/moctzu.mp3" // New song added
+        "https://files.catbox.moe/uz4apw.mp3",
+        "https://files.catbox.moe/cup6rc.mp3" // New song added
     ];
 
     // Select a random audio file
