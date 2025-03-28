@@ -22,7 +22,17 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
         commandsList[com.categorie].push(com.nomCom);
     });
 
-    moment.tz.setDefault('EAT');
+    moment.tz.setDefault('EAT')
+    // Generate greeting based on time of day
+    const hour = moment().hour();
+    let greeting = "🌅Good Morning my brother 🌄";
+    if (hour >= 12 && hour < 18) {
+        greeting = "🌄Good afternnon! Stay energized! 🌿";
+    } else if (hour >= 18) {
+        greeting = "🌇Good Everning! Hope you had a great day! 🌙";
+    } else if (hour >= 22 || hour < 5) {
+        greeting = "Good Night 🌌";
+    };
 
     const time = moment().format('HH:mm:ss');
     const date = moment().format('DD/MM/YYYY');
@@ -38,7 +48,9 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
 │ᴘʟᴀᴛғᴏʀᴍ : ${os.platform()}
 │ᴏᴡɴᴇʀ : ɴᴊᴀʙᴜʟᴏ ᴊʙ 
 │ᴘʟᴜɢɪɴs : ${cm.length}
-╰─────────━┈⊷ \n`;
+╰─────────━┈⊷ \n
+
+*${greeting}*`;
 
     let menuMsg = ` ${readmore}`;
 
