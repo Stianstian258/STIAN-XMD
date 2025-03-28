@@ -21,10 +21,10 @@ const toFancyLowercaseFont = (text) => {
 // Command to list all bot commands along with descriptions and aliases
 zokou({
     nomCom: "help",
-    reaction: "💬",
+    reaction: "💗",
     aliases: ["panelist", "commandlist", "cmdlist", "list"],
     desc: "Get bot command list.",
-    categorie: "universal"
+    categorie: "General"
 }, async (dest, zk, context) => {
     const { respond, prefix, nomAuteurMessage } = context;
     const commands = require(__dirname + "/../framework/zokou").cm;
@@ -54,19 +54,52 @@ zokou({
         menu += `Reaction: ${toFancyLowercaseFont(reaction)}\n\n`;
     });
 
-    // Send the formatted menu as a message
-    return await zk.sendMessage(dest, {
-        text: menu,
-        contextInfo: {
-            externalAdReply: {
-                title: "Njabulo JB",
-                body: "𝐫𝐞𝐠𝐚𝐫𝐝𝐬 ɴᴊᴀʙᴜʟᴏ-ᴊʙ",
-                thumbnailUrl: "https://files.catbox.moe/70u16l.jpg",
-                sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
-                mediaType: 1,
-                renderLargerThumbnail: true
+    // Use correct variable for sender name
+        await zk.sendMessage(dest, {
+            text: infoMsg + menuMsg,
+            contextInfo: {
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363317462952356@newsletter',
+            newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            serverMessageId: -1,
+          },
+          forwardingScore: 999, // Score to indicate it has been forwarded
+          externalAdReply: {
+            title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            body: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            thumbnailUrl: 'https://files.catbox.moe/1qetbh.jpg', // Add thumbnail URL if required
+            sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
+            mediaType: 1,
+            renderLargerThumbnail: true
+                }
             }
-        }
-    });
+        });
+    } catch (error) {
+        console.error("Menu error: ", error);
+        repondre("🥵🥵 Menu error: " + error);
+          }
+
+    // List of audio URLs
+    const audioUrls = [
+        "https://files.catbox.moe/wsyxi0.mp3",
+        "https://files.catbox.moe/w2k8g2.mp3",
+        "https://files.catbox.moe/cpjbnl.mp3",
+        "https://files.catbox.moe/y6fph9.mp3",
+        "https://files.catbox.moe/moctzu.mp3" // New song added
+    ];
+
+    // Select a random audio file
+    const randomAudioUrl = audioUrls[Math.floor(Math.random() * audioUrls.length)];
+
+    try {
+        await zk.sendMessage(dest, {
+            audio: { url: randomAudioUrl },
+            mimetype: 'audio/mpeg',
+            ptt: true, // Send as a voice note
+        }, { quoted: ms });
+    } catch (e) {
+        console.log("🥵🥵 Error sending audio: " + e);
+        repondre("🥵🥵 Error sending audio: " + e);
+    }
 });
-      
