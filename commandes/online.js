@@ -6,10 +6,10 @@ function delay(_0x25f170) {
   return new Promise(_0x529a1f => setTimeout(_0x529a1f, _0x25f170));
 }
 zokou({
-  'nomCom': "test",
+  'nomCom': "test1",
   'desc': "To check bot response time",
   'Categorie': "General",
-  'reaction': '🪰',
+  'reaction': '☘️',
   'fromMe': "true"
 }, async (_0x4cfdc6, _0x41d5d3, _0x546e3d) => {
   const {
@@ -18,15 +18,24 @@ zokou({
   const _0x5a815c = Array.from({
     'length': 0x3
   }, () => Math.floor(Math.random() * 10000 + 1000));
-  const _0x451c3b = _0x5a815c.map(_0x526b71 => "🪰tєst : " + _0x526b71 + " 🪰").join("\n");
+  const _0x451c3b = _0x5a815c.map(_0x526b71 => "𝗣𝗜𝗡𝗚 𝗧𝗜𝗠𝗘 : " + _0x526b71 + "↪️ ").join("\n");
   const _0x41d2b1 = {
     'externalAdReply': {
-      'title': "hαppínєss хmd tєst",
-      'body': "хmd tєst  : " + _0x451c3b,
-      'sourceUrl': "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
-      'thumbnailUrl': "https://files.catbox.moe/5jgebz.jpg",
-      'mediaType': 0x1,
-      'showAdAttribution': true
+    'contextInfo': {
+        'isForwarded': true,
+        'forwardedNewsletterMessageInfo: {
+          'newsletterJid': '120363345407@newsletter',
+          'newsletterName': "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+          'serverMessageId': -1,
+          },
+          forwardingScore: 999, // Score to indicate it has been forwarded
+          externalAdReply: {
+          'title': ⏰𝗣𝗜𝗡𝗚 𝗧𝗜𝗠𝗘 : " + _0x451c3b,
+          'body':  "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ"
+           'thumbnailUrl': 'https://files.catbox.moe/1qetbh.jpg', // Add thumbnail URL if required
+           'sourceUrl': 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
+           'mediaType': 0x1,
+           'showAdAttribution': true
     }
   };
   const _0x54ea81 = {
@@ -48,7 +57,7 @@ zokou({
   'nomCom': "uptime",
   'desc': "To check runtime",
   'Categorie': "General",
-  'reaction': '🪰˜',
+  'reaction': '💗˜',
   'fromMe': "true"
 }, async (_0x205206, _0x161605, _0x2fdaee) => {
   const {
@@ -59,12 +68,21 @@ zokou({
   const _0x2f3abc = new Date(_0x766aaf * 1000).toISOString().substr(11, 8);
   const _0xae590 = {
     'externalAdReply': {
-      'title': "hαppínєss хmd uptímє",
-      'body': "вσt hαs вєєn runníng fσr: " + _0x2f3abc,
-      'sourceUrl': "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
-      'thumbnailUrl': "https://files.catbox.moe/5jgebz.jpg",
-      'mediaType': 0x1,
-      'showAdAttribution': true
+    'contextInfo': {
+        'isForwarded': true,
+        'forwardedNewsletterMessageInfo: {
+          'newsletterJid': '120363345407@newsletter',
+          'newsletterName': "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+          'serverMessageId': -1,
+          },
+          forwardingScore: 999, // Score to indicate it has been forwarded
+          externalAdReply: {
+          'title': "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+          'body':  "вσt hαs вєєn runníng fσr: " + _0x2f3abc,
+           'thumbnailUrl': 'https://files.catbox.moe/1qetbh.jpg', // Add thumbnail URL if required
+           'sourceUrl': 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
+           'mediaType': 0x1,
+           'showAdAttribution': true
     }
   };
   const _0x297b69 = {
