@@ -275,7 +275,7 @@ let menuMsg = `
           externalAdReply: {
             title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
             body: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
-            thumbnailUrl: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/alive.jpg', // Add thumbnail URL if required 
+            thumbnailUrl: 'https://files.catbox.moe/fb4y8p.jpg', // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
             mediaType: 1,
             renderLargerThumbnail: true
