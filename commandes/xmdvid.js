@@ -3,9 +3,9 @@ const {
 } = require("../framework/zokou");
 const yts = require("yt-search");
 zokou({
-  'nomCom': "video1",
+  'nomCom': "video",
   'categorie': "Download",
-  'reaction': '🪰'
+  'reaction': '📺'
 }, async (_0x1865cc, _0x52cb5d, _0x3ecbfa) => {
   const {
     ms: _0x4b29db,
