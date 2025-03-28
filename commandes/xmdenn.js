@@ -1,4 +1,41 @@
+const util = require('util');
+const fs = require('fs-extra');
+const axios = require('axios');
+const { zokou } = require(__dirname + "/../framework/zokou");
+const { format } = require(__dirname + "/../framework/mesfonctions");
+const os = require("os");
+const moment = require("moment-timezone");
+const s = require(__dirname + "/../set");
 
+const more = String.fromCharCode(8206);
+const readmore = more.repeat(4001);
+
+zokou({ nomCom: "happp", categorie: "General" }, async (dest, zk, commandeOptions) => {
+    let { ms, repondre, prefixe, nomAuteurMessage, mybotpic } = commandeOptions;
+    let { cm } = require(__dirname + "/../framework/zokou");
+
+    var commandsList = {};
+    var mode = (s.MODE).toLocaleLowerCase() !== "yes" ? "private" : "public";
+
+    cm.map((com) => {
+        if (!commandsList[com.categorie]) commandsList[com.categorie] = [];
+        commandsList[com.categorie].push(com.nomCom);
+    });
+
+    moment.tz.setDefault('EAT')
+    // Generate greeting based on time of day
+    const hour = moment().hour();
+    let greeting = "🌅Good Morning my brother 🌄";
+    if (hour >= 12 && hour < 18) {
+        greeting = "🌄Good afternnon! Stay energized! 🌿";
+    } else if (hour >= 18) {
+        greeting = "🌇Good Everning! Hope you had a great day! 🌙";
+    } else if (hour >= 22 || hour < 5) {
+        greeting = "Good Night 🌌";
+    };
+
+    const time = moment().format('HH:mm:ss');
+    const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
 ☻ •Ꮹσσd єvєníng : ${nomAuteurMessage}
