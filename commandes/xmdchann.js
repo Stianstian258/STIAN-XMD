@@ -35,3 +35,23 @@ zokou({ nomCom: 'channel',
 
   }
 );
+
+zokou({ nomCom: 'repos',
+    desc: 'To check runtime',
+    Categorie: 'User',
+    reaction: '☘️', 
+    fromMe: 'true', 
+
+
+  },
+  async (dest, zk, commandeOptions) => {
+    const { ms, arg, repondre } = commandeOptions;
+
+                 await repondre(`*suppσrt hєrє mч σwnєr вч fσllσw thís chαnnєl plєαsє* https://github.com/NjabuloJ/Njabulo-Jb`) 
+
+   
+
+
+  }
+);
+ 
