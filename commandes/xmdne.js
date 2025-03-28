@@ -35,7 +35,8 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     } else if (hour >= 18) {
         greeting = "🌇Good Everning! Hope you had a great day! 🌙";
     } else if (hour >= 22 || hour < 5) {
-        greeting = "Good Night 🌌";
+        greeting = "Good Night 🌌"
+    };
 
 // Créer une date et une heure en GMT
 const temps = moment().format('HH:mm:ss');
