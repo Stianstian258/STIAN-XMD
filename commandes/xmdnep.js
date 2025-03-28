@@ -8,7 +8,7 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const Taphere = more.repeat(4001)
 
-zokou({ nomCom: "xmdx", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "repo", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -27,14 +27,23 @@ zokou({ nomCom: "xmdx", categorie: "General" }, async (dest, zk, commandeOptions
         coms[com.categorie].push(com.nomCom);
     });
 
-    moment.tz.setDefault("Africa/Dar Es Salam");
+    moment.tz.setDefault("Africa/Dar Es Salam")
+        // Generate greeting based on time of day
+    const hour = moment().hour();
+    let greeting = "🌅Good Morning my brother 🌄";
+    if (hour >= 12 && hour < 18) {
+        greeting = "🌄Good afternnon! Stay energized! 🌿";
+    } else if (hour >= 18) {
+        greeting = "🌇Good Everning! Hope you had a great day! 🌙";
+    } else if (hour >= 22 || hour < 5) {
+        greeting = "Good Night 🌌";
+    };
 
 // Créer une date et une heure en GMT
 const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
-
 ╭━=========================⊷
 ┣◆ ☘️NJABULO JB OFFICE ☘️ 
 ┣◆ ⭐ Total Stars: 60
@@ -42,6 +51,8 @@ let infoMsg =  `
 ┣◆ 👤 Owner: ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ
 ┣◆ here njabulo JB Office bot
 ╰━=========================⊷
+
+*${greeting}*
 
 ◆ Reply with a name to choose an action:
 1️⃣ type .channel
@@ -84,11 +95,8 @@ let menuMsg = `
 
     // List of audio URLs
     const audioUrls = [
-        "https://files.catbox.moe/wsyxi0.mp3",
-        "https://files.catbox.moe/w2k8g2.mp3",
-        "https://files.catbox.moe/cpjbnl.mp3",
-        "https://files.catbox.moe/y6fph9.mp3",
-        "https://files.catbox.moe/moctzu.mp3" // New song added
+        "https://files.catbox.moe/uz4apw.mp3",
+        "https://files.catbox.moe/cup6rc.mp3" // New song added
     ];
 
     // Select a random audio file
