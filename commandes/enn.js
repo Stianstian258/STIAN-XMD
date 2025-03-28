@@ -60,7 +60,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ╭⊷=============⊷  `;
         for (const cmd of commandsList[category]) {
             menuMsg += `          
-┌┤┊   ${cmd}`;
+┣◆  ${cmd}`;
         }
         menuMsg += ` 
 ╰================⊷`;
