@@ -240,26 +240,3 @@ zokou({
     repondre('Error retrieving data: ' + error.message);
   }
 });
-
-// Unforgivable Meme Command
-zokou({
-  'nomCom': "chrome",
-  'reaction': '☘️',
-  'categorie': 'general'
-}, async (user, message, context) => {
-  const { repondre: sendMessage, arg, ms } = context;
-  try {
-    if (!arg || arg.length === 0) {
-      return sendMessage("prσvídє sσmє tєхt.");
-    }
-    const text = arg.join(" ");
-    const imageUrl = `https://api.popcat.xyz/unforgivable?text=${text}`;
-    message.sendMessage(user, {
-      'image': { 'url': imageUrl },
-      'caption': "🖥️ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ chrσmє sєαrch💻"
-    }, { 'quoted': ms });
-  } catch (error) {
-    console.error("Error:", error.message || "An error occurred");
-    sendMessage("Oops, an error occurred while processing your request");
-  }
-});
