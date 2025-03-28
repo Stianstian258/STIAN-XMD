@@ -58,7 +58,7 @@ let infoMsg =  `
 1️⃣ type .channel
 2️⃣ type .repos
 3️⃣ type .session
-4️⃣ type .group 
+4️⃣ type .menu-list
 `;
     
 let menuMsg = `
