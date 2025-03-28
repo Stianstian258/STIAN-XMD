@@ -47,7 +47,7 @@ zokou({ nomCom: 'repos',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*suppσrt hєrє mч σwnєr вч fσllσw thís chαnnєl plєαsє* https://github.com/NjabuloJ/Njabulo-Jb`) 
+                 await repondre(`*hєrє ís rєpσ fσr njαвulσ jв tαnks чσu suppσrt gívє stαr αnd fσrks* https://github.com/NjabuloJ/Njabulo-Jb`) 
 
    
 
@@ -55,3 +55,22 @@ zokou({ nomCom: 'repos',
   }
 );
  
+zokou({ nomCom: 'session',
+    desc: 'To check runtime',
+    Categorie: 'General',
+    reaction: '💗', 
+    fromMe: 'true', 
+
+
+  },
+  async (dest, zk, commandeOptions) => {
+    const { ms, arg, repondre } = commandeOptions;
+
+                 await repondre(`hєrє ís sєssíσn ld вч ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ :https://njabulo-5778.onrender.com`) 
+
+   
+
+
+  }
+);
+
