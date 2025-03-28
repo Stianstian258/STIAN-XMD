@@ -10,7 +10,7 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206);
 const readmore = more.repeat(4001);
 
-zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre, prefixe, nomAuteurMessage, mybotpic } = commandeOptions;
     let { cm } = require(__dirname + "/../framework/zokou");
 
@@ -38,17 +38,17 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
     const date = moment().format('DD/MM/YYYY');
 
     let infoMsg = `
-  🪰good evening : ${nomAuteurMessage}
+  *HALLO:* ${nomAuteurMessage}
 
-╭─────────━┈⊷
-│ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ʜᴀᴘᴘɪɴᴇss xᴍᴅ
-│ᴘʀᴇғɪx : [ ${s.PREFIXE} ]
-│ᴍᴏᴅᴇ : ${mode}
-│ᴅᴀᴛᴇ  : ${date}
-│ᴘʟᴀᴛғᴏʀᴍ : ${os.platform()}
-│ᴏᴡɴᴇʀ : ɴᴊᴀʙᴜʟᴏ ᴊʙ 
-│ᴘʟᴜɢɪɴs : ${cm.length}
-╰─────────━┈⊷ \n
+╭==================⊷
+┇❍▸ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ɳᴊᴀʙᴜʟᴏ ᴊʙ
+┇❍▸ᴘʀᴇғɪx : [ ${s.PREFIXE} ]
+┇❍▸ᴍᴏᴅᴇ : ${mode}
+┇❍▸ᴅᴀᴛᴇ  : ${date}
+┇❍▸ᴘʟᴀᴛғᴏʀᴍ : ${os.platform()}
+┇❍▸ᴏᴡɴᴇʀ : ᴊʙ σғғɪᴄᴇ
+┇❍▸ᴘʟᴜɢɪɴs : ${cm.length}
+╰=================⊷ \n
 
 *${greeting}*`;
 
@@ -56,15 +56,14 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
 
     for (const category in commandsList) {
         menuMsg += `
-╭───❮ ${category} ❯─┈⊷
-│╭────••••────⊷ `;
+❍ ${category} ❍
+╭⊷=============⊷  `;
         for (const cmd of commandsList[category]) {
             menuMsg += `          
-│   ${cmd}`;
+┌┤┊   ${cmd}`;
         }
-        menuMsg += `
-│└────••••────⊷
-╰─────────━┈⊷`;
+        menuMsg += ` 
+╰================⊷`;
     }
 
     menuMsg += `\n> sir Njabulo Jb 2025`;
@@ -103,4 +102,3 @@ zokou({ nomCom: "list", categorie: "General" }, async (dest, zk, commandeOptions
         repondre("🥵🥵 Menu error: " + e);
     }
 });
-      
