@@ -74,7 +74,7 @@ let menuMsg = `
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363345407274799@newsletter',
-            newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            newsletterName: "NJABULO JB",
             serverMessageId: -1,
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
