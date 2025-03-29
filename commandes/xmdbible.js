@@ -119,19 +119,25 @@ let menuMsg = `
 
  `;
 
-       try {
+          try {
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
         await zk.sendMessage(dest, {
             text: infoMsg + menuMsg,
             contextInfo: {
-                mentionedJid: [senderName],
-                externalAdReply: {
-                    title: "CASEYRHODES MD HOLY BIBLE LIST",
-                    body: "Live with God my friends you don't know your tomorrow",
-                    thumbnailUrl: "https://files.catbox.moe/yedfbr.jpg",
-                    sourceUrl: "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E",
-                    mediaType: 1,
-                    renderLargerThumbnail: true
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363345407274799@newsletter',
+            newsletterName: "NJABULO JB",
+            serverMessageId: -1,
+          },
+          forwardingScore: 999, // Score to indicate it has been forwarded
+          externalAdReply: {
+            title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ",
+            body: "fast via",
+            thumbnailUrl: 'https://files.catbox.moe/1qetbh.jpg', // Add thumbnail URL if required
+            sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
+            mediaType: 1,
+            renderLargerThumbnail: true    
                 }
             }
         });
