@@ -38,7 +38,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "🪰" }, async (dest, z
  *Group* : *${nomGroupe}* 
  *Message* : *no message*\n
 ` ;
-  let emoji = ['WhatsA🪀']
+  let emoji = ['> ᴅᴇᴀʀ💗']
   let random = Math.floor(Math.random() * (emoji.length - 1))
 
 
@@ -66,7 +66,7 @@ zokou({ nomCom: "link", categorie: 'Group', reaction: "🖇️" }, async (dest, 
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Group link :${lien} \n\n© Njabulo Jb`
+Group link :${lien} \n\n> ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ`
   repondre(mess)
 
 
