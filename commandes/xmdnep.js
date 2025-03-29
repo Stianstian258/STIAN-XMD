@@ -45,20 +45,20 @@ const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
 ╭━=========================⊷
-┣◆ ☘️NJABULO JB OFFICE ☘️ 
-┣◆ ⭐ Total Stars: 60
-┣◆ 🍴 Total Forks: 5,392
-┣◆ 👤 Owner: ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ
-┣◆ here njabulo JB Office bot
+┇ *☘️NJABULO JB OFFICE☘️* 
+┇ ⭐ Total Stars: 700
+┇ 🍴 Total Forks: 5,392
+┇ 👤 Owner: ɳᴊᴀʙᴜʟᴏ ᴊʙ
+┇ *tanks you support guys*
 ╰━=========================⊷
 
 *${greeting}*
 
 ◆ Reply with a name to choose an action:
-1️⃣ type .channel
-2️⃣ type .repos
-3️⃣ type .session
-4️⃣ type .menu-list
+1️⃣ get update bot .channel
+2️⃣ get links .repos
+3️⃣ get links .session
+4️⃣ get code .pair 
 `;
     
 let menuMsg = `
@@ -73,14 +73,14 @@ let menuMsg = `
             contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363345407@newsletter',
-            newsletterName: "set it",
+            newsletterJid: '120363345407274799@newsletter',
+            newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
             serverMessageId: -1,
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-            title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
-            body: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ",
+            body: "fast via",
             thumbnailUrl: 'https://files.catbox.moe/1qetbh.jpg', // Add thumbnail URL if required
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
             mediaType: 1,
