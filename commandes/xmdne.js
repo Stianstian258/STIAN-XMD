@@ -43,7 +43,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
-𝗛𝗔𝗟𝗟𝗢 👋 : ${nomAuteurMessage}
+𝗛𝗔𝗟𝗟𝗢 👋 : *${nomAuteurMessage}*
 
 ╭━•••••⪼ 
 ┋ ☻ σwnєr : hαppínєss
@@ -104,6 +104,7 @@ let infoMsg =  `
 ┋ ☻ • gαlαхч 
 ┋ ☻ • plαч 
 ┋ ☻ • vídєσ
+┋ ☻ • hσlч-вíвlє
 ╰─•••••⪼
 *cσnvєrsíσn*
 ╭─•••••⪼  
@@ -278,8 +279,8 @@ let menuMsg = `
             contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363317462952356@newsletter',
-            newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            newsletterJid: '120363345407274799@newsletter',
+            newsletterName: "NJABULO JB",
             serverMessageId: -1,
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
