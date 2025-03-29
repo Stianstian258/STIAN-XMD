@@ -72,13 +72,12 @@ zokou({
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
             mediaType: 1,
             renderLargerThumbnail: true
-                }
+               }
             }
         });
     } catch (error) {
         console.error("Menu error: ", error);
         repondre("🥵🥵 Menu error: " + error);
-          }
-
-      }
-  });
+    }
+});
+       
