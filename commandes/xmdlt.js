@@ -53,22 +53,21 @@ zokou({
         menu += `Category: ${toFancyLowercaseFont(categorie)}\n`;
         menu += `Reaction: ${toFancyLowercaseFont(reaction)}\n\n`;
     });
-
-       try {
+    try {
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
         await zk.sendMessage(dest, {
             text: infoMsg + menuMsg,
             contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363345407@newsletter',
-            newsletterName: "set it",
+            newsletterJid: '120363345407274799@newsletter',
+            newsletterName: "NJABULO JB",
             serverMessageId: -1,
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-            title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
-            body: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ",
+            body: "fast via",
             thumbnailUrl: 'https://files.catbox.moe/1qetbh.jpg', // Add thumbnail URL if required
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
             mediaType: 1,
@@ -81,23 +80,5 @@ zokou({
         repondre("🥵🥵 Menu error: " + error);
           }
 
-    // List of audio URLs
-    const audioUrls = [
-        "https://files.catbox.moe/uz4apw.mp3",
-        "https://files.catbox.moe/cup6rc.mp3" // New song added
-    ];
-
-    // Select a random audio file
-    const randomAudioUrl = audioUrls[Math.floor(Math.random() * audioUrls.length)];
-
-    try {
-        await zk.sendMessage(dest, {
-            audio: { url: randomAudioUrl },
-            mimetype: 'audio/mpeg',
-            ptt: true, // Send as a voice note
-        }, { quoted: ms });
-    } catch (e) {
-        console.log("🥵🥵 Error sending audio: " + e);
-        repondre("🥵🥵 Error sending audio: " + e);
-    }
-});
+      }
+  });
