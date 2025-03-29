@@ -117,6 +117,7 @@ let infoMsg =  `
 ┋ ☻ • trt 
 ┋ ☻ • url 
 ┋ ☻ • tєstαmєnt
+┋ ☻ • вlσcklíst
 ╰─•••••⪼
 *usєr*
 ╭─•••••⪼  
