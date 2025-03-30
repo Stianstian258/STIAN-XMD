@@ -1,20 +1,20 @@
+
 const { zokou } = require("../framework/zokou");
 const axios = require('axios');
 const ytSearch = require('yt-search');
-const conf = require(__dirname + '/../set');
 
-// Define the command with aliases for play
-zokou({
-  nomCom: "song",
-  aliases: ["song", "playdoc", "audio", "mp3"],
+// Define the command with aliases
+ezra({
+  nomCom: "videodc",
+  aliases: ["videodoc", "film", "mp4"],
   categorie: "Search",
-  reaction: "🎧"
+  reaction: "📺"
 }, async (dest, zk, commandOptions) => {
   const { arg, ms, repondre } = commandOptions;
 
   // Check if a query is provided
   if (!arg[0]) {
-    return repondre("Please provide a video name.");
+    return repondre("Please provide a video document name.");
   }
 
   const query = arg.join(" ");
@@ -25,7 +25,7 @@ zokou({
 
     // Check if any videos were found
     if (!searchResults || !searchResults.videos.length) {
-      return repondre('No video found for the specified query.');
+      return repondre('No video document found for the specified query.');
     }
 
     const firstVideo = searchResults.videos[0];
@@ -50,7 +50,8 @@ zokou({
       `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
       `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`
     ];
-let downloadData;
+
+    let downloadData;
     for (const api of apis) {
       downloadData = await getDownloadData(api);
       if (downloadData && downloadData.success) break;
@@ -62,13 +63,9 @@ let downloadData;
     }
 
     const downloadUrl = downloadData.result.download_url;
-    const songTitle = downloadData.result.title;
-    const videoThumbnail = firstVideo.thumbnail;
-    const videoChannel = downloadData.result.author;
-    const videoPublished = downloadData.result.uploadDate;
-    const videoViews = downloadData.result.viewCount;
+    const videoDetails = downloadData.result;
 
-    // Prepare the message with song details
+    // Prepare the message payload with external ad details
     const messagePayload = {
       caption: `\nNJABULO JB DOWNLOAD\n
 ━=========================⊷
@@ -84,22 +81,22 @@ let downloadData;
 
 `,
       document: { url: downloadUrl },
-        mimetype: 'audio/mpeg',
-        contextInfo: {
-          externalAdReply: {
-            title: conf.BOT,
-            body: "fast via",
-            mediaType: 1,
-            sourceUrl: conf.GURL,
-            thumbnailUrl: firstVideo.thumbnail,
-            renderLargerThumbnail: false,
-            showAdAttribution: true,
-        }
-      }
-    }
-   {
-       audio: { url: downloadUrl },
-        mimetype: 'audio/mp4',
+      mimetype: 'video/mp4',
+      contextInfo: {
+        externalAdReply: {
+          title: videoDetails.title,
+          body: videoDetails.title,
+          mediaType: 1,
+          sourceUrl: 'https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f',
+          thumbnailUrl: firstVideo.thumbnail,
+          renderLargerThumbnail: false,
+          showAdAttribution: true,
+        },
+      },
+    };
+      {
+        video: { url: downloadUrl },
+        mimetype: 'video/mp4',
         contextInfo: {
           externalAdReply: {
             title: videoDetails.title,
@@ -109,10 +106,11 @@ let downloadData;
             thumbnailUrl: firstVideo.thumbnail,
             renderLargerThumbnail: false,
             showAdAttribution: true,
-        }
-      }
-    };
+          },
+        },
+      },
 
+    // Send the download link to the user
     await zk.sendMessage(dest, messagePayload, { quoted: ms });
 
   } catch (error) {
