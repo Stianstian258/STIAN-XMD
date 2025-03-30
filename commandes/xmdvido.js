@@ -48,7 +48,7 @@ ezra({
       `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
       `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
       `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
-      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`
+      `https://api.dreaded.site/api/ytdl/video?url=${encodeURIComponent(videoUrl)}`
     ];
 
     let downloadData;
@@ -94,22 +94,7 @@ ezra({
         },
       },
     };
-      {
-        video: { url: downloadUrl },
-        mimetype: 'video/mp4',
-        contextInfo: {
-          externalAdReply: {
-            title: videoDetails.title,
-            body: videoDetails.title,
-            mediaType: 1,
-            sourceUrl: conf.GURL,
-            thumbnailUrl: firstVideo.thumbnail,
-            renderLargerThumbnail: false,
-            showAdAttribution: true,
-          },
-        },
-      },
-
+    
     // Send the download link to the user
     await zk.sendMessage(dest, messagePayload, { quoted: ms });
 
