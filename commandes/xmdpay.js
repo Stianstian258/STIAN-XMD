@@ -5,7 +5,7 @@ const conf = require(__dirname + '/../set');
 
 // Define the command with aliases for play
 zokou({
-  nomCom: "song",
+  nomCom: "play",
   aliases: ["song", "playdoc", "audio", "mp3"],
   categorie: "Search",
   reaction: "🎶"
@@ -68,14 +68,14 @@ zokou({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-       caption: `\n========================= *𝗡𝗝𝗔𝗕𝗨𝗟𝗢 𝗝𝗕 𝗦𝗢𝗡𝗚𝗦*\n
-=========================
+       caption: `\n================================\nNJABULO JB DOWNLOAD\n
+================================
  *Title:* ${videoDetails.title} 
  *Quality:* High
  *Duration:* ${firstVideo.timestamp}
-=========================
+================================
 
-> Njabulo Jb 
+> sir Njabulo Jb 
 `,
         document: { url: downloadUrl },
         mimetype: 'audio/mpeg',
@@ -96,8 +96,8 @@ zokou({
         mimetype: 'audio/mp4',
         contextInfo: {
           externalAdReply: {
-            title: videoDetails.title,
-            body: videoDetails.title,
+            title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ"
+            body: "fast via"
             mediaType: 1,
             sourceUrl: conf.GURL,
             thumbnailUrl: firstVideo.thumbnail,
