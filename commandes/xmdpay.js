@@ -5,10 +5,10 @@ const conf = require(__dirname + '/../set');
 
 // Define the command with aliases for play
 zokou({
-  nomCom: "song",
+  nomCom: "music",
   aliases: ["song", "playdoc", "audio", "mp3"],
   categorie: "Search",
-  reaction: "🎧"
+  reaction: "🎶"
 }, async (dest, zk, commandOptions) => {
   const { arg, ms, repondre } = commandOptions;
 
@@ -44,13 +44,14 @@ zokou({
 
     // List of APIs to try
     const apis = [
-      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
-      `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://apis.davidcyriltech.my.id/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://apis.davidcyriltech.my.id/youtube/mp3?url=${encodeURIComponent(videoUrl)}`,
       `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
       `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
       `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`
     ];
-let downloadData;
+
+    let downloadData;
     for (const api of apis) {
       downloadData = await getDownloadData(api);
       if (downloadData && downloadData.success) break;
@@ -62,43 +63,36 @@ let downloadData;
     }
 
     const downloadUrl = downloadData.result.download_url;
-    const songTitle = downloadData.result.title;
-    const videoThumbnail = firstVideo.thumbnail;
-    const videoChannel = downloadData.result.author;
-    const videoPublished = downloadData.result.uploadDate;
-    const videoViews = downloadData.result.viewCount;
+    const videoDetails = downloadData.result;
 
-    // Prepare the message with song details
-    const messagePayload = {
-      caption: `\nNJABULO JB DOWNLOAD\n
-━=========================⊷
- *Title:* ${songTitle} 
+    // Prepare the message payload with external ad details
+    const messagePayloads = [
+      {
+       caption: `\n========================= *𝗡𝗝𝗔𝗕𝗨𝗟𝗢 𝗝𝗕 𝗦𝗢𝗡𝗚𝗦*\n
+=========================
+ *Title:* ${videoDetails.title} 
  *Quality:* High
  *Duration:* ${firstVideo.timestamp}
-━=========================⊷
-⦿ *Direct YtLink:* ${videoUrl}
+=========================
 
-━=========================⊷
-
-> NJABULO JB OFFICE 
-
+> Njabulo Jb 
 `,
-      document: { url: downloadUrl },
+        document: { url: downloadUrl },
         mimetype: 'audio/mpeg',
         contextInfo: {
           externalAdReply: {
-            title: conf.BOT,
-            body: "fast via",
+            title: videoDetails.title,
+            body: videoDetails.title,
             mediaType: 1,
             sourceUrl: conf.GURL,
             thumbnailUrl: firstVideo.thumbnail,
             renderLargerThumbnail: false,
             showAdAttribution: true,
-        }
-      }
-    }
-   {
-       audio: { url: downloadUrl },
+          },
+        },
+      },
+      {
+        audio: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
           externalAdReply: {
@@ -109,11 +103,15 @@ let downloadData;
             thumbnailUrl: firstVideo.thumbnail,
             renderLargerThumbnail: false,
             showAdAttribution: true,
-        }
+          },
+        },
       }
-    };
+    ];
 
-    await zk.sendMessage(dest, messagePayload, { quoted: ms });
+    // Send the download link to the user for each payload
+    for (const messagePayload of messagePayloads) {
+      await zk.sendMessage(dest, messagePayload, { quoted: ms });
+    }
 
   } catch (error) {
     console.error('Error during download process:', error);
