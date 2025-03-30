@@ -1,20 +1,20 @@
-
 const { zokou } = require("../framework/zokou");
 const axios = require('axios');
 const ytSearch = require('yt-search');
+const conf = require(__dirname + '/../set');
 
-// Define the command with aliases
-ezra({
-  nomCom: "videodc",
+// Define the command with aliases for video
+zokou({
+  nomCom: "video",
   aliases: ["videodoc", "film", "mp4"],
   categorie: "Search",
-  reaction: "📺"
+  reaction: "🎥"
 }, async (dest, zk, commandOptions) => {
   const { arg, ms, repondre } = commandOptions;
 
   // Check if a query is provided
   if (!arg[0]) {
-    return repondre("Please provide a video document name.");
+    return repondre("Please provide a video name.");
   }
 
   const query = arg.join(" ");
@@ -25,7 +25,7 @@ ezra({
 
     // Check if any videos were found
     if (!searchResults || !searchResults.videos.length) {
-      return repondre('No video document found for the specified query.');
+      return repondre('No video found for the specified query.');
     }
 
     const firstVideo = searchResults.videos[0];
@@ -45,9 +45,9 @@ ezra({
     // List of APIs to try
     const apis = [
       `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
-      `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
-      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
-      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://apis.davidcyriltech.my.id/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp4?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
       `https://api.dreaded.site/api/ytdl/video?url=${encodeURIComponent(videoUrl)}`
     ];
 
@@ -66,37 +66,43 @@ ezra({
     const videoDetails = downloadData.result;
 
     // Prepare the message payload with external ad details
-    const messagePayload = {
-      caption: `\nNJABULO JB DOWNLOAD\n
-━=========================⊷
- *Title:* ${songTitle} 
- *Quality:* High
- *Duration:* ${firstVideo.timestamp}
-━=========================⊷
-⦿ *Direct YtLink:* ${videoUrl}
-
-━=========================⊷
-
-> NJABULO JB OFFICE 
-
-`,
-      document: { url: downloadUrl },
-      mimetype: 'video/mp4',
-      contextInfo: {
-        externalAdReply: {
-          title: videoDetails.title,
-          body: videoDetails.title,
-          mediaType: 1,
-          sourceUrl: 'https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f',
-          thumbnailUrl: firstVideo.thumbnail,
-          renderLargerThumbnail: false,
-          showAdAttribution: true,
+    const messagePayloads = [
+      {
+        document: { url: downloadUrl },
+        mimetype: 'video/mp4',
+        contextInfo: {
+          externalAdReply: {
+            title: videoDetails.title,
+            body: videoDetails.title,
+            mediaType: 1,
+            sourceUrl: conf.GURL,
+            thumbnailUrl: firstVideo.thumbnail,
+            renderLargerThumbnail: false,
+            showAdAttribution: true,
+          },
         },
       },
-    };
-    
+      {
+        video: { url: downloadUrl },
+        mimetype: 'video/mp4',
+        contextInfo: {
+          externalAdReply: {
+            title: videoDetails.title,
+            body: videoDetails.title,
+            mediaType: 1,
+            sourceUrl: conf.GURL,
+            thumbnailUrl: firstVideo.thumbnail,
+            renderLargerThumbnail: false,
+            showAdAttribution: true,
+          },
+        },
+      }
+    ];
+
     // Send the download link to the user
-    await zk.sendMessage(dest, messagePayload, { quoted: ms });
+    for (const messagePayload of messagePayloads) {
+      await zk.sendMessage(dest, messagePayload, { quoted: ms });
+    }
 
   } catch (error) {
     console.error('Error during download process:', error);
