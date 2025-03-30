@@ -68,6 +68,15 @@ zokou({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
+       caption: `\n========================= *𝗡𝗝𝗔𝗕𝗨𝗟𝗢 𝗝𝗕 𝗦𝗢𝗡𝗚𝗦*\n
+=========================
+ *Title:* ${songTitle} 
+ *Quality:* High
+ *Duration:* ${firstVideo.timestamp}
+=========================
+
+> Njabulo Jb 
+`,
         document: { url: downloadUrl },
         mimetype: 'audio/mpeg',
         contextInfo: {
