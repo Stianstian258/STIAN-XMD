@@ -77,17 +77,14 @@ zokou({
 
 > Njabulo Jb 
 `,
-// Use correct variable for sender name
-        await zk.sendMessage(dest, {
-          document: { url: downloadUrl },
-          mimetype: 'audio/mpeg',
-        contextInfo: {
-            contextInfo: {
+       document: { url: downloadUrl },
+       mimetype: 'audio/mpeg',
+       contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363317462952356@newsletter',
-            newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
-            serverMessageId: 143,
+          newsletterJid: '120363317462952356@newsletter',
+          newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+          serverMessageId: 143,
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
