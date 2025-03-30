@@ -68,14 +68,14 @@ zokou({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-       caption: `\n================================\nNJABULO JB DOWNLOAD\n
+       caption: `\n================================\n*NJABULO JB DOWNLOAD*\n
 ================================
- *Title:* ${videoDetails.title} 
- *Quality:* High
- *Duration:* ${firstVideo.timestamp}
+ Title: ${videoDetails.title} 
+ Quality: High
+ Duration: ${firstVideo.timestamp}
 ================================
 
-> sir Njabulo Jb 
+> *sir Njabulo Jb* 
 `,
         document: { url: downloadUrl },
         mimetype: 'video/mp4',
