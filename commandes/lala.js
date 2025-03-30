@@ -70,7 +70,7 @@ zokou({
       {
        caption: `\n========================= *𝗡𝗝𝗔𝗕𝗨𝗟𝗢 𝗝𝗕 𝗦𝗢𝗡𝗚𝗦*\n
 =========================
- *Title:* ${songTitle} 
+ *Title:* ${videotitle} 
  *Quality:* High
  *Duration:* ${firstVideo.timestamp}
 =========================
