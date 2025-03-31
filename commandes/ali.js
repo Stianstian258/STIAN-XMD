@@ -1,4 +1,4 @@
-"use strict";
+y"use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
@@ -11,7 +11,7 @@ zokou(
     const fullImageUrl = "https://files.catbox.moe/bq7ym6.jpg"; // Full image URL
     const smallThumbnailUrl = "https://files.catbox.moe/bq7ym6.jpg"; // Small thumbnail URL
     const randomAudio = "https://files.catbox.moe/wdap4t.mp3"; // Voice note URL
-    const sourceUrl = "https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31"; // Channel link
+    const sourceUrl = "https://whatsapp.com/channel"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
     try {
@@ -31,8 +31,8 @@ zokou(
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-            title: "Message from: ${contactName}\n💗NJABULO JB IS ALIVE",
-            body: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            title: "💗NJABULO JB IS ALIVE NOW☘️",
+            body: "fast via",
             thumbnailUrl: 'https://files.catbox.moe/95sweb.jpg', // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
             mediaType: 1,
@@ -84,8 +84,8 @@ zokou(
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-            title: "Message from: ${contactName}\n💗NJABULO JB IS ALIVE",
-            body: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            title: "💗NJABULO JB IS ALIVE NOW☘️",
+            body: "fast via",
             thumbnailUrl: 'https://files.catbox.moe/95sweb.jpg', // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
             mediaType: 1,
