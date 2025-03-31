@@ -29,7 +29,7 @@ zokou({
     const { respond, prefix, nomAuteurMessage } = context;
     const commands = require(__dirname + "/../framework/zokou").cm;
 
-    let menu = 'Njabulo JB\n\n';
+    let menu = '*OLL COMMANDES REACT*\n\n';
     let keithList = [];
 
     // Loop through all commands to fetch the relevant information (commands, description, and aliases)
@@ -60,15 +60,15 @@ zokou({
         contextInfo: {
         isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363317462952356@newsletter',
-          newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+          newsletterJid: '120363345407274799@newsletter',
+          newsletterName: "help",
           serverMessageId: 143,
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-            title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
-            body: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
-            thumbnailUrl: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/alive.jpg', // Add thumbnail URL if required 
+            title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ",
+            body: "fast via",
+            thumbnailUrl: 'https://files.catbox.moe/s8stgi.jpg', // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
             mediaType: 1,
             renderLargerThumbnail: true
