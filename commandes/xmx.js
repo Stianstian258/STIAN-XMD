@@ -77,7 +77,7 @@ zokou({
 
 > *sir Njabulo Jb* 
 `,
-       contextInfo: {
+          contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
           newsletterJid: '120363345407274799@newsletter',
