@@ -45,9 +45,9 @@ zokou({ nomCom: 'uptime',
          },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-          title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+          title: "𝗡𝗝𝗔𝗕𝗨𝗟𝗢 𝗝𝗕 𝗨𝗣𝗧𝗜𝗠𝗘",
           body: ` UPTIME: ${runtime(process.uptime())}`,
-          thumbnailUrl: 'https://files.catbox.moe/o6l6ez.jpg', // Add thumbnail URL if required 
+          thumbnailUrl: 'https://files.catbox.moe/95sweb.jpg', // Add thumbnail URL if required 
           sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
           mediaType: 1,
           renderLargerThumbnail: true 
