@@ -23,7 +23,7 @@ const runtime = function (seconds) {
 zokou({ nomCom: 'uptime',
     desc: 'To check runtime',
     Categorie: 'General',
-    reaction: '⚙️', 
+    reaction: '☘️', 
     fromMe: 'true', 
 
 
@@ -46,7 +46,7 @@ zokou({ nomCom: 'uptime',
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
           title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
-          body: ` UPTIME: ${runtime(process.uptime())}\n📅 *Date:* ${date}\n⏰ *Time:* ${time}`,
+          body: ` UPTIME: ${runtime(process.uptime())}`,
           thumbnailUrl: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/alive.jpg', // Add thumbnail URL if required 
           sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
           mediaType: 1,
