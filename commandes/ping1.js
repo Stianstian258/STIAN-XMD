@@ -19,7 +19,7 @@ const getTimeAndDate = () => {
 };
 
 // Ping Command
-zokou({ nomCom: "alive", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "uptime", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms } = commandeOptions;
     const { time, date } = getTimeAndDate();
     const ping = Math.floor(Math.random() * 100) + 1; // Generate a random ping between 1ms - 100ms
@@ -39,7 +39,7 @@ zokou({ nomCom: "alive", categorie: "General" }, async (dest, zk, commandeOption
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
           title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
-          body: `AM ALIVE ${nomAuteurMessage}/ON NJABULO JB\n📅 *Date:* ${date}\n⏰ *Time:* ${time}`,
+          body: ` UPTIME ${formatUptime(process.uptime())}\n📅 *Date:* ${date}\n⏰ *Time:* ${time}`,
           thumbnailUrl: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/alive.jpg', // Add thumbnail URL if required 
           sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
           mediaType: 1,
