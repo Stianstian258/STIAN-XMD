@@ -90,7 +90,6 @@ zokou({
             body: "fast via",
             thumbnailUrl: 'https://files.catbox.moe/7bnzea.jpg', // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
-            mediaType: 1,
             renderLargerThumbnail: true
           },
         },
@@ -111,7 +110,6 @@ zokou({
             body: "fast via",
             thumbnailUrl: 'https://files.catbox.moe/7bnzea.jpg', // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
-            mediaType: 1,
             renderLargerThumbnail: true
           },
         },
