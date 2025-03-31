@@ -44,16 +44,16 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
-╭━=========================⊷
+╭━━━━━━━━━━━━━━━━━━━━━━⊷
 ┇ *☘️NJABULO JB OFFICE☘️* 
 ┇ ⭐ Total Stars: 700
 ┇ 🍴 Total Forks: 5,392
 ┇ 👤 Owner: ɳᴊᴀʙᴜʟᴏ ᴊʙ
 ┇ *tanks you support guys*
-╰━=========================⊷
-
+╰━━━━━━━━━━━━━━━━━━━━━━⊷
 *${greeting}*
 
+*REPO* github.com/NjabuloJ/Njabulo-Jb
 ◆ Reply with a name to choose an action:
 1️⃣ get update bot .channel
 2️⃣ get links .repos
