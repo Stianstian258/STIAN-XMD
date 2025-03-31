@@ -31,7 +31,7 @@ zokou(
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-            title: "💗NJABULO JB IS ALIVE NOW☘️",
+            title: `Message from: ${contactName}\n.💗NJABULO JB IS ALIVE NOW☘️`, //You contact in WhatsApp status format
             body: "fast via",
             thumbnailUrl: 'https://files.catbox.moe/95sweb.jpg', // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
@@ -56,7 +56,7 @@ console.log("WhatsApp bot is ready!");
 
 
 zokou(
-  { nomCom: "test", reaction: "🌟", nomFichier: __filename },
+  { nomCom: "test", reaction: "💗", nomFichier: __filename },
   async (dest, zk, commandeOptions) => {
     console.log("Alive command triggered!");
 
@@ -84,7 +84,7 @@ zokou(
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-            title: "💗NJABULO JB IS ALIVE NOW☘️",
+            title: `Message from: ${contactName}\n.💗NJABULO JB IS ALIVE NOW☘️`, //You contact in WhatsApp status format
             body: "fast via",
             thumbnailUrl: 'https://files.catbox.moe/95sweb.jpg', // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
@@ -101,3 +101,4 @@ zokou(
     }
   }
 );
+    
