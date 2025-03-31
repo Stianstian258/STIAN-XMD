@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const { ezra } = require("../fredi/ezra");
+const { zokou } = require("../framework/zokou");
 
 zokou(
   { nomCom: "alive", reaction: "💗", nomFichier: __filename },
@@ -25,7 +25,7 @@ zokou(
         contextInfo: {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363317462952356@newsletter',
+          newsletterJid: '120363345407274799@newsletter',
           newsletterName: "NJABULO JB",
           serverMessageId: 143,
           },
@@ -78,7 +78,7 @@ zokou(
         contextInfo: {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363317462952356@newsletter',
+          newsletterJid: '120363345407274799@newsletter',
           newsletterName: "NJABULO JB",
           serverMessageId: 143,
           },
