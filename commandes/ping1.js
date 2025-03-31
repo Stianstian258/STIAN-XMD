@@ -3,7 +3,7 @@ const moment = require("moment-timezone");
 const { getBuffer } = require("../framework/dl/Function");
 const { default: axios } = require('axios');
 
-const AUDIO_URL = "https://files.catbox.moe/e52xx6.mp3"; // New audio URL
+const AUDIO_URL = "https://files.catbox.moe/l6nw2t.mp3"; // New audio URL
 const THUMBNAIL_URL = "https://files.catbox.moe/533oqh.jpg"; // New image URL
 
 const runtime = function (seconds) { 
@@ -39,15 +39,15 @@ zokou({ nomCom: 'uptime',
           contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363317462952356@newsletter',
-          newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+          newsletterJid: '120363345407274799@newsletter',
+          newsletterName: "NJABULO JB",
           serverMessageId: 143,
          },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
           title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
           body: ` UPTIME: ${runtime(process.uptime())}`,
-          thumbnailUrl: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/alive.jpg', // Add thumbnail URL if required 
+          thumbnailUrl: 'https://files.catbox.moe/o6l6ez.jpg', // Add thumbnail URL if required 
           sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
           mediaType: 1,
           renderLargerThumbnail: true 
