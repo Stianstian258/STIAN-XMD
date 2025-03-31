@@ -76,9 +76,6 @@ zokou({
 =========================
 
 > Njabulo Jb 
-`,
-       document: { url: downloadUrl },
-       mimetype: 'audio/mpeg',
        contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
@@ -93,7 +90,7 @@ zokou({
             thumbnailUrl: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/alive.jpg', // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
             mediaType: 1,
-            renderLargerThumbnail: true
+            renderLargerThumbnail: true',
           },
         },
       },
