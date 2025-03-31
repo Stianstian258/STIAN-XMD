@@ -19,7 +19,7 @@ const getTimeAndDate = () => {
 };
 
 // Ping Command
-zokou({ nomCom: "pings", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "ping", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms } = commandeOptions;
     const { time, date } = getTimeAndDate();
     const ping = Math.floor(Math.random() * 100) + 1; // Generate a random ping between 1ms - 100ms
@@ -32,15 +32,15 @@ zokou({ nomCom: "pings", categorie: "General" }, async (dest, zk, commandeOption
           contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363317462952356@newsletter',
-          newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+          newsletterJid: '120363345407274799@newsletter',
+          newsletterName: "NJABULO JB",
           serverMessageId: 143,
          },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-          title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
-          body: `🏓 *Pong:* ${ping}ms\n📅 *Date:* ${date}\n⏰ *Time:* ${time}`,
-          thumbnailUrl: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/alive.jpg', // Add thumbnail URL if required 
+          title: "𝗡𝗝𝗔𝗕𝗨𝗟𝗢 𝗝𝗕 𝗧𝗜𝗠𝗘",
+          body: `↪️𝘁𝗶𝗺𝗲 𝗽𝗶𝗻𝗴 ${ping}ms\n📅 *Date:* ${date}\n⏰ *Time:* ${time}`,
+          thumbnailUrl: 'https://files.catbox.moe/j50yq9.jpg', // Add thumbnail URL if required 
           sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
           mediaType: 1,
           renderLargerThumbnail: true 
