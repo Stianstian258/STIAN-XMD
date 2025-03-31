@@ -77,10 +77,8 @@ zokou({
 
 > *sir Njabulo Jb* 
 `,
-try {
-       const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
        await zk.sendMessage(dest, {
-       text: infoMsg + menuMsg,
+       const messagePayloads
        contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
