@@ -1,8 +1,8 @@
-y"use strict";
+"use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const { zokou } = require("../framework/zokou");
+const { ezra } = require("../fredi/ezra");
 
-zokou(
+ezra(
   { nomCom: "alive", reaction: "💗", nomFichier: __filename },
   async (dest, zk, commandeOptions) => {
     console.log("Alive command triggered!");
@@ -11,7 +11,7 @@ zokou(
     const fullImageUrl = "https://files.catbox.moe/bq7ym6.jpg"; // Full image URL
     const smallThumbnailUrl = "https://files.catbox.moe/bq7ym6.jpg"; // Small thumbnail URL
     const randomAudio = "https://files.catbox.moe/wdap4t.mp3"; // Voice note URL
-    const sourceUrl = "https://whatsapp.com/channel"; // Channel link
+    const sourceUrl = "https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31"; // Channel link
     const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
 
     try {
@@ -23,17 +23,17 @@ zokou(
         mimetype: "audio/mpeg", // Correct MIME type for audio
         ptt: true, // Send as a voice note
         contextInfo: {
-        isForwarded: true,
-        forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363345407274799@newsletter',
-          newsletterName: "NJABULO JB",
-          serverMessageId: 143,
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363317462952356@newsletter',
+            newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            serverMessageId: 143,
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-            title: 'Message from: ${contactName}\n.💗NJABULO JB IS ALIVE NOW☘️`, //You contact in WhatsApp status format
-            body: 'fast via',
-            thumbnailUrl: 'https://files.catbox.moe/95sweb.jpg', // Add thumbnail URL if required 
+            title: `🌟 Message from: ${contactName}\n💗 Njabulo Jb alive ☘️`, // Your contact in WhatsApp status format
+            body: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            thumbnailUrl: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/alive.jpg', // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
             mediaType: 1,
             renderLargerThumbnail: true
@@ -55,8 +55,8 @@ console.log("WhatsApp bot is ready!");
 
 
 
-zokou(
-  { nomCom: "test", reaction: "💗", nomFichier: __filename },
+ezra(
+  { nomCom: "test", reaction: "☘️", nomFichier: __filename },
   async (dest, zk, commandeOptions) => {
     console.log("Alive command triggered!");
 
@@ -76,17 +76,17 @@ zokou(
         mimetype: "audio/mpeg", // Correct MIME type for audio
         ptt: true, // Send as a voice note
         contextInfo: {
-        isForwarded: true,
-        forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363345407274799@newsletter',
-          newsletterName: "NJABULO JB",
-          serverMessageId: 143,
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363317462952356@newsletter',
+            newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            serverMessageId: 143,
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-            title: 'Message from: ${contactName}\n.💗NJABULO JB IS ALIVE NOW☘️', //You contact in WhatsApp status format
-            body: 'fast via',
-            thumbnailUrl: 'https://files.catbox.moe/95sweb.jpg', // Add thumbnail URL if required 
+            title: `🌟 Message from: ${contactName}\n☘️ NJABULO JB IS ALIVE 💗`, // Your contact in WhatsApp status format
+            body: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            thumbnailUrl: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/alive.jpg', // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
             mediaType: 1,
             renderLargerThumbnail: true
@@ -101,4 +101,3 @@ zokou(
     }
   }
 );
-    
