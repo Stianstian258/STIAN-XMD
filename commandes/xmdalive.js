@@ -31,8 +31,8 @@ zokou(
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-            title: `Message from: ${contactName}\n.💗NJABULO JB IS ALIVE NOW☘️`, //You contact in WhatsApp status format
-            body: "fast via",
+            title: 'Message from: ${contactName}\n.💗NJABULO JB IS ALIVE NOW☘️`, //You contact in WhatsApp status format
+            body: 'fast via',
             thumbnailUrl: 'https://files.catbox.moe/95sweb.jpg', // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
             mediaType: 1,
@@ -84,8 +84,8 @@ zokou(
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-            title: `Message from: ${contactName}\n.💗NJABULO JB IS ALIVE NOW☘️`, //You contact in WhatsApp status format
-            body: "fast via",
+            title: 'Message from: ${contactName}\n.💗NJABULO JB IS ALIVE NOW☘️', //You contact in WhatsApp status format
+            body: 'fast via',
             thumbnailUrl: 'https://files.catbox.moe/95sweb.jpg', // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
             mediaType: 1,
