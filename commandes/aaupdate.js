@@ -13,7 +13,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("This command can only be used by Njabulo Jb or owner");
+    return repondre("This command can only be used by Stian XMD or owner");
   }
 
   // Ensure Heroku app name and API key are set
