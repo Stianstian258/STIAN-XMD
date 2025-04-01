@@ -16,7 +16,7 @@ const getContextInfo = (title = '', userJid = '', thumbnailUrl = '') => ({
   isForwarded: true,
   forwardedNewsletterMessageInfo: {
     newsletterJid: "120363249464136503@newsletter",
-    newsletterName: "Beltah Tech Updates",
+    newsletterName: "STIAN-XMD Updates",
     serverMessageId: Math.floor(100000 + Math.random() * 900000),
   },
   externalAdReply: {
@@ -92,7 +92,7 @@ zokou({
     const video = await searchYouTube(query);
 
     await zk.sendMessage(dest, {
-      text: "Beltah Md is Downloading your Request...Please Wait...\n\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ᴛᴇᴄʜ ᴛᴇᴀᴍ",
+      text: "Stian XMD is Downloading your Request...Please Wait...\n\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ᴛᴇᴄʜ ᴛᴇᴀᴍ",
       contextInfo: getContextInfo("Downloading", userJid, video.thumbnail)
     }, { quoted: ms });
 
