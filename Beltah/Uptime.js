@@ -22,8 +22,8 @@ const fgg = {
   },
   message: {
     contactMessage: {
-      displayName: `BELTAH MD`,
-      vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;BELTAH MD;;;\nFN:BELTAH MD\nitem1.TEL;waid=${DEFAULT_PARTICIPANT.split('@')[0]}:${DEFAULT_PARTICIPANT.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
+      displayName: `STIAN XMD`,
+      vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;STIAN XMD;;;\nFN:STIAN XMD\nitem1.TEL;waid=${DEFAULT_PARTICIPANT.split('@')[0]}:${DEFAULT_PARTICIPANT.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
     },
   },
 };
@@ -87,7 +87,7 @@ zokou(
 
       const pingMessage = `*📡 PING RESULTS 📡*\n\n` +
                           `*🌐 Latency:* ${latency}ms\n` +
-                          `*⚡ Powered by BELTAH Tech Team*`;
+                          `*⚡ Powered by STIAN XMD Team*`;
 
       await zk.sendMessage(
         dest,
@@ -120,7 +120,7 @@ zokou(
 
       const uptimeMessage = `*⏰ BOT UPTIME ⏰*\n\n` +
                             `*🛸 Uptime:* ${formattedUptime}\n` +
-                            `*⚡ Powered by BELTAH Tech Team*`;
+                            `*⚡ Powered by STIAN XMD Team*`;
 
       await zk.sendMessage(
         dest,
