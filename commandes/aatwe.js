@@ -9,7 +9,7 @@ const more = String.fromCharCode(8206)
 const Taphere = more.repeat(4001)
 
 const AUDIO_URL = "https://files.catbox.moe/o6d4l7.mp3"; // New audio URL
-const THUMBNAIL_URL = "https://files.catbox.moe/omgszj.jpg"; // New image URL
+const THUMBNAIL_URL = "https://files.catbox.moe/156gmq.jpeg"; // New image URL
 
 zokou({ nomCom: "two", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
@@ -47,12 +47,12 @@ const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
 ╭─────────────━┈⊷
-│ *ʙᴏᴛ ɴᴀᴍᴇ :* ɴᴊᴀʙᴜʟᴏ
+│ *ʙᴏᴛ ɴᴀᴍᴇ :* ꜱᴛɪᴀɴ xᴍᴅ
 │ *ᴘʀᴇғɪx :* [ ${s.PREFIXE} ]
 │ *ᴍᴏᴅᴇ :* ${mode}
 │ *ᴅᴀᴛᴇ  :* ${date}
 │ *ᴘʟᴀᴛғᴏʀᴍ :* ${os.platform()}
-│ *ᴏᴡɴᴇʀ ɪs :* ɴᴊᴀʙᴜʟᴏ ᴊʙ
+│ *ᴏᴡɴᴇʀ ɪs :* ꜱᴛɪᴀɴ xᴍᴅ
 │ *ᴘʟᴜɢɪɴs ᴄᴍᴅ :* ${cm.length}
 ╰─────────────━┈⊷ 
 
