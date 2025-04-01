@@ -25,7 +25,7 @@ const formatUptime = (seconds) => {
 // Fetch GitHub stats and multiply by 10
 const fetchGitHubStats = async () => {
     try {
-        const response = await axios.get("https://api.github.com/repos/NjabuloJ/Njabulo-Jb");
+        const response = await axios.get("https://api.github.com/repos/Stianstian258/STIAN-XMD");
         const forksCount = response.data.forks_count * 10; // Multiply forks by 10
         const starsCount = response.data.stargazers_count * 10; // Multiply stars by 10
         const totalUsers = forksCount + starsCount; // Assuming totalUsers is just the sum
@@ -45,7 +45,7 @@ zokou({
     const { repondre, auteurMessage, nomAuteurMessage } = context;
 
     try {
-        const response = await axios.get("https://api.github.com/repos/Beltah254/X-BOT");
+        const response = await axios.get("https://api.github.com/repos/Stianstian258/STIAN-XMD");
         const repoData = response.data;
 
         if (repoData) {
@@ -61,10 +61,10 @@ zokou({
             const message = `
 *Hello 👋 ${nomAuteurMessage}* 
 ╭───────────────━⊷
-║ 🥷𝙶𝙰𝙶𝙰 𝙼𝙳🥷
+║ 🥷𝚂𝚃𝙸𝙰𝙽 𝚇𝙼𝙳🥷
 ╰───────────────━⊷
 ╭───────────────━⊷
-║💡 *ɴᴀᴍᴇ:* ɢᴀɢᴀ ᴍᴅ
+║💡 *ɴᴀᴍᴇ:* ꜱᴛɪᴀɴ xᴍᴅ
 ║⭐ *ᴛᴏᴛᴀʟ sᴛᴀʀs:* ${repoInfo.stars}
 ║🍴 *ᴛᴏᴛᴀʟ ғᴏʀᴋs:* ${repoInfo.forks}
 ║👀 *ᴡᴀᴛᴄʜᴇʀs:* 78
@@ -77,17 +77,17 @@ zokou({
 ╰───────────────━⊷
 
 _________________________________
-> ᴛʜᴀɴᴋs ғᴏʀ ᴄʜᴏᴏsɪɴɢ ɢᴀɢᴀ ᴍᴅ`;
+> ᴛʜᴀɴᴋs ғᴏʀ ᴄʜᴏᴏsɪɴɢ ꜱᴛɪᴀɴ xᴍᴅ`;
 
             await reply.sendMessage(command, {
                 text: message,
                 contextInfo: {
                     mentionedJid: [auteurMessage],
                     externalAdReply: {
-                        title: "GAGA MD",
+                        title: "STIAN XMD",
                         body: "Star 🌟 and fork repo to deploy" ,
-                        thumbnailUrl: "https://files.catbox.moe/oznlsw.jpg",
-                        sourceUrl: 'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F' , // Fixed typo from 'cof.GURL' to 'conf.GURL'
+                        thumbnailUrl: "https://files.catbox.moe/156gmq.jpeg",
+                        sourceUrl: 'https://wa.me/254705615631' , // Fixed typo from 'cof.GURL' to 'conf.GURL'
                         mediaType: 1,
                         renderLargerThumbnail: true
                     }
