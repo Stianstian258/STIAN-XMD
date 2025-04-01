@@ -65,10 +65,11 @@ zokou({
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
             mediaType: 1,
             renderLargerThumbnail: true
-      },
-      { quoted: ms }
-    );
-
+          },
+        },
+      }
+    ];
+      
   } catch (error) {
     // Catch any errors and notify the user
     console.error("Error during APK download process:", error);
