@@ -85,7 +85,7 @@ Reply with the category number to view its commands.
                 externalAdReply: {
                     title: "STIAN-XMD Menu",
                     body: "Select a category by replying with its number",
-                    thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
+                    thumbnailUrl: "https://files.catbox.moe/156gmq.jpeg",
                     sourceUrl: settings.GURL
                 }
             }
