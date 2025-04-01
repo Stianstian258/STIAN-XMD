@@ -25,13 +25,13 @@ ezra(
         contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363317462952356@newsletter',
-            newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
-            serverMessageId: 143,
+          newsletterJid: '120363317462952356@newsletter',
+          newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+          serverMessageId: 143,
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-            title: `🌟 Message from: ${contactName}\n💗 Njabulo Jb alive ☘️`, // Your contact in WhatsApp status format
+            title: "🌟 Message from: ${contactName}\n💗 Njabulo Jb alive ☘️`, // Your contact in WhatsApp status format
             body: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
             thumbnailUrl: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/alive.jpg', // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
@@ -84,7 +84,7 @@ ezra(
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-            title: `🌟 Message from: ${contactName}\n☘️ NJABULO JB IS ALIVE 💗`, // Your contact in WhatsApp status format
+            title: "🌟 Message from: ${contactName}\n☘️ NJABULO JB IS ALIVE 💗`, // Your contact in WhatsApp status format
             body: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
             thumbnailUrl: 'https://raw.githubusercontent.com/joeljamestech2/JOEL-XMD/refs/heads/main/mydata/media/alive.jpg', // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
