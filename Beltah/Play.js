@@ -92,7 +92,7 @@ zokou({
     const video = await searchYouTube(query);
 
     await zk.sendMessage(dest, {
-      text: "Stian XMD is Downloading your Request...Please Wait...\n\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ᴛᴇᴄʜ ᴛᴇᴀᴍ",
+      text: "Stian XMD is Downloading your Request...Please Wait...\n\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴛɪᴀɴ xᴍᴅ ᴛᴇᴀᴍ",
       contextInfo: getContextInfo("Downloading", userJid, video.thumbnail)
     }, { quoted: ms });
 
@@ -126,7 +126,7 @@ zokou({
           document: { url: download_url },
           mimetype: 'audio/mpeg',
           fileName: `${title}.mp3`.replace(/[^\w\s.-]/gi, ''),
-          caption: `📁 *${title}* (Document)\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇʟᴛᴀʜ ᴛᴇᴄʜ ᴛᴇᴀᴍ`,
+          caption: `📁 *${title}* (Document)\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴛɪᴀɴ xᴍᴅ ᴛᴇᴀᴍ`,
           contextInfo: getContextInfo(title, userJid, video.thumbnail)
         }, { quoted: replyMessage });
       } else {
