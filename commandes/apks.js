@@ -46,8 +46,7 @@ zokou({
        caption: `\n================================\n*NJABULO JB DOWNLOAD*\n
 ================================
  Apk name: ${appDetails.BK9.name}
-================================
-`,
+================================`,
        document: { url: appDetails.BK9.dllink },
        mimetype: '"application/vnd.android.package-archive",
        contextInfo: {
@@ -64,12 +63,10 @@ zokou({
             thumbnailUrl: 'https://files.catbox.moe/7bnzea.jpg', // Add thumbnail URL if required 
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
             mediaType: 1,
-            renderLargerThumbnail: true
+            renderLargerThumbnail: true`
           },
         },
-      }
-    ];
-      
+      };   
   } catch (error) {
     // Catch any errors and notify the user
     console.error("Error during APK download process:", error);
