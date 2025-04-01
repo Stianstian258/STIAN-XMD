@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/Beltahinfo/Nothing- /root/beltahmd
-WORKDIR /root/beltahmd/
+RUN git clone https://github.com/Stianstian258/STIAN-XMD /root/stianxmd
+WORKDIR /root/stianxmd/
 
 
 COPY package.json .
