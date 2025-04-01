@@ -72,7 +72,6 @@ zokou({
 ================================
  Title: ${videoDetails.title} 
 ================================
-> *sir Njabulo Jb* 
 `,
        document: { url: downloadUrl },
        mimetype: 'audio/mpeg',
