@@ -85,8 +85,11 @@ adams(
         mimetype: "audio/mpeg",
         ptt: true,
         contextInfo: {
-          quotedMessage: {
-            conversation: "𝙱.𝙼.𝙱-𝚇𝙼𝙳 😎",
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363317462952356@newsletter',
+            newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            serverMessageId: 143,
           },
           externalAdReply,
         },
@@ -159,8 +162,11 @@ adams(
         mimetype: "audio/mpeg",
         ptt: true,
         contextInfo: {
-          quotedMessage: {
-            conversation: "𝙱.𝙼.𝙱-𝚇𝙼𝙳 😎",
+         isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+          newsletterJid: '120363317462952356@newsletter',
+          newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+          serverMessageId: 143,
           },
           externalAdReply,
         },
