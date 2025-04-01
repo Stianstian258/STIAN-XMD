@@ -55,7 +55,7 @@ zokou({
       document: fs.readFileSync(cont),
       mimetype: 'text/vcard',
       fileName: `${metadat.subject}.Vcf`,
-      caption: `𝚃𝙷𝙴 𝚂𝚃𝙸𝙰𝙽 𝚇𝙼𝙳\n\nᴛᴏᴛᴀʟ ᴄᴏɴᴛᴀᴄᴛs : ${partic.length} \n\nᴠᴄғ ғᴏʀ : ${metadat.subject}\n\n> *ᴋᴇᴇᴘ ᴜsɪɴɢ ʙᴇʟᴛᴀʜ-ᴍᴅ*`, 
+      caption: `𝚃𝙷𝙴 𝚂𝚃𝙸𝙰𝙽 𝚇𝙼𝙳\n\nᴛᴏᴛᴀʟ ᴄᴏɴᴛᴀᴄᴛs : ${partic.length} \n\nᴠᴄғ ғᴏʀ : ${metadat.subject}\n\n> *ᴋᴇᴇᴘ ᴜsɪɴɢ ꜱᴛɪᴀɴ xᴍᴅ*`, 
       contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
