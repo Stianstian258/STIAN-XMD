@@ -47,7 +47,7 @@ zokou({
 
     let cont = './contacts.vcf';
 
-    await repondre(`A moment, *Njabulo Jb* is compiling ${partic.length} contacts into a vcf...`);
+    await repondre(`A moment, *Stian XMD* is compiling ${partic.length} contacts into a vcf...`);
 
     await fs.writeFileSync(cont, vcard.trim());
 
@@ -55,19 +55,19 @@ zokou({
       document: fs.readFileSync(cont),
       mimetype: 'text/vcard',
       fileName: `${metadat.subject}.Vcf`,
-      caption: `ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ\n\nᴛᴏᴛᴀʟ ᴄᴏɴᴛᴀᴄᴛs : ${partic.length} \n\nᴠᴄғ ғᴏʀ : ${metadat.subject}\n\n> *ᴋᴇᴇᴘ ᴜsɪɴɢ ʙᴇʟᴛᴀʜ-ᴍᴅ*`, 
+      caption: `𝚃𝙷𝙴 𝚂𝚃𝙸𝙰𝙽 𝚇𝙼𝙳\n\nᴛᴏᴛᴀʟ ᴄᴏɴᴛᴀᴄᴛs : ${partic.length} \n\nᴠᴄғ ғᴏʀ : ${metadat.subject}\n\n> *ᴋᴇᴇᴘ ᴜsɪɴɢ ʙᴇʟᴛᴀʜ-ᴍᴅ*`, 
       contextInfo: {
          isForwarded: true,
          forwardedNewsletterMessageInfo: {
          newsletterJid: '120363345407274799@newsletter',
-         newsletterName: "NJABULO JB",
+         newsletterName: "STIAN XMD",
          serverMessageId: 143,
          },
          forwardingScore: 999, // Score to indicate it has been forwarded
          externalAdReply: {
-           title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+           title: "STIAN XMD σғғɪᴄᴇ",
            body: "fast via",
-           thumbnailUrl: 'https://files.catbox.moe/cs7xfr.jpg', // Add thumbnail URL if required 
+           thumbnailUrl: 'https://files.catbox.moe/156gmq.jpeg', // Add thumbnail URL if required 
            sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
            mediaType: 1,
            renderLargerThumbnail: true
