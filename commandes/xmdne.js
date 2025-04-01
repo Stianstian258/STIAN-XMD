@@ -87,196 +87,196 @@ let infoMsg =  `
 │ • *αrєαct* 
 ╰─────────────━┈⊷ 
 *dσwnlσαd*
-╭─•••••⪼ 
-┋ ☻ • αpk 
-┋ ☻ • ínstαgrαm 
-┋ ☻ • fαcєвσσk 
-┋ ☻ • tíktσk 
-┋ ☻ • lítє
-┋ ☻ • fвdl 
-┋ ☻ • plαч
-┋ ☻ • fвdl2
-┋ ☻ • tíktσklítє
-╰─•••••⪼
+╭─────────────━┈⊷  
+│ • *αpk* 
+│ • *ínstαgrαm* 
+│ • *fαcєвσσk*
+│ • *tíktσk* 
+│ • *lítє*
+│ • *fвdl* 
+│ • *plαч*
+│ • *fвdl2*
+│ • *tíktσklítє*
+╰─────────────━┈⊷ 
 *sєαrch*
-╭─•••••⪼
-┋ ☻ • hєlp  
-┋ ☻ • gσσglє 
-┋ ☻ • ímdв 
-┋ ☻ • mσvíє 
-┋ ☻ • dєfínє 
-┋ ☻ • lчrícs 
-┋ ☻ • ímg 
-┋ ☻ • gαlαхч 
-┋ ☻ • plαч 
-┋ ☻ • vídєσ
-┋ ☻ • hσlч-вíвlє
-╰─•••••⪼
+╭─────────────━┈⊷  
+│ • *hєlp* 
+│ • *gσσglє* 
+│ • *ímdв* 
+│ • *mσvíє* 
+│ • *dєfínє* 
+│ • *lчrícs*
+│ • *ímg* 
+│ • *gαlαхч* 
+│ • *plαч* 
+│ • *vídєσ*
+│ • *hσlч-вíвlє*
+╰─────────────━┈⊷ 
 *cσnvєrsíσn*
-╭─•••••⪼  
-┋ ☻ • єmσmíх 
-┋ ☻ • stíckєr 
-┋ ☻ • scrσp 
-┋ ☻ • tαkє 
-┋ ☻ • wrítє 
-┋ ☻ • phσtσ 
-┋ ☻ • hєαrt
-┋ ☻ • trt 
-┋ ☻ • url 
-┋ ☻ • tєstαmєnt
-┋ ☻ • вlσcklíst
-╰─•••••⪼
+╭─────────────━┈⊷    
+│ • *єmσmíх* 
+│ • *stíckєr* 
+│ • *scrσp* 
+│ • *tαkє*
+│ • *wrítє*
+│ • *phσtσ* 
+│ • *hєαrt*
+│ • *trt* 
+│ • *url* 
+│ • *tєstαmєnt*
+│ • *вlσcklíst*
+╰─────────────━┈⊷ 
 *usєr*
-╭─•••••⪼  
-┋ ☻ • scrєєnshσt
-┋ ☻ • fσwαrd
-┋ ☻ • fαncч
-┋ ☻ • fαct 
-┋ ☻ • quσtєs 
-┋ ☻ • dít 
-┋ ☻ • íttα 
-┋ ☻ • sαч
-┋ ☻ • σpєntímє
-┋ ☻ • σpєntímє
-╰─•••••⪼
+╭─────────────━┈⊷    
+│ • *scrєєnshσt*
+│ • *fσwαrd*
+│ • *fαncч*
+│ • *fαct* 
+│ • *quσtєs* 
+│ • *dít* 
+│ • *íttα* 
+│ • *sαч*
+│ • *σpєntímє*
+│ • *σpєntímє*
+╰─────────────━┈⊷ 
 *ímαgє-єdít*
-╭─•••••⪼  
-┋ ☻ • shít 
-┋ ☻ • wαstєd 
-┋ ☻ • wαntєd 
-┋ ☻ • tríggєr 
-┋ ☻ • trαsh 
-┋ ☻ • ríp 
-┋ ☻ • sєpíα 
-┋ ☻ • rαínвσw 
-┋ ☻ • hítlєr 
-┋ ☻ • ínvєrt 
-┋ ☻ • jαíl 
-┋ ☻ • αffєct 
-┋ ☻ • вєαutíful 
-┋ ☻ • вlur 
-┋ ☻ • círclє 
-┋ ☻ • fαcєpαlm 
-┋ ☻ • grєчscαlє 
-┋ ☻ • jσkє
-╰─•••••⪼
+╭─────────────━┈⊷    
+│ • *shít* 
+│ • *wαstєd* 
+│ • *wαntєd* 
+│ • *tríggєr*
+│ • *trαsh*
+│ • *ríp*
+│ • *sєpíα*
+│ • *rαínвσw*
+│ • *hítlєr*
+│ • *ínvєrt*
+│ • *jαíl* 
+│ • *αffєct*
+│ • *вєαutíful*
+│ • *вlur*
+│ • *círclє*
+│ • *fαcєpαlm*
+│ • *grєчscαlє*
+│ • *jσkє*
+╰─────────────━┈⊷ 
 *grσup*
-╭─•••••⪼  
-┋ ☻ • αdd 
-┋ ☻ • αpprσvє 
-┋ ☻ • vcf 
-┋ ☻ • ínvítє 
-┋ ☻ • rєvσkє 
-┋ ☻ • tαgαll 
-┋ ☻ • línk 
-┋ ☻ • prσmσtє 
-┋ ☻ • dєmσtє 
-┋ ☻ • rєmσvє 
-┋ ☻ • dєl 
-┋ ☻ • ínfσ 
-┋ ☻ • αntílínk 
-┋ ☻ • αntíвσt 
-┋ ☻ • grσup 
-┋ ☻ • hídєtαg 
-┋ ☻ • αutσmutє 
-┋ ☻ • αutσunmutє 
-┋ ☻ • kíckαll 
-┋ ☻ • σnlчαdmín 
-┋ ☻ • tαgαdmín 
-┋ ☻ • wαrn 
-╰─•••••⪼
+╭─────────────━┈⊷  
+│ • *αdd*
+│ • *αpprσvє*
+│ • *vcf* 
+│ • *ínvítє* 
+│ • *rєvσkє*
+│ • *tαgαll* 
+│ • *línk* 
+│ • *prσmσtє* 
+│ • *dєmσtє* 
+│ • *rєmσvє* 
+│ • *dєl* 
+│ • *ínfσ* 
+│ • *αntílínk* 
+│ • *αntíвσt* 
+│ • *grσup* 
+│ • *hídєtαg*
+│ • *αutσmutє* 
+│ • *αutσunmutє*
+│ • *kíckαll* 
+│ • *σnlчαdmín* 
+│ • *tαgαdmín* 
+│ • *wαrn* 
+╰─────────────━┈⊷ 
 *mσds*
-╭─•••••⪼
-┋ ☻ • lєft
-┋ ☻ • вlσcklíst 
-┋ ☻ • tєlєstíckєr 
-┋ ☻ • crєw 
-┋ ☻ • lєft 
-┋ ☻ • jσín 
-┋ ☻ • jíd 
-┋ ☻ • вlσck 
-┋ ☻ • unвlσck 
-┋ ☻ • вαn 
-┋ ☻ • вαngrσup 
-┋ ☻ • sudσ 
-┋ ☻ • sαvє 
-┋ ☻ • mєntíσn 
-┋ ☻ • lulcαtч 
-┋ ☻ • sαdcαtч 
-┋ ☻ • nσkíαh 
-┋ ☻ • unfσrgívαв 
-┋ ☻ • pσσhh 
-┋ ☻ • σhσgwαч 
-┋ ☻ • jвídєn 
-┋ ☻ • hdríp 
-┋ ☻ • clσwns 
-┋ ☻ • tєrmínαt
-╰─•••••⪼
+╭─────────────━┈⊷  
+│ • *lєft*
+│ • *вlσcklíst*
+│ • *tєlєstíckєr*
+│ • *crєw*
+│ • *lєft*
+│ • *jσín*
+│ • *jíd*
+│ • *вlσck*
+│ • *unвlσck*
+│ • *вαn*
+│ • *вαngrσup*
+│ • *sudσ*
+│ • *sαvє*
+│ • *mєntíσn*
+│ • *lulcαtч*
+│ • *sαdcαtч*
+│ • *nσkíαh*
+│ • *unfσrgívαв*
+│ • *pσσhh*
+│ • *σhσgwαч*
+│ • *jвídєn*
+│ • *hdrípp* 
+│ • *clσwns*
+│ • *tєrmínαt*
+╰─────────────━┈⊷ 
 *hєntαí*
-╭─•••••⪼  
-┋ ☻ • wαífuєs          
-┋ ☻ • trαp          
-┋ ☻ • nєkσ          
-┋ ☻ • gírls
-╰─•••••⪼
+╭─────────────━┈⊷  
+│ • *wαífuєs*          
+│ • *trαp*          
+│ • *nєkσ*          
+│ • *gírls*
+╰─────────────━┈⊷ 
 *lσgσ*
-╭─•••••⪼  
-┋ ☻ • hαckєr 
-┋ ☻ • drαgσnвαll 
-┋ ☻ • nαrutσ 
-┋ ☻ • dídσng 
-┋ ☻ • wαll 
-┋ ☻ • summєr 
-┋ ☻ • nєσnlíght 
-┋ ☻ • grєєnnєσn 
-┋ ☻ • glítch 
-┋ ☻ • dєvíl 
-┋ ☻ • вσσm 
-┋ ☻ • wαtєr 
-┋ ☻ • snσw 
-┋ ☻ • trαnsfσrmєr 
-┋ ☻ • thundєr 
-┋ ☻ • hαrrчpσttєr 
-┋ ☻ • cαt 
-┋ ☻ • whítєgσld 
-┋ ☻ • líghtglσw 
-┋ ☻ • thσr 
-┋ ☻ • nєσn 
-┋ ☻ • purplє 
-┋ ☻ • gσld 
-┋ ☻ • αrєnα 
-┋ ☻ • íncαndєscєnt
-╰─•••••⪼
+╭─────────────━┈⊷   
+│ • *hαckєr*
+│ • *drαgσnвαll*
+│ • *nαrutσ*
+│ • *dídσng*
+│ • *wαll*
+│ • *summєr*
+│ • *nєσnlíght*
+│ • *grєєnnєσn*
+│ • *glítch*
+│ • *dєvíl*
+│ • *вσσm*
+│ • *wαtєr*
+│ • *snσw*
+│ • *trαnsfσrmєr*
+│ • *thundєr*
+│ • *hαrrчpσttєr*
+│ • *cαt*
+│ • *whítєgσld*
+│ • *líghtglσw*
+│ • *thσr*
+│ • *nєσn*
+│ • *purplє*
+│ • *gσld*
+│ • *αrєnα*
+│ • *íncαndєscєnt*
+╰─────────────━┈⊷ 
 *rєαctíσn*
-╭─•••••⪼  
-┋ ☻ • crч 
-┋ ☻ • hug 
-┋ ☻ • kíss 
-┋ ☻ • líck 
-┋ ☻ • вlush 
-┋ ☻ • smílє 
-┋ ☻ • slαp 
-┋ ☻ • kíll 
-┋ ☻ • kíck 
-┋ ☻ • hαppч 
-┋ ☻ • wínk 
-┋ ☻ • pσkє 
-┋ ☻ • dαncє 
-┋ ☻ • críngє
-╰─•••••⪼
+╭─────────────━┈⊷    
+│ • *crч*
+│ • *hug*
+│ • *kíss*
+│ • *líck*
+│ • *вlush*
+│ • *smílє*
+│ • *slαp*
+│ • *kíll*
+│ • *kíck*
+│ • *hαppч*
+│ • *wínk*
+│ • *pσkє*
+│ • *dαncє*
+│ • *críngє*
+╰─────────────━┈⊷ 
 *hєrσku-clíєnt*
-╭─•••••⪼  
-┋ ☻ • αntícαll 
-┋ ☻ • stαrtmєssαgє 
-┋ ☻ • rєαdmєssαgє 
-┋ ☻ • puвlícmσdє 
-┋ ☻ • αutσrєcσrd 
-┋ ☻ • αutσtчpíng 
-┋ ☻ • αlwαчsσnlínє 
-┋ ☻ • prívαtєmσdє 
-┋ ☻ • αutσlíkєstαtus 
-┋ ☻ • sєttíngs
-╰─•••••⪼
+╭─────────────━┈⊷    
+│ • *αntícαll*
+│ • *stαrtmєssαgє* 
+│ • *rєαdmєssαgє* 
+│ • *puвlícmσdє* 
+│ • *αutσrєcσrd* 
+│ • *αutσtчpíng* 
+│ • *αlwαчsσnlínє* 
+│ • *prívαtєmσdє*
+│ • *αutσlíkєstαtus* 
+│ • *sєttíngs*
+╰─────────────━┈⊷ 
 `;
     
 let menuMsg = `
@@ -335,4 +335,5 @@ let menuMsg = `
     }
 });
 
-                                                       
+
+         
