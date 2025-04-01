@@ -127,7 +127,7 @@ zokou({
          externalAdReply: {
            title: `${conf.BOT} GIT CLONE`,
            body: "🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋",
-           thumbnailUrl: 'https://files.catbox.moe/mmm8ns.jpg', // Add thumbnail URL if required 
+           thumbnailUrl: 'https://files.catbox.moe/156gmq.jpeg', // Add thumbnail URL if required 
            sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
            mediaType: 1,
            renderLargerThumbnail: true
