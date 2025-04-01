@@ -1,14 +1,14 @@
 {
-  "name": "𝗕𝗘𝗟𝗧𝗔𝗛-𝗠𝗗 𝗕𝗢𝗧",
-  "description": "THIS IS OLD VERSION OF BELTAH-MD  MAKE SURE YOU UPDATE YOUR BOT ONCE CONNECTED🤖✅👻",
+  "name": "𝗦𝗧𝗜𝗔𝗡-𝗫𝗠𝗗",
+  "description": "THIS IS OLD VERSION OF STIAN-XMD  MAKE SURE YOU UPDATE YOUR BOT ONCE CONNECTED🤖✅👻",
   "keywords": [
     "bot",
     "node",
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
-  "repository": "https://github.com/Beltahinfo/Nothing-",
+  "logo": "https://files.catbox.moe/156gmq.jpeg",
+  "repository": "https://github.com/Stianstian258/STIAN-XMD-",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -69,12 +69,12 @@
     },
     "ANTICALL_MSG": {
       "description": "Type your anticall message to always send when calls are declined.You can as well leave it blank",
-      "value": "> BELTAH-MD on board ||No calls allowed.",
+      "value": "> STIAN-XMD on board ||No calls allowed.",
       "required": false
     },
     "BOT_NAME": {
       "description": "Change this if you don't like my name",
-      "value": "BELTAH-MD",
+      "value": "STIAN-XMD",
       "required": true 
     },
     "GROUP_CONTROL": {
@@ -109,7 +109,7 @@
     },
     "URL": {
       "description": "Change this image and input yours",
-      "value": "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
+      "value": "https://files.catbox.moe/156gmq.jpeg",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
@@ -118,8 +118,8 @@
       "required": false  
     },
     "NUMERO_OWNER": {
-      "description": "Your phone number (exclude '+' and area code, e.g., '254114141192')",
-      "value": "254114141192",
+      "description": "Your phone number (exclude '+' and area code, e.g., '254705615631')",
+      "value": "254705615631",
       "required": false
     },
     "WARN_COUNT": {
