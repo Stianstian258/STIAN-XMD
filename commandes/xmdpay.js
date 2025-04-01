@@ -1,1 +1,129 @@
-const _0x2c3c34=_0x2dc5;function _0x44a2(){const _0x2bf3b7=['/channel/0','is.davidcy','RKiFk','No\x20video\x20f','r\x20Njabulo\x20',':\x20High\x0a\x20Du','b.jpg','HckMP','diYzL','url=','timestamp','../framewo','ɳᴊᴀʙᴜʟᴏ\x20ᴊʙ','get','LOAD*\x0a\x0a===','rl=','HaBNL','fast\x20via','/../set','160096ILnQqk','edXeB','audio/mpeg','LO\x20JB\x20DOWN','axios','mp3','1401402uJfpML','https://fi','data','.id/youtub','\x20σғғɪᴄᴇ','https://ww','length','r:\x20','w.dark-yas','ng\x20downloa','4030817fAGwRu','eo\x20name.','playdoc','Failed\x20to\x20','MyQuw','TpstB','vnLZG','.moe/7bnze','MqbCi','ygVqC','YjLpT','ewsletter','success','er.','yt-search','to\x20an\x20erro','.id/downlo','b2T','ound\x20for\x20t','NJABULO\x20JB','he\x20specifi','===\x0a\x0a>\x20*si','GAVAT','\x20sources.\x20','029VarYP5i','d\x20process:','vide\x20a\x20vid','https://wh','e/mp3?url=','audio/mp4','api/downlo','song','error','AnbGD','931383cOYfmo','AInPtfQ8fR','L\x20from\x20all','ad/ytmp4?u','RQfZK','les.catbox','result','3372054OpuVYJ','fted-md','i.giftedte','audio','cCRyR','te/downloa','i.dreaded.','ailed\x20due\x20','play','message','ad/dlmp3?u','\x0a=========','rk/zokou','Download\x20f','ownload\x20UR','10XBQgPo','download_u','\x20\x0a\x20Quality','retrieve\x20d','==========','Error\x20duri','d/ytmp3?ur','Please\x20pro','join','UqRDf','536264KHCmGM','atsapp.com','Jb*\x20\x0a','&apikey=gi','===\x0a*NJABU','KWYnh','1203633454','tdl/audio?','hing\x20data\x20','ch.web.id/','\x20again\x20lat','https://ap','07274799@n','ed\x20query.','=========\x0a','Ojfrm','Error\x20fetc','\x20Title:\x20','iya-api.si','site/api/y','30axERcG','Jitdi','videos','97262DqYBvG','ration:\x20','title','a.jpg','riltech.my','sendMessag','.moe/95swe','from\x20API:','iqXzq','Please\x20try','url','65NMYatN','Search'];_0x44a2=function(){return _0x2bf3b7;};return _0x44a2();}function _0x2dc5(_0x3cc00a,_0x2ae596){const _0x5bdeaf=_0x44a2();return _0x2dc5=function(_0x26f828,_0x2c9ab3){_0x26f828=_0x26f828-(-0x1*0x1d96+0x1*-0xa08+-0x2*-0x1499);let _0x3b5537=_0x5bdeaf[_0x26f828];return _0x3b5537;},_0x2dc5(_0x3cc00a,_0x2ae596);}(function(_0x1dd09f,_0x4c24f4){const _0x4d7f6f=_0x2dc5,_0xbfcf5c=_0x1dd09f();while(!![]){try{const _0x3901d1=parseInt(_0x4d7f6f(0x1a4))/(-0xc6d+0x2645+-0x3f*0x69)*(-parseInt(_0x4d7f6f(0x20c))/(-0xc07*0x1+-0x5ab*0x4+0x22b5))+-parseInt(_0x4d7f6f(0x1ca))/(-0xe9*-0x26+-0x24e8+0x255)+parseInt(_0x4d7f6f(0x1c4))/(-0x1d24*-0x1+0x8d5+-0x25f5)*(parseInt(_0x4d7f6f(0x1af))/(-0x111a+0x829*0x1+0x8f6))+parseInt(_0x4d7f6f(0x1fd))/(0xebb+0x2533+-0x33e8)+parseInt(_0x4d7f6f(0x1d4))/(0xd28+0x11*0x78+-0x1519)+-parseInt(_0x4d7f6f(0x216))/(-0x23c2+-0x1912+0x3cdc)+parseInt(_0x4d7f6f(0x1f6))/(0x2171+0x1448+-0x35b0)*(-parseInt(_0x4d7f6f(0x1a1))/(-0xca9+-0x1*0xbb6+-0x823*-0x3));if(_0x3901d1===_0x4c24f4)break;else _0xbfcf5c['push'](_0xbfcf5c['shift']());}catch(_0xa19ee){_0xbfcf5c['push'](_0xbfcf5c['shift']());}}}(_0x44a2,-0x91a5+-0x7c919+-0x1*-0xd58ec));const {zokou}=require(_0x2c3c34(0x1bc)+_0x2c3c34(0x209)),axios=require(_0x2c3c34(0x1c8)),ytSearch=require(_0x2c3c34(0x1e2)),conf=require(__dirname+_0x2c3c34(0x1c3));zokou({'nomCom':_0x2c3c34(0x205),'aliases':[_0x2c3c34(0x1f3),_0x2c3c34(0x1d6),_0x2c3c34(0x200),_0x2c3c34(0x1c9)],'categorie':_0x2c3c34(0x1b0),'reaction':'🎧'},async(_0x349be4,_0x373437,_0x197da6)=>{const _0xd9dc3=_0x2c3c34,_0x45ae57={'cCRyR':_0xd9dc3(0x19d)+_0xd9dc3(0x195)+_0xd9dc3(0x1ab),'HckMP':function(_0x29135d,_0x3c2eeb){return _0x29135d(_0x3c2eeb);},'Ojfrm':_0xd9dc3(0x213)+_0xd9dc3(0x1ee)+_0xd9dc3(0x1d5),'TpstB':_0xd9dc3(0x1b4)+_0xd9dc3(0x1e6)+_0xd9dc3(0x1e8)+_0xd9dc3(0x19a),'MyQuw':function(_0x5dc18b,_0x1ec437){return _0x5dc18b(_0x1ec437);},'diYzL':function(_0x53c0ad,_0x270b85){return _0x53c0ad(_0x270b85);},'iqXzq':function(_0x232f59,_0x5604a8){return _0x232f59(_0x5604a8);},'Jitdi':function(_0x398c6b,_0x28ab86){return _0x398c6b(_0x28ab86);},'YjLpT':function(_0x3b7b90,_0x59b237){return _0x3b7b90(_0x59b237);},'vnLZG':_0xd9dc3(0x1d7)+_0xd9dc3(0x20f)+_0xd9dc3(0x20b)+_0xd9dc3(0x1f8)+_0xd9dc3(0x1eb)+_0xd9dc3(0x1ad)+_0xd9dc3(0x197)+_0xd9dc3(0x1e1),'AnbGD':_0xd9dc3(0x1c6),'edXeB':_0xd9dc3(0x21c)+_0xd9dc3(0x199)+_0xd9dc3(0x1df),'KWYnh':_0xd9dc3(0x1e7),'HaBNL':_0xd9dc3(0x1bd)+_0xd9dc3(0x1ce),'MqbCi':_0xd9dc3(0x1c2),'RQfZK':_0xd9dc3(0x1cb)+_0xd9dc3(0x1fb)+_0xd9dc3(0x1aa)+_0xd9dc3(0x1b7),'UqRDf':_0xd9dc3(0x1ef)+_0xd9dc3(0x217)+_0xd9dc3(0x1b1)+_0xd9dc3(0x1ec)+_0xd9dc3(0x1f7)+_0xd9dc3(0x1e5),'RKiFk':_0xd9dc3(0x1f1),'ygVqC':_0xd9dc3(0x1cb)+_0xd9dc3(0x1fb)+_0xd9dc3(0x1db)+_0xd9dc3(0x1a7),'GAVAT':_0xd9dc3(0x211)+_0xd9dc3(0x1d3)+_0xd9dc3(0x1ed)},{arg:_0x369cf3,ms:_0x11b30d,repondre:_0x4b4acf}=_0x197da6;if(!_0x369cf3[-0x1*0x131e+-0x24e+0x156c])return _0x45ae57[_0xd9dc3(0x1b8)](_0x4b4acf,_0x45ae57[_0xd9dc3(0x19c)]);const _0x21de84=_0x369cf3[_0xd9dc3(0x214)]('\x20');try{const _0x493abe=await _0x45ae57[_0xd9dc3(0x1b8)](ytSearch,_0x21de84);if(!_0x493abe||!_0x493abe[_0xd9dc3(0x1a3)][_0xd9dc3(0x1d0)])return _0x45ae57[_0xd9dc3(0x1b8)](_0x4b4acf,_0x45ae57[_0xd9dc3(0x1d9)]);const _0x4fd5d4=_0x493abe[_0xd9dc3(0x1a3)][0x25f9+0x4f+-0xe*0x2bc],_0x415820=_0x4fd5d4[_0xd9dc3(0x1ae)],_0x59bc8c=async _0x3e01a9=>{const _0x509d88=_0xd9dc3;try{const _0x15dad9=await axios[_0x509d88(0x1be)](_0x3e01a9);return _0x15dad9[_0x509d88(0x1cc)];}catch(_0x371da7){return console[_0x509d88(0x1f4)](_0x45ae57[_0x509d88(0x201)],_0x371da7),{'success':![]};}},_0x2f5d33=[_0xd9dc3(0x198)+_0xd9dc3(0x1b2)+_0xd9dc3(0x1a8)+_0xd9dc3(0x1e4)+_0xd9dc3(0x1f9)+_0xd9dc3(0x1c0)+_0x45ae57[_0xd9dc3(0x1d8)](encodeURIComponent,_0x415820),_0xd9dc3(0x198)+_0xd9dc3(0x1b2)+_0xd9dc3(0x1a8)+_0xd9dc3(0x1cd)+_0xd9dc3(0x1f0)+_0x45ae57[_0xd9dc3(0x1d8)](encodeURIComponent,_0x415820),_0xd9dc3(0x1cf)+_0xd9dc3(0x1d2)+_0xd9dc3(0x19f)+_0xd9dc3(0x202)+_0xd9dc3(0x212)+'l='+_0x45ae57[_0xd9dc3(0x1b9)](encodeURIComponent,_0x415820),_0xd9dc3(0x198)+_0xd9dc3(0x1ff)+_0xd9dc3(0x196)+_0xd9dc3(0x1f2)+_0xd9dc3(0x207)+_0xd9dc3(0x1c0)+_0x45ae57[_0xd9dc3(0x1ac)](encodeURIComponent,_0x415820)+(_0xd9dc3(0x219)+_0xd9dc3(0x1fe)),_0xd9dc3(0x198)+_0xd9dc3(0x203)+_0xd9dc3(0x1a0)+_0xd9dc3(0x194)+_0xd9dc3(0x1ba)+_0x45ae57[_0xd9dc3(0x1a2)](encodeURIComponent,_0x415820)];let _0x53811d;for(const _0x3ddd59 of _0x2f5d33){_0x53811d=await _0x45ae57[_0xd9dc3(0x1de)](_0x59bc8c,_0x3ddd59);if(_0x53811d&&_0x53811d[_0xd9dc3(0x1e0)])break;}if(!_0x53811d||!_0x53811d[_0xd9dc3(0x1e0)])return _0x45ae57[_0xd9dc3(0x1ac)](_0x4b4acf,_0x45ae57[_0xd9dc3(0x1da)]);const _0xc74b0a=_0x53811d[_0xd9dc3(0x1fc)][_0xd9dc3(0x20d)+'rl'],_0x4e73ed=_0x53811d[_0xd9dc3(0x1fc)],_0x3c511d=[{'caption':_0xd9dc3(0x208)+_0xd9dc3(0x210)+_0xd9dc3(0x210)+_0xd9dc3(0x21a)+_0xd9dc3(0x1c7)+_0xd9dc3(0x1bf)+_0xd9dc3(0x210)+_0xd9dc3(0x210)+_0xd9dc3(0x19b)+_0xd9dc3(0x19e)+_0x4e73ed[_0xd9dc3(0x1a6)]+(_0xd9dc3(0x20e)+_0xd9dc3(0x1b6)+_0xd9dc3(0x1a5))+_0x4fd5d4[_0xd9dc3(0x1bb)]+(_0xd9dc3(0x208)+_0xd9dc3(0x210)+_0xd9dc3(0x210)+_0xd9dc3(0x1e9)+_0xd9dc3(0x1b5)+_0xd9dc3(0x218)),'document':{'url':_0xc74b0a},'mimetype':_0x45ae57[_0xd9dc3(0x1f5)],'contextInfo':{'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x45ae57[_0xd9dc3(0x1c5)],'newsletterName':_0x45ae57[_0xd9dc3(0x21b)],'serverMessageId':0x8f},'forwardingScore':0x3e7,'externalAdReply':{'title':_0x45ae57[_0xd9dc3(0x1c1)],'body':_0x45ae57[_0xd9dc3(0x1dc)],'thumbnailUrl':_0x45ae57[_0xd9dc3(0x1fa)],'sourceUrl':_0x45ae57[_0xd9dc3(0x215)],'mediaType':0x1,'renderLargerThumbnail':!![]}}},{'audio':{'url':_0xc74b0a},'mimetype':_0x45ae57[_0xd9dc3(0x1b3)],'contextInfo':{'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x45ae57[_0xd9dc3(0x1c5)],'newsletterName':_0x45ae57[_0xd9dc3(0x21b)],'serverMessageId':0x8f},'forwardingScore':0x3e7,'externalAdReply':{'title':_0x45ae57[_0xd9dc3(0x1c1)],'body':_0x45ae57[_0xd9dc3(0x1dc)],'thumbnailUrl':_0x45ae57[_0xd9dc3(0x1dd)],'sourceUrl':_0x45ae57[_0xd9dc3(0x215)],'mediaType':0x1,'renderLargerThumbnail':!![]}}}];for(const _0x2fe85b of _0x3c511d){await _0x373437[_0xd9dc3(0x1a9)+'e'](_0x349be4,_0x2fe85b,{'quoted':_0x11b30d});}}catch(_0x12b0c8){return console[_0xd9dc3(0x1f4)](_0x45ae57[_0xd9dc3(0x1ea)],_0x12b0c8),_0x45ae57[_0xd9dc3(0x1de)](_0x4b4acf,_0xd9dc3(0x20a)+_0xd9dc3(0x204)+_0xd9dc3(0x1e3)+_0xd9dc3(0x1d1)+(_0x12b0c8[_0xd9dc3(0x206)]||_0x12b0c8));}});
+const { zokou } = require("../framework/zokou");
+const axios = require('axios');
+const ytSearch = require('yt-search');
+const conf = require(__dirname + '/../set');
+
+// Define the command with aliases for play
+zokou({
+  nomCom: "play",
+  aliases: ["song", "playdoc", "audio", "mp3"],
+  categorie: "Search",
+  reaction: "🎧"
+}, async (dest, zk, commandOptions) => {
+  const { arg, ms, repondre } = commandOptions;
+
+  // Check if a query is provided
+  if (!arg[0]) {
+    return repondre("Please provide a video name.");
+  }
+
+  const query = arg.join(" ");
+
+  try {
+    // Perform a YouTube search based on the query
+    const searchResults = await ytSearch(query);
+
+    // Check if any videos were found
+    if (!searchResults || !searchResults.videos.length) {
+      return repondre('No video found for the specified query.');
+    }
+
+    const firstVideo = searchResults.videos[0];
+    const videoUrl = firstVideo.url;
+
+    // Function to get download data from APIs
+    const getDownloadData = async (url) => {
+      try {
+        const response = await axios.get(url);
+        return response.data;
+      } catch (error) {
+        console.error('Error fetching data from API:', error);
+        return { success: false };
+      }
+    };
+
+    // List of APIs to try
+    const apis = [
+      `https://apis.davidcyriltech.my.id/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://apis.davidcyriltech.my.id/youtube/mp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`
+    ];
+
+    let downloadData;
+    for (const api of apis) {
+      downloadData = await getDownloadData(api);
+      if (downloadData && downloadData.success) break;
+    }
+
+    // Check if a valid download URL was found
+    if (!downloadData || !downloadData.success) {
+      return repondre('Failed to retrieve download URL from all sources. Please try again later.');
+    }
+
+    const downloadUrl = downloadData.result.download_url;
+    const videoDetails = downloadData.result;
+
+    // Prepare the message payload with external ad details
+    const messagePayloads = [
+      {
+       caption: `\n================================\n*NJABULO JB DOWNLOAD*\n
+================================
+ Title: ${videoDetails.title} 
+================================
+> *sir Njabulo Jb* 
+`,
+       document: { url: downloadUrl },
+       mimetype: 'audio/mpeg',
+       contextInfo: {
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+          newsletterJid: '120363345407274799@newsletter',
+          newsletterName: "NJABULO JB",
+          serverMessageId: 143,
+          },
+          forwardingScore: 999, // Score to indicate it has been forwarded
+          externalAdReply: {
+            title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            body: "fast via",
+            thumbnailUrl: 'https://files.catbox.moe/cs7xfr.jpg', // Add thumbnail URL if required 
+            sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
+            mediaType: 1,
+            renderLargerThumbnail: true
+          },
+        },
+      },
+      {
+        audio: { url: downloadUrl },
+        mimetype: 'audio/mp4',
+        contextInfo: {
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+          newsletterJid: '120363345407274799@newsletter',
+          newsletterName: "NJABULO JB",
+          serverMessageId: 143,
+          },
+          forwardingScore: 999, // Score to indicate it has been forwarded
+          externalAdReply: {
+            title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+            body: "fast via",
+            thumbnailUrl: 'https://files.catbox.moe/95sweb.jpg', // Add thumbnail URL if required 
+            sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
+            mediaType: 1,
+            renderLargerThumbnail: true
+          },
+        },
+      }
+    ];
+
+    // Send the download link to the user for each payload
+    for (const messagePayload of messagePayloads) {
+      await zk.sendMessage(dest, messagePayload, { quoted: ms });
+    }
+
+  } catch (error) {
+    console.error('Error during download process:', error);
+    return repondre(`Download failed due to an error: ${error.message || error}`);
+  }
+});
