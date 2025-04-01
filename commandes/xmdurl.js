@@ -1,5 +1,5 @@
 const { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter');
-const { ezra } = require("../fredi/ezra");
+const { zokou } = require("../framework/zokou");
 const { downloadMediaMessage } = require('@whiskeysockets/baileys');
 const fs = require("fs-extra");
 const ffmpeg = require("fluent-ffmpeg");
@@ -37,7 +37,7 @@ async function convertToMp3(inputPath, outputPath) {
     });
 }
 
-ezra({ nomCom: "url", categorie: "General", reaction: "💗" }, async (origineMessage, zk, commandeOptions) => {
+zokou({ nomCom: "url", categorie: "General", reaction: "💗" }, async (origineMessage, zk, commandeOptions) => {
     const { msgRepondu, repondre } = commandeOptions;
 
     if (!msgRepondu) {
