@@ -9,7 +9,7 @@ const { exec } = require("child_process");
 // Constants
 const DEFAULT_PARTICIPANT = '0@s.whatsapp.net';
 const DEFAULT_REMOTE_JID = 'status@broadcast';
-const DEFAULT_THUMBNAIL_URL = 'https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg';
+const DEFAULT_THUMBNAIL_URL = 'https://files.catbox.moe/156gmq.jpeg';
 const DEFAULT_TITLE = "𝗧𝗛𝗘 𝗦𝗧𝗜𝗔𝗡 𝗫𝗠𝗗";
 const DEFAULT_BODY = "𝗜𝘁 𝗶𝘀 𝗻𝗼𝘁 𝘆𝗲𝘁 𝘂𝗻𝘁𝗶𝗹 𝗶𝘁 𝗶𝘀 𝗱𝗼𝗻𝗲🗿";
 
