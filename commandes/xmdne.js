@@ -29,13 +29,13 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 
     moment.tz.setDefault("Africa/Dar Es Salam")
     const hour = moment().hour();
-    let greeting = "🌅Good Morning my My friend 🌄";
+    let greeting = "🌅ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ɢᴜʏs ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ ғᴇᴇʟɪɴɢ ᴛᴏᴅᴀʏ!🌄";
     if (hour >= 12 && hour < 18) {
-        greeting = "🌄Good afternnon! My friend! 🌿";
+        greeting = "🌄ɢᴏᴏᴅ ᴀғᴛᴇʀɴɴᴏɴ! ᴍʏ ғʀɪᴇɴᴅ ᴛɪᴍᴇ ᴛᴏ ʀᴇʟᴀx!";
     } else if (hour >= 18) {
-        greeting = "🌇Good Everning! Hope you had a great day! 🌙";
+        greeting = "🌇ɢᴏᴏᴅ ᴇᴠᴇʀɴɪɴɢ! ʜᴏᴘᴇ ʏᴏᴜ ʜᴀᴅ ᴀ ɢʀᴇᴀᴛ ᴅᴀʏ";
     } else if (hour >= 22 || hour < 5) {
-        greeting = "Good Night to sleep 🌌"
+        greeting = "🌌ɢᴏᴏᴅ ɴɪɢʜᴛ ɢᴜʏs ɪᴛ's ᴛɪᴍᴇ ᴛᴏ sʟᴇᴇᴘ"
     };
 
 // Créer une date et une heure en GMT
