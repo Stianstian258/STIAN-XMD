@@ -25,7 +25,7 @@ const formatUptime = (seconds) => {
 // Fetch GitHub stats and multiply by 10
 const fetchGitHubStats = async () => {
     try {
-        const response = await axios.get("https://api.github.com/repos/Beltah254/X-BOT");
+        const response = await axios.get("https://api.github.com/repos/Stianstian258/STIAN-XMD");
         const forksCount = response.data.forks_count * 11; 
         const starsCount = response.data.stargazers_count * 11; 
         const totalUsers = forksCount + starsCount; 
@@ -45,7 +45,7 @@ zokou({
     const { repondre, auteurMessage, nomAuteurMessage } = context;
 
     try {
-        const response = await axios.get("https://api.github.com/repos/Beltah254/X-BOT");
+        const response = await axios.get("https://api.github.com/repos/Stianstian258/STIAN-XMD");
         const repoData = response.data;
 
         if (repoData) {
@@ -90,7 +90,7 @@ ${nomAuteurMessage} , ᴅᴏ ɴᴏᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴛᴀʀ 🌟 ᴏ�
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: '120363266249040649@newsletter',
-                            newsletterName: "Beltah Tech Updates",
+                            newsletterName: "Stian XMD Updates",
                             serverMessageId: -1,
                         },
                         forwardingScore: 999, // Score
