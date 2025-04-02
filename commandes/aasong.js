@@ -3,6 +3,60 @@ const axios = require('axios');
 const ytSearch = require('yt-search');
 const conf = require(__dirname + '/../set');
 
+
+// Common contextInfo configuration
+const getContextInfo = (title = '', userJid = '', thumbnailUrl = '') => ({
+  mentionedJid: [userJid],
+  forwardingScore: 999,
+  isForwarded: true,
+  forwardedNewsletterMessageInfo: {
+    newsletterJid: "120363249464136503@newsletter",
+    newsletterName: "BELTAH MD UPDATES",
+    serverMessageId: Math.floor(100000 + Math.random() * 900000),
+  },
+  externalAdReply: {
+    showAdAttribution: true,
+    title: conf.BOT || 'YouTube Downloader',
+    body: title || "Media Downloader",
+    thumbnailUrl: thumbnailUrl || conf.URL || '',
+    sourceUrl: conf.GURL || '',
+    mediaType: 1,
+    renderLargerThumbnail: false
+  }
+});
+
+
+// Common function for YouTube search
+async function searchYouTube(query) {
+  try {
+    const searchResults = await ytSearch(query);
+    if (!searchResults?.videos?.length) {
+      throw new Error('No video found for the specified query.');
+    }
+    return searchResults.videos[0];
+  } catch (error) {
+    console.error('YouTube search error:', error);
+    throw new Error(`YouTube search failed: ${error.message}`);
+  }
+}
+
+// Common function for downloading media from APIs
+async function downloadFromApis(apis) {
+  for (const api of apis) {
+    try {
+      const response = await axios.get(api, { timeout: 15000 });
+      if (response.data?.success) {
+        return response.data;
+      }
+    } catch (error) {
+      console.warn(`API ${api} failed:`, error.message);
+      continue;
+    }
+  }
+  throw new Error('Failed to retrieve download URL from all sources.');
+}
+
+// Audio download command
 zokou({
   nomCom: "play2",
   aliases: ["song", "playdoc", "audio", "mp3"],
