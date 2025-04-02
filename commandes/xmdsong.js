@@ -9,8 +9,8 @@ const getContextInfo = (title = '', userJid = '', thumbnailUrl = '') => ({
   forwardingScore: 999,
   isForwarded: true,
   forwardedNewsletterMessageInfo: {
-    newsletterJid: "120363249464136503@newsletter",
-    newsletterName: "BELTAH MD UPDATES",
+    newsletterJid: "120363345407274799@newsletter",
+    newsletterName: "NJABULO JB",
     serverMessageId: Math.floor(100000 + Math.random() * 900000),
   },
   externalAdReply: {
@@ -56,10 +56,10 @@ async function downloadFromApis(apis) {
 
 // Audio download command
 zokou({
-  nomCom: "play2",
+  nomCom: "play",
   aliases: ["song", "playdoc", "audio", "mp3"],
   categorie: "download",
-  reaction: "🎵"
+  reaction: "🎸"
 }, async (dest, zk, commandOptions) => {
   const { arg, ms, userJid } = commandOptions;
 
@@ -72,7 +72,7 @@ zokou({
     const video = await searchYouTube(query);
     
     await zk.sendMessage(dest, {
-      text: "⬇️ Downloading audio... This may take a moment...",
+      text: "⬇️ Njabulo Jb downloading audio This may take a moment...",
       contextInfo: getContextInfo("Downloading", userJid, video.thumbnail)
     }, { quoted: ms });
 
@@ -113,10 +113,10 @@ zokou({
 });
 
 zokou({
-  nomCom: "video2",
+  nomCom: "video",
   aliases: ["videodoc", "film", "mp4"],
   categorie: "download",
-  reaction: "🎥"
+  reaction: "🎬"
 }, async (dest, zk, commandOptions) => {
   const { arg, ms, userJid } = commandOptions;
 
@@ -129,7 +129,7 @@ zokou({
     const video = await searchYouTube(query);
     
     await zk.sendMessage(dest, {
-      text: "⬇️ Downloading video... This may take a moment...",
+      text: "⬇️ Njabulo Jb downloading video This may take a moment...",
       contextInfo: getContextInfo("Downloading", userJid, video.thumbnail)
     }, { quoted: ms });
 
