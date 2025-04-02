@@ -1,5 +1,3 @@
-const { exec } = require('child_process');
-
 const { zokou } = require("../farmworker/zokou")
 //const { getGroupe } = require("../data/groupe")
 const { Sticker, StickerTypes } = require('wa-sticker-formatter');
