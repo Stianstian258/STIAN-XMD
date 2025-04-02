@@ -7,9 +7,9 @@ const conf = require(__dirname + "/../set");
 
 
 zokou({
-  nomCom: 'apk1',
+  nomCom: 'apk',
   aliases: ['app', 'playstore'],
-  reaction: '🥷',
+  reaction: '☘️',
   categorie: 'Download'
 }, async (groupId, client, commandeOptions) => {
   const { repondre, arg, ms } = commandeOptions;
@@ -48,14 +48,20 @@ zokou({
       mimetype: "application/vnd.android.package-archive",
       caption: `Downloaded by ${conf.OWNER_NAME}`,
       contextInfo: {
-        externalAdReply: {
-          mediaUrl: thumb,
-          mediaType: 1,
-          thumbnailUrl: thumb,
-          title: "𝙶𝙰𝙶𝙰 𝙼𝙳 APK Download",
-          body: appDetails.BK9.name,
-          sourceUrl:  'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F' , // Using configured source URL
-          showAdAttribution: true
+         isForwarded: true,
+         forwardedNewsletterMessageInfo: {
+         newsletterJid: '120363345407274799@newsletter',
+         newsletterName: "NJABULO JB",
+         serverMessageId: 143,
+         },
+         forwardingScore: 999, // Score to indicate it has been forwarded
+         externalAdReply: {
+           title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+           body: "fast via",
+           thumbnailUrl: 'https://files.catbox.moe/cs7xfr.jpg', // Add thumbnail URL if required 
+           sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
+           mediaType: 1,
+           renderLargerThumbnail: true
         }
       }
     }, { quoted: ms });
@@ -111,13 +117,20 @@ zokou({
       mimetype: "application/zip",
       caption: `*Downloaded by ${conf.BOT}*`,
       contextInfo: {
-        externalAdReply: {
-          title: `${conf.BOT} GIT CLONE`,
-          body: "𝙶𝙰𝙶𝙰 𝙼𝙳",
-          thumbnailUrl: "https://files.catbox.moe/oznlsw.jpg" ,
-          sourceUrl:  'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F' ,
-          mediaType: 1,
-          showAdAttribution: true
+         isForwarded: true,
+         forwardedNewsletterMessageInfo: {
+         newsletterJid: '120363345407274799@newsletter',
+         newsletterName: "NJABULO JB",
+         serverMessageId: 143,
+         },
+         forwardingScore: 999, // Score to indicate it has been forwarded
+         externalAdReply: {
+           title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+           body: "fast via",
+           thumbnailUrl: 'https://files.catbox.moe/cs7xfr.jpg', // Add thumbnail URL if required 
+           sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
+           mediaType: 1,
+           renderLargerThumbnail: true
         }
       }
     }, { quoted: ms });
