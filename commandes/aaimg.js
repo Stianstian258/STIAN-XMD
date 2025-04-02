@@ -1,10 +1,10 @@
-const { zokou } = require('../frew/keith');
+const { zokou } = require('../framework/zokou');
 const gis = require('g-i-s');
 const axios = require('axios');
 const conf = require(__dirname + '/../set');
 
 zokou({
-  nomCom: "img",
+  nomCom: "img1",
   aliases: ["image", "images"],
   categorie: "Images",
   reaction: "📷"
@@ -57,7 +57,7 @@ zokou({
 });
 
 zokou({
-  nomCom: 'messi',
+  nomCom: 'messi1',
   categorie: 'images',
   reaction: '😋'
 }, async (dest, zk, context) => {
@@ -101,7 +101,7 @@ zokou({
   }
 });
 zokou({
-  nomCom: "waifu",
+  nomCom: "waifu1",
   categorie: "images",
   reaction: "🙄"
 }, async (origineMessage, zk, commandeOptions) => {
@@ -140,7 +140,7 @@ zokou({
   }
 });
 zokou({
-  nomCom: "trap",
+  nomCom: "trap1",
   categorie: "images",
   reaction: "🙄"
 }, async (origineMessage, zk, commandeOptions) => {
@@ -179,7 +179,7 @@ zokou({
   }
 });
 zokou({
-  nomCom: "hneko",
+  nomCom: "hneko1",
   categorie: "images",
   reaction: "🙄"
 }, async (origineMessage, zk, commandeOptions) => {
@@ -218,7 +218,7 @@ zokou({
   }
 });
 zokou({
-  nomCom: "blowjob",
+  nomCom: "blowjob1",
   categorie: "images",
   reaction: "🙄"
 }, async (origineMessage, zk, commandeOptions) => {
