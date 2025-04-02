@@ -82,7 +82,7 @@ zokou({ nomCom: "one", categorie: "Menu" }, async (dest, zk, commandeOptions) =>
              forwardingScore: 999, // Score to indicate it has been forwarded
              externalAdReply: {
               title: "",
-              body: pushname,
+              body: "",
               thumbnailUrl: 'https://files.catbox.moe/ipy7l3.jpg', // Add thumbnail URL if required 
               sourceUrl: 'https://files.catbox.moe/ipy7l3.jpg', // Source URL
               mediaType: 1,
