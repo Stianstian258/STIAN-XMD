@@ -87,9 +87,9 @@ adams(
         contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363317462952356@newsletter',
-            newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
-            serverMessageId: 143,
+          newsletterJid: '120363317462952356@newsletter',
+          newsletterName: "NJABULO JB",
+          serverMessageId: 143,
           },
           externalAdReply,
         },
@@ -162,10 +162,10 @@ adams(
         mimetype: "audio/mpeg",
         ptt: true,
         contextInfo: {
-         isForwarded: true,
+          isForwarded: true,
           forwardedNewsletterMessageInfo: {
           newsletterJid: '120363317462952356@newsletter',
-          newsletterName: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+          newsletterName: "NJABULO JB",
           serverMessageId: 143,
           },
           externalAdReply,
