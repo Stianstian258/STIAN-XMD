@@ -3,7 +3,6 @@ const axios = require('axios');
 const ytSearch = require('yt-search');
 const conf = require(__dirname + '/../set');
 
-
 // Common contextInfo configuration
 const getContextInfo = (title = '', userJid = '', thumbnailUrl = '') => ({
   mentionedJid: [userJid],
@@ -24,7 +23,6 @@ const getContextInfo = (title = '', userJid = '', thumbnailUrl = '') => ({
     renderLargerThumbnail: false
   }
 });
-
 
 // Common function for YouTube search
 async function searchYouTube(query) {
