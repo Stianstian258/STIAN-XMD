@@ -299,7 +299,7 @@ let menuMsg = `
           externalAdReply: {
             title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ",
             body: "fast via",
-            thumbnailUrl: 'https://files.catbox.moe/95sweb.jpg', // Add thumbnail URL if required
+            thumbnailUrl: 'https://files.catbox.moe/ipy7l3.jpg', // Add thumbnail URL if required
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
             mediaType: 1,
             renderLargerThumbnail: true
