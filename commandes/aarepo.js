@@ -37,9 +37,9 @@ const fetchGitHubStats = async () => {
 };
 
 zokou({
-    nomCom: "repo1",
+    nomCom: "repo",
     aliases: ["script", "sc"],
-    reaction: '🥷',
+    reaction: '💗',
     nomFichier: __filename
 }, async (command, reply, context) => {
     const { repondre, auteurMessage, nomAuteurMessage } = context;
@@ -75,21 +75,25 @@ zokou({
 ║ ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ : ${releaseDate}
 ║ ʀᴇᴘᴏ ʟɪɴᴋ:  github.com/
 *╰───────────────━⊷*
-
-_________________________________
-> ᴛʜᴀɴᴋs ғᴏʀ ᴄʜᴏᴏsɪɴɢ ɢᴀɢᴀ ᴍᴅ`;
+`;
 
             await reply.sendMessage(command, {
                 text: message,
-                contextInfo: {
-                    mentionedJid: [auteurMessage],
-                    externalAdReply: {
-                        title: "GAGA MD",
-                        body: "Star 🌟 and fork repo to deploy" ,
-                        thumbnailUrl: "https://files.catbox.moe/oznlsw.jpg",
-                        sourceUrl: 'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F' , // Fixed typo from 'cof.GURL' to 'conf.GURL'
-                        mediaType: 1,
-                        renderLargerThumbnail: true
+         contextInfo: {
+         isForwarded: true,
+         forwardedNewsletterMessageInfo: {
+         newsletterJid: '120363345407274799@newsletter',
+         newsletterName: "NJABULO JB",
+         serverMessageId: 143,
+         },
+         forwardingScore: 999, // Score to indicate it has been forwarded
+         externalAdReply: {
+           title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+           body: "fast via",
+           thumbnailUrl: 'https://files.catbox.moe/cs7xfr.jpg', // Add thumbnail URL if required 
+           sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
+           mediaType: 1,
+           renderLargerThumbnail: true
                     }
                 }
             });
@@ -106,7 +110,7 @@ _________________________________
     zokou({
     nomCom: "sc",
     aliases: ["script", "sc"],
-    reaction: '🥷',
+    reaction: '💗',
     nomFichier: __filename
 }, async (command, reply, context) => {
     const { repondre, auteurMessage, nomAuteurMessage } = context;
@@ -148,15 +152,21 @@ _________________________________
 
             await reply.sendMessage(command, {
                 text: message,
-                contextInfo: {
-                    mentionedJid: [auteurMessage],
-                    externalAdReply: {
-                        title: "𝙶𝙰𝙶𝙰 𝙼𝙳",
-                        body: "Star 🌟 and fork repo to deploy" ,
-                        thumbnailUrl: "https://files.catbox.moe/oznlsw.jpg",
-                        sourceUrl: 'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F' , // Fixed typo from 'cof.GURL' to 'conf.GURL'
-                        mediaType: 1,
-                        renderLargerThumbnail: true
+         contextInfo: {
+         isForwarded: true,
+         forwardedNewsletterMessageInfo: {
+         newsletterJid: '120363345407274799@newsletter',
+         newsletterName: "NJABULO JB",
+         serverMessageId: 143,
+         },
+         forwardingScore: 999, // Score to indicate it has been forwarded
+         externalAdReply: {
+           title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+           body: "fast via",
+           thumbnailUrl: 'https://files.catbox.moe/cs7xfr.jpg', // Add thumbnail URL if required 
+           sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
+           mediaType: 1,
+           renderLargerThumbnail: true
                     }
                 }
             });
@@ -174,7 +184,7 @@ _________________________________
 zokou({
     nomCom: "script",
     aliases: ["script", "sc"],
-    reaction: '🥷',
+    reaction: '☘️',
     nomFichier: __filename
 }, async (command, reply, context) => {
     const { repondre, auteurMessage, nomAuteurMessage } = context;
@@ -215,15 +225,21 @@ _________________________________
 
             await reply.sendMessage(command, {
                 text: message,
-                contextInfo: {
-                    mentionedJid: [auteurMessage],
-                    externalAdReply: {
-                        title: "𝙶𝙰𝙶𝙰 𝙼𝙳",
-                        body: "Star 🌟 and fork repo to deploy",
-                        thumbnailUrl: "https://files.catbox.moe/oznlsw.jpg",
-                        sourceUrl: 'https://whatsapp.com/channel/0029VasnifMFi8xW4Mqysn2F' , // Fixed typo from 'cof.GURL' to 'conf.GURL'
-                        mediaType: 1,
-                        renderLargerThumbnail: true
+         contextInfo: {
+         isForwarded: true,
+         forwardedNewsletterMessageInfo: {
+         newsletterJid: '120363345407274799@newsletter',
+         newsletterName: "NJABULO JB",
+         serverMessageId: 143,
+         },
+         forwardingScore: 999, // Score to indicate it has been forwarded
+         externalAdReply: {
+           title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ σғғɪᴄᴇ",
+           body: "fast via",
+           thumbnailUrl: 'https://files.catbox.moe/cs7xfr.jpg', // Add thumbnail URL if required 
+           sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
+           mediaType: 1,
+           renderLargerThumbnail: true
                     }
                 }
             });
