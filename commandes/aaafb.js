@@ -2,83 +2,10 @@
 const { zokou } = require('../farmworker/zokou');
 const axios = require('axios');
 const fs = require('fs-extra');
-const { igdl } = require("ruhend-scraper");
 const getFBInfo = require("@xaviabot/fb-downloader");
 const { downloadTiktok } = require('@mrnima/tiktok-downloader');
 const { facebook } = require('@mrnima/facebook-downloader');  
 const conf = require(__dirname + "/../set");
-
-zokou({
-  nomCom: "instagram",
-  aliases: ["igdl", "ig", "insta"],
-  categorie: "Download",
-  reaction: "📽️"
-}, async (dest, zk, commandeOptions) => {
-  const { repondre, ms, arg } = commandeOptions;
-
-  // Check if the argument (Instagram link) is provided
-  if (!arg[0]) {
-    return repondre('Please provide a valid public Instagram video link!');
-  }
-
-  // Validate the Instagram URL format
-  if (!arg[0].includes('https://www.instagram.com/')) {
-    return repondre("That is not a valid Instagram link.");
-  }
-
-  try {
-    // Fetch the download data for the Instagram video
-    let downloadData = await igdl(arg[0]);
-
-    // Check if the data returned is valid
-    if (!downloadData || !downloadData.data || downloadData.data.length === 0) {
-      return repondre("No video found at the provided Instagram link.");
-    }
-
-    let videoData = downloadData.data;
-
-    // Process the first 20 videos (if available)
-    for (let i = 0; i < Math.min(20, videoData.length); i++) {
-      let video = videoData[i];
-
-      // Ensure the video object and URL are defined
-      if (!video || !video.url) {
-        continue; // Skip if the video data is incomplete
-      }
-
-      let videoUrl = video.url;
-
-      // Send the video to the chat
-      await zk.sendMessage(dest, {
-        video: { url: videoUrl },
-        mimetype: "video/mp4",
-        caption: `*Instagram Video Downloaded by ${conf.BOT}*`,
-        contextInfo: {
-         isForwarded: true,
-         forwardedNewsletterMessageInfo: {
-         newsletterJid: '120363345407274799@newsletter',
-         newsletterName: "NJABULO JB",
-         serverMessageId: 143,
-         },
-         forwardingScore: 999, // Score to indicate it has been forwarded
-         externalAdReply: {
-           title: `${conf.BOT} IG DL`,
-           body: "fast via",
-           thumbnailUrl: 'https://files.catbox.moe/cs7xfr.jpg', // Add thumbnail URL if required 
-           sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
-           mediaType: 1,
-           renderLargerThumbnail: true
-          }
-        }
-      }, { quoted: ms });
-    }
-
-  } catch (error) {
-    // Catch and log any errors
-    console.error(error);
-    return repondre("An error occurred while processing the request.Try igdl2 using this link.");
-  }
-});
 
 zokou({
   nomCom: "facebook2",
