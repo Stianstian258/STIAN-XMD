@@ -7,7 +7,7 @@ const moment = require("moment-timezone");
 const set = require(__dirname + "/../set");
 
 const AUDIO_URL = "https://files.catbox.moe/e52xx6.mp3"; // New audio URL
-const THUMBNAIL_URL = "https://files.catbox.moe/533oqh.jpg"; // New image URL
+const THUMBNAIL_URL = "https://files.catbox.moe/omgszj.jpg"; // New image URL
 
 moment.tz.setDefault(`${set.TZ}`);
 
@@ -19,7 +19,7 @@ const getTimeAndDate = () => {
 };
 
 // Ping Command
-zokou({ nomCom: "lp", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "ping", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms } = commandeOptions;
     const { time, date } = getTimeAndDate();
     const ping = Math.floor(Math.random() * 100) + 1; // Generate a random ping between 1ms - 100ms
@@ -38,8 +38,8 @@ zokou({ nomCom: "lp", categorie: "General" }, async (dest, zk, commandeOptions) 
                    },
                    forwardingScore: 999, // Score to indicate it has been forwarded
                    externalAdReply: {
-                    title: "🤖 DULLAH-XMD 🤖",
-                    body: `🏓 *Pong:* ${ping}ms\n📅 *Date:* ${date}\n⏰ *Time:* ${time}`,
+                    title: "🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋",
+                    body: `↪️ 𝘁𝗶𝗺𝗲 𝗽𝗶𝗻𝗴: ${ping}ms\n📅 *Date:* ${date}\n⏰ *Time:* ${time}`,
                     thumbnailUrl: THUMBNAIL_URL,
                     mediaType: 1,
                     renderSmallThumbnail: true // Small thumbnail rendering
