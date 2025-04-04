@@ -8,6 +8,9 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const Taphere = more.repeat(4001)
 
+const AUDIO_URL = "https://files.catbox.moe/o6d4l7.mp3"; // New audio URL
+const THUMBNAIL_URL = "https://files.catbox.moe/omgszj.jpg"; // New image URL
+
 zokou({ nomCom: "two", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
@@ -100,7 +103,7 @@ let menuMsg = `
    try {
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
         await zk.sendMessage(dest, {
-        image: settings.GURL,
+        image: { url: mediaUrl },
         caption: infoMsg,
         footer: "ᴍᴀᴅᴇ ʙʏ ɴᴊᴀʙᴜʟᴏ ᴊʙ",
         contextInfo: {
