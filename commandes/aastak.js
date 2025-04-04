@@ -63,7 +63,6 @@ zokou({
          },
          forwardingScore: 999, // Score to indicate it has been forwarded
          externalAdReply: {
-           showAdAttribution: true,
            title: "🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋",
            body: "message on",
            thumbnailUrl: 'https://files.catbox.moe/7cce9r.jpg', // Add thumbnail URL if required 
@@ -136,7 +135,6 @@ keith({
          },
          forwardingScore: 999, // Score to indicate it has been forwarded
          externalAdReply: {
-           showAdAttribution: true,
            title: "🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋",
            body: "message on",
            thumbnailUrl: 'https://files.catbox.moe/7cce9r.jpg', // Add thumbnail URL if required 
