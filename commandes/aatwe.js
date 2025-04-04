@@ -100,14 +100,14 @@ let menuMsg = `
    try {
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
         await zk.sendMessage(dest, {
-        image: { url: thumb },
-        caption: captions,
-            contextInfo: {
+        image: { url: mediaUrl },
+        caption: infoMsg,
+        contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363345407274799@newsletter',
-            newsletterName: "NJABULO JB",
-            serverMessageId: -1,
+          newsletterJid: '120363345407274799@newsletter',
+          newsletterName: "NJABULO JB",
+          serverMessageId: -1,
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
