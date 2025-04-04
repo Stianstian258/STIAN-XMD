@@ -100,8 +100,9 @@ let menuMsg = `
    try {
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
         await zk.sendMessage(dest, {
-        image: { url: mediaUrl },
+        image: settings.GURL,
         caption: infoMsg,
+        footer: "ᴍᴀᴅᴇ ʙʏ ɴᴊᴀʙᴜʟᴏ ᴊʙ",
         contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
