@@ -294,8 +294,8 @@ let menuMsg = `
           },
           forwardingScore: 999, // Score to indicate it has been forwarded
           externalAdReply: {
-            title: "ɳᴊᴀʙᴜʟᴏ ᴊʙ",
-            body: "fast via",
+            title: "🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋",
+            body: "message on",
             thumbnailUrl: 'https://files.catbox.moe/ipy7l3.jpg', // Add thumbnail URL if required
             sourceUrl: 'https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T', // Add source URL if necessary
             mediaType: 1,
@@ -310,11 +310,8 @@ let menuMsg = `
 
     // List of audio URLs
     const audioUrls = [
-        "https://files.catbox.moe/wsyxi0.mp3",
-        "https://files.catbox.moe/w2k8g2.mp3",
-        "https://files.catbox.moe/cpjbnl.mp3",
-        "https://files.catbox.moe/y6fph9.mp3",
-        "https://files.catbox.moe/moctzu.mp3" // New song added
+        "https://files.catbox.moe/u1z33v.mp3",
+        "https://files.catbox.moe/bnwncw.mp3" // New song added
     ];
 
     // Select a random audio file
