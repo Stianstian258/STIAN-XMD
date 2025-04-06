@@ -70,7 +70,7 @@ zokou({
        *╰───────────────━⊷*
 *╭───────────────━⊷*
 *┋  ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ : ${releaseDate}*
-*┋  ʀᴇᴘᴏ ʟɪɴᴋ:github.com/NjabuloJ/Njabulo-Jb
+*┋  ʀᴇᴘᴏ* :github.com/NjabuloJ/Njabulo-Jb
 *╰───────────────━⊷*
 `;
 
@@ -113,7 +113,7 @@ zokou({
     const randomAudioUrl = audioUrls[Math.floor(Math.random() * audioUrls.length)];
 
     try {
-        await zk.sendMessage(dest, {
+        await.sendMessage(dest, {
             audio: { url: randomAudioUrl },
             mimetype: 'audio/mpeg',
             ptt: true, // Send as a voice note
