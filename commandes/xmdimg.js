@@ -1,1 +1,252 @@
-function _0x8da1(_0x5b4ae1,_0x3bb599){const _0x470f57=_0x2865();return _0x8da1=function(_0x4eb2d2,_0x2c7e1b){_0x4eb2d2=_0x4eb2d2-(0x1b8b+-0x1214+-0x145*0x6);let _0x3daed2=_0x470f57[_0x4eb2d2];return _0x3daed2;},_0x8da1(_0x5b4ae1,_0x3bb599);}const _0x4aad8d=_0x8da1;function _0x2865(){const _0x240067=['deDXy','PPfEd','LJHiH','qOEUP','ewsletter','eEdgS','YMQYe','2812960BbxVCo','kJmyH','*Downloade','les.catbox','r.jpg','dcVtH','messi','found.','BOT','cs/nsfw/wa','rnoLt','../framewo','https://ap','random','NKlbv','oQnbU','2/api/Guru','Riffd','image','knInE','.moe/cs7xf','join','message','HZFsY','lmNcG','glJkH','njtTO','he\x20respons','HDZke','No\x20images\x20','qtNin','error','404JAXtaK','get','07274799@n','isArray','fast\x20via','\x20σғғɪᴄᴇ','tEHBG','10893890WOXxzc','12496253HUukkd','https://fi','hweIX','/channel/0','pxPHz','found\x20in\x20t','https://ra','bNHFn','g-i-s','a:\x20','djzsE','zyCIc','KhaEu','btWfv','nHQvc','owjob','IrMjV','IosUB','SuGxD','XLSPU','blowjob','Messi.json','length','IdvXf','url','GzBzb','lHYfm','ogGnJ','rred\x20while','zFpNW','joZyj','RtmiA','xEffa','AInPtfQ8fR','Error\x20occu','Images','WnNFj','GyslI','14451qVSLBa','com/Guru32','eAFUX','waifu','KiMiv','PxexQ','ɳᴊᴀʙᴜʟᴏ\x20ᴊʙ','images','mJSMr','pmzem','NJABULO\x20JB','EBjfr','HRITA','dVPLh','Error\x20retr','maVaz','red.','sendMessag','img','smLQv','oCFCo','data','ifu','min','SkMDy','zhyAx','g\x20data:\x20','/../set','ieving\x20dat','ZXfIB','DyCTG','Oops,\x20an\x20e','DVUEP','FojtB','axios','lCqEr','mfMwm','KLMnl','wReaz','sDJes','OXscP','rk/zokou','4428510cIdFKq','https://wh','trap','rRbyB','nfmtX','029VarYP5i','d\x20by\x20','atsapp.com','94568STrGZj','neko','cs/nsfw/tr','floor','b2T','w.githubus','NidrI','ercontent.','HgmGh','8CWSZaw','3IuOmps','/BOT-JSON/','DTZMz','i.waifu.pi','g\x20data:','6265629QxEeVR','vCRFX','Which\x20imag','rror\x20occur','\x20retrievin','ZACHi','ZWCKM','cs/nsfw/ne','1203633454','cs/nsfw/bl'];_0x2865=function(){return _0x240067;};return _0x2865();}(function(_0xd38c4a,_0xe82e08){const _0x5640b5=_0x8da1,_0x1d0011=_0xd38c4a();while(!![]){try{const _0x937529=parseInt(_0x5640b5(0x231))/(0x6d3*-0x3+-0x1973+-0x2ded*-0x1)*(parseInt(_0x5640b5(0x227))/(-0x151d+0x45*-0x65+-0x3b8*-0xd))+parseInt(_0x5640b5(0x1f5))/(-0x1*-0xf1+-0x13*0x105+-0x1*-0x1271)*(-parseInt(_0x5640b5(0x267))/(-0x1c12*-0x1+0x1*-0x19ca+-0x244))+parseInt(_0x5640b5(0x247))/(0x2705+0x2*-0x62b+0x1aaa*-0x1)+parseInt(_0x5640b5(0x21f))/(0x3*0x86f+-0x165+-0x17e2)+parseInt(_0x5640b5(0x26f))/(-0x17b7+-0x15d6+-0x16ca*-0x2)+parseInt(_0x5640b5(0x230))/(0x2*0xd1b+-0x1b58*0x1+-0x2*-0x95)*(-parseInt(_0x5640b5(0x236))/(-0x3*0x44f+-0x7cc+-0xa61*-0x2))+-parseInt(_0x5640b5(0x26e))/(-0x1a9f+0x1154+0x955);if(_0x937529===_0xe82e08)break;else _0x1d0011['push'](_0x1d0011['shift']());}catch(_0x29c8ae){_0x1d0011['push'](_0x1d0011['shift']());}}}(_0x2865,0x1c74da+0x56*-0x845+0x1*-0xb18c7));const {zokou}=require(_0x4aad8d(0x252)+_0x4aad8d(0x21e)),gis=require(_0x4aad8d(0x277)),axios=require(_0x4aad8d(0x217)),conf=require(__dirname+_0x4aad8d(0x210));zokou({'nomCom':_0x4aad8d(0x207),'aliases':[_0x4aad8d(0x259),_0x4aad8d(0x1fc)],'categorie':_0x4aad8d(0x1f2),'reaction':'☘️'},async(_0x51d001,_0x5c0c72,_0x14b8a1)=>{const _0x6844f2=_0x4aad8d,_0x50fb42={'vCRFX':function(_0x76e190,_0x268750){return _0x76e190(_0x268750);},'ZWCKM':_0x6844f2(0x214)+_0x6844f2(0x239)+_0x6844f2(0x205),'btWfv':function(_0x53ae30,_0xdaafa){return _0x53ae30===_0xdaafa;},'DVUEP':_0x6844f2(0x264)+_0x6844f2(0x24e),'WnNFj':function(_0x562e77,_0x5307e7){return _0x562e77<_0x5307e7;},'wReaz':_0x6844f2(0x23e)+_0x6844f2(0x269)+_0x6844f2(0x244),'nHQvc':_0x6844f2(0x1ff),'EBjfr':_0x6844f2(0x1fb)+_0x6844f2(0x26c),'IosUB':_0x6844f2(0x26b),'NidrI':_0x6844f2(0x270)+_0x6844f2(0x24a)+_0x6844f2(0x25b)+_0x6844f2(0x24b),'maVaz':_0x6844f2(0x220)+_0x6844f2(0x226)+_0x6844f2(0x272)+_0x6844f2(0x224)+_0x6844f2(0x1f0)+_0x6844f2(0x22b),'eAFUX':function(_0x4fc0e0,_0x152247){return _0x4fc0e0(_0x152247);},'knInE':_0x6844f2(0x238)+'e?','SkMDy':function(_0x1f0dc1,_0xcd327a,_0x4f8914){return _0x1f0dc1(_0xcd327a,_0x4f8914);}},{repondre:_0x4098de,ms:_0x2cf221,arg:_0x48be6f}=_0x14b8a1;if(!_0x48be6f[0x265*0x9+0x1e9d+0xb*-0x4be]){_0x50fb42[_0x6844f2(0x1f7)](_0x4098de,_0x50fb42[_0x6844f2(0x25a)]);return;}const _0x301c57=_0x48be6f[_0x6844f2(0x25c)]('\x20');_0x50fb42[_0x6844f2(0x20d)](gis,_0x301c57,(_0x38039f,_0x3e9c76)=>_0x1ee1ef(_0x38039f,_0x3e9c76));function _0x1ee1ef(_0x1bd7c6,_0x127963){const _0x384e0a=_0x6844f2;if(_0x1bd7c6){_0x50fb42[_0x384e0a(0x237)](_0x4098de,_0x50fb42[_0x384e0a(0x23c)]);return;}if(!_0x127963||_0x50fb42[_0x384e0a(0x1dc)](_0x127963[_0x384e0a(0x1e5)],-0x2ba*0xb+-0xde6+0x2be4)){_0x50fb42[_0x384e0a(0x237)](_0x4098de,_0x50fb42[_0x384e0a(0x215)]);return;}for(let _0x2ea96d=0xc58*-0x2+-0xb41+-0x1*-0x23f1;_0x50fb42[_0x384e0a(0x1f3)](_0x2ea96d,Math[_0x384e0a(0x20c)](_0x127963[_0x384e0a(0x1e5)],-0x1ef4+-0xaae*-0x3+-0x15*0xd));_0x2ea96d++){_0x5c0c72[_0x384e0a(0x206)+'e'](_0x51d001,{'image':{'url':_0x127963[_0x2ea96d][_0x384e0a(0x1e7)]},'caption':_0x384e0a(0x249)+_0x384e0a(0x225)+conf[_0x384e0a(0x24f)]+'*','contextInfo':{'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x50fb42[_0x384e0a(0x21b)],'newsletterName':_0x50fb42[_0x384e0a(0x1dd)],'serverMessageId':0x8f},'forwardingScore':0x3e7,'externalAdReply':{'title':_0x50fb42[_0x384e0a(0x200)],'body':_0x50fb42[_0x384e0a(0x1e0)],'thumbnailUrl':_0x50fb42[_0x384e0a(0x22d)],'sourceUrl':_0x50fb42[_0x384e0a(0x204)],'mediaType':0x1,'renderLargerThumbnail':!![]}}},{'quoted':_0x2cf221});}}}),zokou({'nomCom':_0x4aad8d(0x24d),'categorie':_0x4aad8d(0x1fc),'reaction':'💗'},async(_0x5f22dc,_0x3e09c7,_0x34e3a3)=>{const _0x34bb79=_0x4aad8d,_0x1bbf8a={'HRITA':_0x34bb79(0x275)+_0x34bb79(0x22c)+_0x34bb79(0x22e)+_0x34bb79(0x1f6)+_0x34bb79(0x257)+_0x34bb79(0x232)+_0x34bb79(0x1e4),'pxPHz':function(_0x560bfc,_0xfccd69){return _0x560bfc===_0xfccd69;},'NKlbv':_0x34bb79(0x264)+_0x34bb79(0x274)+_0x34bb79(0x262)+'e.','HZFsY':function(_0x594d89,_0x14f175){return _0x594d89<_0x14f175;},'smLQv':function(_0x5d4ae6,_0x49ab54){return _0x5d4ae6*_0x49ab54;},'SuGxD':_0x34bb79(0x23e)+_0x34bb79(0x269)+_0x34bb79(0x244),'rRbyB':_0x34bb79(0x1ff),'mJSMr':_0x34bb79(0x1fb)+_0x34bb79(0x26c),'lmNcG':_0x34bb79(0x26b),'qtNin':_0x34bb79(0x270)+_0x34bb79(0x24a)+_0x34bb79(0x25b)+_0x34bb79(0x24b),'HgmGh':_0x34bb79(0x220)+_0x34bb79(0x226)+_0x34bb79(0x272)+_0x34bb79(0x224)+_0x34bb79(0x1f0)+_0x34bb79(0x22b),'lCqEr':_0x34bb79(0x1f1)+_0x34bb79(0x1eb)+_0x34bb79(0x23a)+_0x34bb79(0x235),'lHYfm':function(_0x3eeb58,_0xab3bca){return _0x3eeb58(_0xab3bca);},'HDZke':function(_0x325b1a,_0x1ef5c3){return _0x325b1a+_0x1ef5c3;},'hweIX':_0x34bb79(0x1f1)+_0x34bb79(0x1eb)+_0x34bb79(0x23a)+_0x34bb79(0x20f)},{repondre:_0x8d0601,ms:_0x2bbd50}=_0x34e3a3;try{const _0x58a852=await axios[_0x34bb79(0x268)](_0x1bbf8a[_0x34bb79(0x201)]),_0x15f3a8=_0x58a852[_0x34bb79(0x20a)];if(!Array[_0x34bb79(0x26a)](_0x15f3a8)||_0x1bbf8a[_0x34bb79(0x273)](_0x15f3a8[_0x34bb79(0x1e5)],-0x717*-0x4+-0xb9*0x1+-0x1ba3))throw new Error(_0x1bbf8a[_0x34bb79(0x255)]);for(let _0x3788a0=-0xf3b+0x7bc*-0x1+0x16f7;_0x1bbf8a[_0x34bb79(0x25e)](_0x3788a0,-0x2*-0x1362+0xa39*0x2+-0x3*0x13bb);_0x3788a0++){const _0x247ac9=Math[_0x34bb79(0x22a)](_0x1bbf8a[_0x34bb79(0x208)](Math[_0x34bb79(0x254)](),_0x15f3a8[_0x34bb79(0x1e5)])),_0x3662d0=_0x15f3a8[_0x247ac9];await _0x3e09c7[_0x34bb79(0x206)+'e'](_0x5f22dc,{'image':{'url':_0x3662d0},'caption':_0x34bb79(0x249)+_0x34bb79(0x225)+conf[_0x34bb79(0x24f)]+'*','contextInfo':{'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x1bbf8a[_0x34bb79(0x1e1)],'newsletterName':_0x1bbf8a[_0x34bb79(0x222)],'serverMessageId':0x8f},'forwardingScore':0x3e7,'externalAdReply':{'title':_0x1bbf8a[_0x34bb79(0x1fd)],'body':_0x1bbf8a[_0x34bb79(0x25f)],'thumbnailUrl':_0x1bbf8a[_0x34bb79(0x265)],'sourceUrl':_0x1bbf8a[_0x34bb79(0x22f)],'mediaType':0x1,'renderLargerThumbnail':!![]}}},{'quoted':_0x2bbd50});}}catch(_0x386e05){console[_0x34bb79(0x266)](_0x1bbf8a[_0x34bb79(0x218)],_0x386e05),_0x1bbf8a[_0x34bb79(0x1e9)](_0x8d0601,_0x1bbf8a[_0x34bb79(0x263)](_0x1bbf8a[_0x34bb79(0x271)],_0x386e05[_0x34bb79(0x25d)]));}}),zokou({'nomCom':_0x4aad8d(0x1f8),'categorie':_0x4aad8d(0x1fc),'reaction':'💗'},async(_0xd64ad,_0x330e9f,_0x5c37a1)=>{const _0x745097=_0x4aad8d,_0x4df5bc={'RtmiA':_0x745097(0x253)+_0x745097(0x234)+_0x745097(0x250)+_0x745097(0x20b),'oCFCo':function(_0x2b310b,_0x3e07a9){return _0x2b310b<_0x3e07a9;},'XLSPU':_0x745097(0x23e)+_0x745097(0x269)+_0x745097(0x244),'sDJes':_0x745097(0x1ff),'mfMwm':_0x745097(0x1fb)+_0x745097(0x26c),'KiMiv':_0x745097(0x26b),'FojtB':_0x745097(0x270)+_0x745097(0x24a)+_0x745097(0x25b)+_0x745097(0x24b),'xEffa':_0x745097(0x220)+_0x745097(0x226)+_0x745097(0x272)+_0x745097(0x224)+_0x745097(0x1f0)+_0x745097(0x22b),'dVPLh':function(_0x3636ef,_0xcb4a85){return _0x3636ef(_0xcb4a85);},'KhaEu':function(_0x2722b1,_0x1d6cec){return _0x2722b1+_0x1d6cec;},'tEHBG':_0x745097(0x203)+_0x745097(0x211)+_0x745097(0x278)},{repondre:_0x57b373,ms:_0x5bea26}=_0x5c37a1,_0x33826b=_0x4df5bc[_0x745097(0x1ee)];try{for(let _0x23734b=0x14ca*0x1+0x1e55+-0x331f*0x1;_0x4df5bc[_0x745097(0x209)](_0x23734b,-0x1*0x1237+0xedc+0x1b*0x20);_0x23734b++){const _0x121065=await axios[_0x745097(0x268)](_0x33826b),_0x2d6d3f=_0x121065[_0x745097(0x20a)][_0x745097(0x1e7)];await _0x330e9f[_0x745097(0x206)+'e'](_0xd64ad,{'image':{'url':_0x2d6d3f},'caption':_0x745097(0x249)+_0x745097(0x225)+conf[_0x745097(0x24f)]+'*','contextInfo':{'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x4df5bc[_0x745097(0x1e2)],'newsletterName':_0x4df5bc[_0x745097(0x21c)],'serverMessageId':0x8f},'forwardingScore':0x3e7,'externalAdReply':{'title':_0x4df5bc[_0x745097(0x219)],'body':_0x4df5bc[_0x745097(0x1f9)],'thumbnailUrl':_0x4df5bc[_0x745097(0x216)],'sourceUrl':_0x4df5bc[_0x745097(0x1ef)],'mediaType':0x1,'renderLargerThumbnail':!![]}}},{'quoted':_0x5bea26});}}catch(_0x183482){_0x4df5bc[_0x745097(0x202)](_0x57b373,_0x4df5bc[_0x745097(0x1db)](_0x4df5bc[_0x745097(0x26d)],_0x183482[_0x745097(0x25d)]));}}),zokou({'nomCom':_0x4aad8d(0x221),'categorie':_0x4aad8d(0x1fc),'reaction':'💗'},async(_0x26333b,_0xb7a0f1,_0x3b8e92)=>{const _0x37addb=_0x4aad8d,_0x422362={'deDXy':_0x37addb(0x253)+_0x37addb(0x234)+_0x37addb(0x229)+'ap','dcVtH':function(_0x143e7b,_0xcbe343){return _0x143e7b<_0xcbe343;},'DTZMz':_0x37addb(0x23e)+_0x37addb(0x269)+_0x37addb(0x244),'zFpNW':_0x37addb(0x1ff),'PxexQ':_0x37addb(0x1fb)+_0x37addb(0x26c),'ogGnJ':_0x37addb(0x26b),'djzsE':_0x37addb(0x270)+_0x37addb(0x24a)+_0x37addb(0x25b)+_0x37addb(0x24b),'ZACHi':_0x37addb(0x220)+_0x37addb(0x226)+_0x37addb(0x272)+_0x37addb(0x224)+_0x37addb(0x1f0)+_0x37addb(0x22b),'LJHiH':function(_0x4975f5,_0x4e7225){return _0x4975f5(_0x4e7225);},'njtTO':function(_0x2885cd,_0x4fc1ce){return _0x2885cd+_0x4fc1ce;},'OXscP':_0x37addb(0x203)+_0x37addb(0x211)+_0x37addb(0x278)},{repondre:_0x1e3d8c,ms:_0x3c3902}=_0x3b8e92,_0x4c7cab=_0x422362[_0x37addb(0x240)];try{for(let _0x1ead67=0x1f22+0x20d5+-0x3ff7;_0x422362[_0x37addb(0x24c)](_0x1ead67,0x15b8+-0x2151+0x5cf*0x2);_0x1ead67++){const _0x16d0d1=await axios[_0x37addb(0x268)](_0x4c7cab),_0x57827e=_0x16d0d1[_0x37addb(0x20a)][_0x37addb(0x1e7)];await _0xb7a0f1[_0x37addb(0x206)+'e'](_0x26333b,{'image':{'url':_0x57827e},'caption':_0x37addb(0x249)+_0x37addb(0x225)+conf[_0x37addb(0x24f)]+'*','contextInfo':{'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x422362[_0x37addb(0x233)],'newsletterName':_0x422362[_0x37addb(0x1ec)],'serverMessageId':0x8f},'forwardingScore':0x3e7,'externalAdReply':{'title':_0x422362[_0x37addb(0x1fa)],'body':_0x422362[_0x37addb(0x1ea)],'thumbnailUrl':_0x422362[_0x37addb(0x1d9)],'sourceUrl':_0x422362[_0x37addb(0x23b)],'mediaType':0x1,'renderLargerThumbnail':!![]}}},{'quoted':_0x3c3902});}}catch(_0x4b60a3){_0x422362[_0x37addb(0x242)](_0x1e3d8c,_0x422362[_0x37addb(0x261)](_0x422362[_0x37addb(0x21d)],_0x4b60a3[_0x37addb(0x25d)]));}}),zokou({'nomCom':_0x4aad8d(0x228),'categorie':_0x4aad8d(0x1fc),'reaction':'☘️'},async(_0x2a4517,_0x475598,_0xa9ebd4)=>{const _0x2c2497=_0x4aad8d,_0x70cbc5={'zyCIc':_0x2c2497(0x253)+_0x2c2497(0x234)+_0x2c2497(0x23d)+'ko','zhyAx':function(_0x1cb806,_0x2b4c3b){return _0x1cb806<_0x2b4c3b;},'GzBzb':_0x2c2497(0x23e)+_0x2c2497(0x269)+_0x2c2497(0x244),'Riffd':_0x2c2497(0x1ff),'PPfEd':_0x2c2497(0x1fb)+_0x2c2497(0x26c),'YMQYe':_0x2c2497(0x26b),'nfmtX':_0x2c2497(0x270)+_0x2c2497(0x24a)+_0x2c2497(0x25b)+_0x2c2497(0x24b),'glJkH':_0x2c2497(0x220)+_0x2c2497(0x226)+_0x2c2497(0x272)+_0x2c2497(0x224)+_0x2c2497(0x1f0)+_0x2c2497(0x22b),'KLMnl':function(_0x106815,_0x5c9fd9){return _0x106815(_0x5c9fd9);},'DyCTG':function(_0xafa6fb,_0x5d3c1c){return _0xafa6fb+_0x5d3c1c;},'pmzem':_0x2c2497(0x203)+_0x2c2497(0x211)+_0x2c2497(0x278)},{repondre:_0x3b545e,ms:_0x1fe842}=_0xa9ebd4,_0x22143e=_0x70cbc5[_0x2c2497(0x1da)];try{for(let _0x1d5eb1=-0x8b4+0x1*-0x81e+0x2*0x869;_0x70cbc5[_0x2c2497(0x20e)](_0x1d5eb1,0x1c6c+0x1dcd+-0x3a34);_0x1d5eb1++){const _0x5f2b19=await axios[_0x2c2497(0x268)](_0x22143e),_0x3bc168=_0x5f2b19[_0x2c2497(0x20a)][_0x2c2497(0x1e7)];await _0x475598[_0x2c2497(0x206)+'e'](_0x2a4517,{'image':{'url':_0x3bc168},'caption':_0x2c2497(0x249)+_0x2c2497(0x225)+conf[_0x2c2497(0x24f)]+'*','contextInfo':{'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x70cbc5[_0x2c2497(0x1e8)],'newsletterName':_0x70cbc5[_0x2c2497(0x258)],'serverMessageId':0x8f},'forwardingScore':0x3e7,'externalAdReply':{'title':_0x70cbc5[_0x2c2497(0x241)],'body':_0x70cbc5[_0x2c2497(0x246)],'thumbnailUrl':_0x70cbc5[_0x2c2497(0x223)],'sourceUrl':_0x70cbc5[_0x2c2497(0x260)],'mediaType':0x1,'renderLargerThumbnail':!![]}}},{'quoted':_0x1fe842});}}catch(_0xe6fed0){_0x70cbc5[_0x2c2497(0x21a)](_0x3b545e,_0x70cbc5[_0x2c2497(0x213)](_0x70cbc5[_0x2c2497(0x1fe)],_0xe6fed0[_0x2c2497(0x25d)]));}}),zokou({'nomCom':_0x4aad8d(0x1e3),'categorie':_0x4aad8d(0x1fc),'reaction':'💗'},async(_0x292531,_0x397b87,_0x466a90)=>{const _0xb7b3e8=_0x4aad8d,_0x52ff2e={'ZXfIB':_0xb7b3e8(0x253)+_0xb7b3e8(0x234)+_0xb7b3e8(0x23f)+_0xb7b3e8(0x1de),'eEdgS':function(_0x3f9332,_0x3eddc2){return _0x3f9332<_0x3eddc2;},'joZyj':_0xb7b3e8(0x23e)+_0xb7b3e8(0x269)+_0xb7b3e8(0x244),'qOEUP':_0xb7b3e8(0x1ff),'GyslI':_0xb7b3e8(0x1fb)+_0xb7b3e8(0x26c),'bNHFn':_0xb7b3e8(0x26b),'kJmyH':_0xb7b3e8(0x270)+_0xb7b3e8(0x24a)+_0xb7b3e8(0x25b)+_0xb7b3e8(0x24b),'IdvXf':_0xb7b3e8(0x220)+_0xb7b3e8(0x226)+_0xb7b3e8(0x272)+_0xb7b3e8(0x224)+_0xb7b3e8(0x1f0)+_0xb7b3e8(0x22b),'rnoLt':function(_0x355214,_0x3c2332){return _0x355214(_0x3c2332);},'IrMjV':function(_0x3d4870,_0xa95a8){return _0x3d4870+_0xa95a8;},'oQnbU':_0xb7b3e8(0x203)+_0xb7b3e8(0x211)+_0xb7b3e8(0x278)},{repondre:_0x239a3a,ms:_0x4e4648}=_0x466a90,_0x4130c2=_0x52ff2e[_0xb7b3e8(0x212)];try{for(let _0x54dc91=-0x358+0x7ae*-0x5+-0x3*-0xdea;_0x52ff2e[_0xb7b3e8(0x245)](_0x54dc91,-0x234*-0xa+0xb17+-0x211a);_0x54dc91++){const _0x3a3abb=await axios[_0xb7b3e8(0x268)](_0x4130c2),_0x1c0f5d=_0x3a3abb[_0xb7b3e8(0x20a)][_0xb7b3e8(0x1e7)];await _0x397b87[_0xb7b3e8(0x206)+'e'](_0x292531,{'image':{'url':_0x1c0f5d},'contextInfo':{'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x52ff2e[_0xb7b3e8(0x1ed)],'newsletterName':_0x52ff2e[_0xb7b3e8(0x243)],'serverMessageId':0x8f},'forwardingScore':0x3e7,'externalAdReply':{'title':_0x52ff2e[_0xb7b3e8(0x1f4)],'body':_0x52ff2e[_0xb7b3e8(0x276)],'thumbnailUrl':_0x52ff2e[_0xb7b3e8(0x248)],'sourceUrl':_0x52ff2e[_0xb7b3e8(0x1e6)],'mediaType':0x1,'renderLargerThumbnail':!![]}}},{'quoted':_0x4e4648});}}catch(_0x7f8ffd){_0x52ff2e[_0xb7b3e8(0x251)](_0x239a3a,_0x52ff2e[_0xb7b3e8(0x1df)](_0x52ff2e[_0xb7b3e8(0x256)],_0x7f8ffd[_0xb7b3e8(0x25d)]));}});
+const { zokou } = require('../framework/zokou');
+const gis = require('g-i-s');
+const axios = require('axios');
+const conf = require(__dirname + '/../set');
+
+zokou({
+  nomCom: "img",
+  aliases: ["image", "images"],
+  categorie: "Images",
+  reaction: "☘️"
+}, async (dest, zk, commandeOptions) => {
+  const { repondre, ms, arg } = commandeOptions;
+
+  if (!arg[0]) {
+    repondre('Which image?');
+    return;
+  }
+
+  const searchTerm = arg.join(" ");
+  gis(searchTerm, (error, results) => sendImage(error, results));
+
+  function sendImage(error, results) {
+    if (error) {
+      repondre("Oops, an error occurred.");
+      return;
+    }
+
+    if (!results || results.length === 0) {
+      repondre("No images found.");
+      return;
+    }
+
+    for (let i = 0; i < Math.min(results.length, 5); i++) {
+      zk.sendMessage(dest, {
+        image: { url: results[i].url },
+        caption: `*Downloaded by ${conf.BOT}*`,
+        contextInfo: {
+         isForwarded: true,
+         forwardedNewsletterMessageInfo: {
+         newsletterJid: '120363345407274799@newsletter',
+         newsletterName: "NJABULO JB",
+         serverMessageId: 143,
+         },
+         forwardingScore: 999, // Score to indicate it has been forwarded
+         externalAdReply: {
+           title: "🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋",
+           body: "message on",
+           thumbnailUrl: THUMBNAIL_URL,
+           mediaType: 1,
+           renderSmallThumbnail: true // Small thumbnail rendering
+          }
+        }
+      }, { quoted: ms });
+    }
+  }
+});
+
+zokou({
+  nomCom: 'messi',
+  categorie: 'images',
+  reaction: '💗'
+}, async (dest, zk, context) => {
+  const { repondre: sendMessage, ms } = context;
+  try {
+    const response = await axios.get("https://raw.githubusercontent.com/Guru322/api/Guru/BOT-JSON/Messi.json");
+    const images = response.data;
+
+    if (!Array.isArray(images) || images.length === 0) {
+      throw new Error("No images found in the response.");
+    }
+
+    for (let i = 0; i < 5; i++) {
+      const randomImage = Math.floor(Math.random() * images.length);
+      const image = images[randomImage];
+      await zk.sendMessage(dest, {
+        image: { url: image },
+        caption: `*Downloaded by ${conf.BOT}*`,
+        contextInfo: {
+         isForwarded: true,
+         forwardedNewsletterMessageInfo: {
+         newsletterJid: '120363345407274799@newsletter',
+         newsletterName: "NJABULO JB",
+         serverMessageId: 143,
+         },
+         forwardingScore: 999, // Score to indicate it has been forwarded
+         externalAdReply: {
+           title: "🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋",
+           body: "message on",
+           thumbnailUrl: THUMBNAIL_URL,
+           mediaType: 1,
+           renderSmallThumbnail: true // Small thumbnail rendering
+          }
+        }
+      }, { quoted: ms });
+    }
+  } catch (error) {
+    console.error("Error occurred while retrieving data:", error);
+    sendMessage("Error occurred while retrieving data: " + error.message);
+  }
+});
+zokou({
+  nomCom: "waifu",
+  categorie: "images",
+  reaction: "💗"
+}, async (origineMessage, zk, commandeOptions) => {
+  const { repondre, ms } = commandeOptions;
+  const url = 'https://api.waifu.pics/nsfw/waifu'; // Replace with your actual URL
+
+  try {
+    for (let i = 0; i < 5; i++) {
+      const response = await axios.get(url);
+      const imageUrl = response.data.url;
+
+      await zk.sendMessage(origineMessage, {
+        image: { url: imageUrl },
+        caption: `*Downloaded by ${conf.BOT}*`,
+        contextInfo: {
+         isForwarded: true,
+         forwardedNewsletterMessageInfo: {
+         newsletterJid: '120363345407274799@newsletter',
+         newsletterName: "NJABULO JB",
+         serverMessageId: 143,
+         },
+         forwardingScore: 999, // Score to indicate it has been forwarded
+         externalAdReply: {
+           title: "🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋",
+           body: "message on",
+           thumbnailUrl: THUMBNAIL_URL,
+           mediaType: 1,
+           renderSmallThumbnail: true // Small thumbnail rendering
+          }
+        }
+      }, { quoted: ms });
+    }
+  } catch (error) {
+    repondre('Error retrieving data: ' + error.message);
+  }
+});
+zokou({
+  nomCom: "trap",
+  categorie: "images",
+  reaction: "💗"
+}, async (origineMessage, zk, commandeOptions) => {
+  const { repondre, ms } = commandeOptions;
+  const url = 'https://api.waifu.pics/nsfw/trap'; // Replace with your actual URL
+
+  try {
+    for (let i = 0; i < 5; i++) {
+      const response = await axios.get(url);
+      const imageUrl = response.data.url;
+
+      await zk.sendMessage(origineMessage, {
+        image: { url: imageUrl },
+        caption: `*Downloaded by ${conf.BOT}*`,
+        contextInfo: {
+         isForwarded: true,
+         forwardedNewsletterMessageInfo: {
+         newsletterJid: '120363345407274799@newsletter',
+         newsletterName: "NJABULO JB",
+         serverMessageId: 143,
+         },
+         forwardingScore: 999, // Score to indicate it has been forwarded
+         externalAdReply: {
+           title: "🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋",
+           body: "message on",
+           thumbnailUrl: THUMBNAIL_URL,
+           mediaType: 1,
+           renderSmallThumbnail: true // Small thumbnail rendering
+          }
+        }
+      }, { quoted: ms });
+    }
+  } catch (error) {
+    repondre('Error retrieving data: ' + error.message);
+  }
+});
+zokou({
+  nomCom: "neko",
+  categorie: "images",
+  reaction: "☘️"
+}, async (origineMessage, zk, commandeOptions) => {
+  const { repondre, ms } = commandeOptions;
+  const url = 'https://api.waifu.pics/nsfw/neko'; // Replace with your actual URL
+
+  try {
+    for (let i = 0; i < 5; i++) {
+      const response = await axios.get(url);
+      const imageUrl = response.data.url;
+
+      await zk.sendMessage(origineMessage, {
+        image: { url: imageUrl },
+        caption: `*Downloaded by ${conf.BOT}*`,
+        contextInfo: {
+         isForwarded: true,
+         forwardedNewsletterMessageInfo: {
+         newsletterJid: '120363345407274799@newsletter',
+         newsletterName: "NJABULO JB",
+         serverMessageId: 143,
+         },
+         forwardingScore: 999, // Score to indicate it has been forwarded
+         externalAdReply: {
+           title: "🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋",
+           body: "message on",
+           thumbnailUrl: THUMBNAIL_URL,
+           mediaType: 1,
+          renderSmallThumbnail: true // Small thumbnail rendering
+          }
+        }
+      }, { quoted: ms });
+    }
+  } catch (error) {
+    repondre('Error retrieving data: ' + error.message);
+  }
+});
+zokou({
+  nomCom: "blowjob",
+  categorie: "images",
+  reaction: "💗"
+}, async (origineMessage, zk, commandeOptions) => {
+  const { repondre, ms } = commandeOptions;
+  const url = 'https://api.waifu.pics/nsfw/blowjob'; // Replace with your actual URL
+
+  try {
+    for (let i = 0; i < 5; i++) {
+      const response = await axios.get(url);
+      const imageUrl = response.data.url;
+
+      await zk.sendMessage(origineMessage, {
+        image: { url: imageUrl },
+        contextInfo: {
+         isForwarded: true,
+         forwardedNewsletterMessageInfo: {
+         newsletterJid: '120363345407274799@newsletter',
+         newsletterName: "NJABULO JB",
+         serverMessageId: 143,
+         },
+         forwardingScore: 999, // Score to indicate it has been forwarded
+         externalAdReply: {
+           title: "🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋",
+           body: "message on",
+           thumbnailUrl: THUMBNAIL_URL,
+           mediaType: 1,
+           renderSmallThumbnail: true // Small thumbnail rendering
+          }
+        }
+      }, { quoted: ms });
+    }
+  } catch (error) {
+    repondre('Error retrieving data: ' + error.message);
+  }
+});
+          
