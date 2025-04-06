@@ -4,9 +4,8 @@ const axios = require('axios');
 const { downloadTiktok } = require('@mrnima/tiktok-downloader');
 const { facebook } = require('@mrnima/facebook-downloader');  
 const conf = require(__dirname + "/../set");
-
 zokou({
-  nomCom: "instagram",
+  nomCom: "instagrams",
   aliases: ["igdl", "ig", "insta"],
   categorie: "Download",
   reaction: "📽️"
