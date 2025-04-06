@@ -45,7 +45,6 @@ zokou({
          externalAdReply: {
            title: "🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋",
            body: "message on",
-           thumbnailUrl: THUMBNAIL_URL,
            mediaType: 1,
            renderSmallThumbnail: true // Small thumbnail rendering
           }
@@ -86,7 +85,6 @@ zokou({
          externalAdReply: {
            title: "🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋",
            body: "message on",
-           thumbnailUrl: THUMBNAIL_URL,
            mediaType: 1,
            renderSmallThumbnail: true // Small thumbnail rendering
           }
@@ -125,7 +123,6 @@ zokou({
          externalAdReply: {
            title: "🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋",
            body: "message on",
-           thumbnailUrl: THUMBNAIL_URL,
            mediaType: 1,
            renderSmallThumbnail: true // Small thumbnail rendering
           }
@@ -163,7 +160,6 @@ zokou({
          externalAdReply: {
            title: "🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋",
            body: "message on",
-           thumbnailUrl: THUMBNAIL_URL,
            mediaType: 1,
            renderSmallThumbnail: true // Small thumbnail rendering
           }
@@ -201,7 +197,6 @@ zokou({
          externalAdReply: {
            title: "🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋",
            body: "message on",
-           thumbnailUrl: THUMBNAIL_URL,
            mediaType: 1,
           renderSmallThumbnail: true // Small thumbnail rendering
           }
@@ -238,7 +233,6 @@ zokou({
          externalAdReply: {
            title: "🦋ɴᴊᴀʙᴜʟᴏ ᴊʙ🦋",
            body: "message on",
-           thumbnailUrl: THUMBNAIL_URL,
            mediaType: 1,
            renderSmallThumbnail: true // Small thumbnail rendering
           }
