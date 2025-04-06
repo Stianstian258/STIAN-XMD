@@ -37,7 +37,14 @@ const handleAiCommand = async (dest, zk, params, url, usageExample) => {
     await zk.sendMessage(dest, {
       text: response,
       contextInfo: {
-        externalAdReply: {
+         isForwarded: true,
+         forwardedNewsletterMessageInfo: {
+         newsletterJid: '120363345407274799@newsletter',
+         newsletterName: "NJABULO JB",
+         serverMessageId: 143,
+         },
+         forwardingScore: 999, // Score to indicate it has been forwarded
+         externalAdReply: {
           title: conf.BOT,
           body: "Keep learning",
           thumbnailUrl: conf.URL,
@@ -116,9 +123,16 @@ zokou({
     await zk.sendMessage(dest, {
       text: response,
       contextInfo: {
-        externalAdReply: {
+         isForwarded: true,
+         forwardedNewsletterMessageInfo: {
+         newsletterJid: '120363345407274799@newsletter',
+         newsletterName: "NJABULO JB",
+         serverMessageId: 143,
+         },
+         forwardingScore: 999, // Score to indicate it has been forwarded
+         externalAdReply: {
           title: conf.BOT,
-          body: "keep learning wit BELTAH-MD",
+          body: "keep learning wit Njabulo J ",
           thumbnailUrl: conf.URL,
           sourceUrl: "https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F",
           mediaType: 1,
