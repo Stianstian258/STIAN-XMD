@@ -62,45 +62,45 @@ const handleAiCommand = async (dest, zk, params, url, usageExample) => {
 
 // Keith command handlers
 zokou({
-  nomCom: "chatb",
+  nomCom: "chat",
   aliases: ["chatbot", "chatai"],
-  reaction: '⚔️',
+  reaction: '📜',
   categorie: "AI"
 }, async (dest, zk, params) => {
   handleAiCommand(dest, zk, params, "https://bk9.fun/ai/chataibot?q=", "Example usage: gpt How's the weather today?");
 });
 
 zokou({
-  nomCom: "beltahmd",
+  nomCom: "Njabulo",
   aliases: ["beltamd", "beltahbot"],
-  reaction: '⚔️',
+  reaction: '📜',
   categorie: "AI"
 }, async (dest, zk, params) => {
   handleAiCommand(dest, zk, params, "https://bk9.fun/ai/BK93?BK9=you%20are%20zoro%20from%20one%20piece&q=", "Hello there, This is BELTAH-MD BOT, How may I help you with?");
 });
 
 zokou({
-  nomCom: "gptb",
+  nomCom: "gpt",
   aliases: ["ilamaa", "ilamaai"],
-  reaction: '👻',
+  reaction: '📜',
   categorie: "AI"
 }, async (dest, zk, params) => {
   handleAiCommand(dest, zk, params, "https://bk9.fun/ai/llama?q=", "Example usage: gpt Hi, how are you?");
 });
 
 zokou({
-  nomCom: "geminib",
+  nomCom: "gemini",
   aliases: ["gemini4", "geminiai"],
-  reaction: '👻',
+  reaction: '📜',
   categorie: "AI"
 }, async (dest, zk, params) => {
   handleAiCommand(dest, zk, params, "https://bk9.fun/ai/gemini?q=", "Example usage: gemini Hi, how are you?");
 });
 
 zokou({
-  nomCom: "ilamab",
+  nomCom: "ilama",
   aliases: ["gpt4", "ai"],
-  reaction: '🤖',
+  reaction: '📜',
   categorie: "AI"
 }, async (dest, zk, params) => {
   const { repondre, arg } = params;
