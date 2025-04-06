@@ -113,7 +113,8 @@ zokou({
     const randomAudioUrl = audioUrls[Math.floor(Math.random() * audioUrls.length)];
 
     try {
-        await reply.sendMessage(dest, {
+        await reply.sendMessage(command, {
+            text: message,
             audio: { url: randomAudioUrl },
             mimetype: 'audio/mpeg',
             ptt: true, // Send as a voice note
