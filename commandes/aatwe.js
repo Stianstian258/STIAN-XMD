@@ -119,8 +119,6 @@ let menuMsg = `
             body: "fast via",
             mediaType: 1,
             renderSmallThumbnail: true // Small thumbnail rendering
-            showAdAttribution: true,
-            [renderType]: true, // Apply correct thumbnail size
                 }
             }
         });
