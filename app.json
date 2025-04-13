@@ -1,18 +1,18 @@
 {
-  "name": "Njabulo Jb",
-  "description": "Whatsapp device bot made to help Whatsapp users to enjoy while helping..",
+  "name": "𝗕𝗘𝗟𝗧𝗔𝗛-𝗠𝗗 𝗕𝗢𝗧",
+  "description": "THIS IS OLD VERSION OF BELTAH-MD  MAKE SURE YOU UPDATE YOUR BOT ONCE CONNECTED🤖✅👻",
   "keywords": [
     "bot",
     "node",
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/8zb9uf.jpg",
-  "repository": "https://github.com/NjabuloJ/Njabulo-JB1",
+  "logo": "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
+  "repository": "https://github.com/Beltah254/BELTAH-MD",
   "succes_url": "/",
   "stack": "container",
   "env": {
-    "PREFIX": {
+        "PREFIX": {
       "description": "Choose your bot's prefix",
       "value": ".",
       "required": true
@@ -22,28 +22,28 @@
       "value": "yes",
       "required": false
     },
-    "AUDIO_REPLY": {
-      "description": "Enter yes for your bot to auto reply audio in all chats",
-      "value": "yes",
-      "required": false
-    },
-    "AUTO_REPLY": {
-      "description": "when enabled it automatically sends auto reply message to members in your pm",
+    "GREET": {
+      "description": "when enabled it automatically sends  greeting message to members in your pm",
       "value": "no",
       "required": false
     },
-    "AUTO_REACT_STATUS": {
-      "description": "Your contact status will be react automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
+    "AUTO_LIKE_STATUS": {
+      "description": "Your contact status will be liked automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
       "value": "yes",
       "required": false
     },
-    "AUTO_BIO": {
+    "AUTOBIO": {
       "description": "This automatically update your bio status.Always make sure you insert your OWNER_NAME since it uses that to update your bio name status",
       "value": "yes",
       "required": false
     },
-    "AUTO_SAVE_CONTACTS": {
-      "description": "Enter yes for your bot to auto save contacts",
+        "CHATBOT": {
+      "description": "When activated, It will chat with everyone on your dm",
+      "value": "no",
+      "required": false
+    },
+        "TALKING_BOT": {
+      "description": "Bot will listen to voice notes and responds to them",
       "value": "no",
       "required": false
     },
@@ -57,7 +57,7 @@
       "value": "yes",
       "required": false
     },
-    "AUTO_STATUS_TEXT": {
+    "AUTO_STATUS_MSG": {
       "description": "type your genuine status message",
       "value": "viewed ✅✅",
       "required": false
@@ -67,15 +67,20 @@
       "value": "no",
       "required": false
     },
-    "ANTI_CALL_TEXT": {
+    "ANTICALL_MSG": {
       "description": "Type your anticall message to always send when calls are declined.You can as well leave it blank",
-      "value": "My owner don't receive any call now because it's busy",
+      "value": "> BELTAH-MD on board ||No calls allowed.",
       "required": false
     },
     "BOT_NAME": {
-      "description": "you must give a name for you bot uhh??!!",
-      "value": "Njabulo Jb",
-      "required": false 
+      "description": "Change this if you don't like my name",
+      "value": "BELTAH-MD",
+      "required": true 
+    },
+    "GROUP_CONTROL": {
+      "description": "urs if you want bot yo control group features such as antilink,antispam,antibad",
+      "value": "no",
+      "required": false
     },
     "PUBLIC_MODE": {
       "description": "Set 'yes' to make your bot public or 'no' to keep it private",
@@ -85,7 +90,7 @@
     "HEROKU_API_KEY": {
       "description": "Insert your Heroku API key (required)",
       "value": "",
-      "required": false
+      "required": true
     },
     "HEROKU_APP_NAME": {
       "description": "Insert your Heroku app name (required)",
@@ -99,12 +104,12 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "Njabulo Jb",
-      "required": false
+      "value": "",
+      "required": true
     },
     "URL": {
-      "description": "you must add your bot image url.Get your image url now and fill it here",
-      "value": "https://files.catbox.moe/8zb9uf.jpg",
+      "description": "Change this image and input yours",
+      "value": "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
@@ -113,38 +118,38 @@
       "required": false  
     },
     "NUMERO_OWNER": {
-      "description": "Your phone number (exclude '+' and area code, e.g., '255752593977')",
-      "value": "26777821911",
+      "description": "Your phone number (exclude '+' and area code, e.g., '254114141192')",
+      "value": "254114141192",
       "required": false
     },
     "WARN_COUNT": {
       "description": "Set the warning limit for warning commands",
-      "value": "5",
+      "value": "10",
       "required": false
     },
     "STARTING_BOT_MESSAGE": {
       "description": "Set 'yes' to display a starting bot message or 'no' to disable it",
-      "value": "no",
+      "value": "yes",
       "required": true
     },
     "PRESENCE": {
       "description": "Mark your presence: 1 for online, 2 for typing, 3 for recording, or leave blank for real state",
-      "value": "1",
+      "value": "",
       "required": false
     },
     "ANTI_DELETE_MESSAGE": {
       "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
-    "ANTI_CALL": {
+    "ANTICALL": {
       "description": "Automatically decline incoming calls (set 'on' to activate or 'off' to deactivate)",
       "value": "yes",
       "required": false
     },
     "AUTO_BLOCK": {
-      "description": "Type true if you want bot to automatically block those who spam your dm",
-      "value": "no",
+      "description": "Type true if you want bot to automatically  block those who insult you in your dm ",
+      "value": "yes",
       "required": false
     },
     "AUTO_REACTION": {
@@ -164,4 +169,4 @@
       "plan": "heroku-postgresql:essential-0"
     }
   ]
-}
+    }
