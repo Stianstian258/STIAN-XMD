@@ -83,7 +83,7 @@ Reply with the category number to view its commands.
             contextInfo: {
                 mentionedJid: [message.sender],
                 externalAdReply: {
-                    title: "BELTAH-MD Menu",
+                    title: "STIAN-XMD Menu",
                     body: "Select a category by replying with its number",
                     thumbnailUrl: "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
                     sourceUrl: settings.GURL
