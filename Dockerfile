@@ -21,4 +21,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["npm", "run" , "stian"]
+CMD ["npm", "run" , "stian.js"]
