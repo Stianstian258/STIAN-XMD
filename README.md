@@ -11,6 +11,6 @@
 
   <hr style="margin: 40px 0; border: 1px dashed #00ffea;" />
 
-  <p style="font-size: 14px; color:#888888;">Made with 💙 by <strong>Malvin King</strong> | 🇿🇼  Zimbabwe</p>
+  <p style="font-size: 14px; color:#888888;">Made with 💙 by <strong>𝐓𝐇𝐄 𝐒𝐓𝐈𝐀𝐍</strong> | 😎  STIAN</p>
 
 </div>
